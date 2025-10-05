@@ -1,0 +1,46 @@
+{
+  "placeholderImages": [
+    {
+      "id": "work-1",
+      "description": "A modern e-commerce website interface.",
+      "imageUrl": "/images/work-1.png",
+      "imageHint": "web design"
+    },
+    {
+      "id": "work-2",
+      "description": "A dashboard for a social media analytics platform.",
+      "imageUrl": "/images/work-2.png",
+      "imageHint": "social media"
+    },
+    {
+      "id": "work-3",
+      "description": "Landing page for a mobile application.",
+      "imageUrl": "/images/work-3.png",
+      "imageHint": "app landing"
+    },
+    {
+      "id": "work-4",
+      "description": "A visually engaging blog layout.",
+      "imageUrl": "/images/work-4.png",
+      "imageHint": "blog layout"
+    },
+    {
+      "id": "work-5",
+      "description": "Identidad de marca, incluyendo logo y paleta de colores.",
+      "imageUrl": "/images/work-5.png",
+      "imageHint": "brand identity"
+    },
+    {
+      "id": "work-6",
+      "description": "Content strategy examples for an Instagram feed.",
+      "imageUrl": "/images/work-6.png",
+      "imageHint": "instagram feed"
+    },
+    {
+      "id": "about-me",
+      "description": "Professional portrait of Cintia Losada",
+      "imageUrl": "/images/about-me.png",
+      "imageHint": "professional portrait"
+    }
+  ]
+}

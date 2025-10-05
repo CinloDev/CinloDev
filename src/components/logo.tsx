@@ -1,0 +1,10 @@
+import Link from 'next/link';
+
+export default function Logo() {
+  return (
+    <Link href="/" className="text-2xl font-bold font-headline transition-colors flex items-center gap-1">
+      <span className="text-black font-bold">Cinlo</span>
+      <span className="text-primary font-bold">Dev</span>
+    </Link>
+  );
+}
