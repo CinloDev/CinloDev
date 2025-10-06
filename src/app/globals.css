@@ -86,3 +86,14 @@
   }
 }
 
+@media (max-width: 424px) {
+  .custom-mobile-stack {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .custom-mobile-stack > * {
+    width: 50% !important;
+    min-width: 180px;
+    max-width: 350px;
+  }
+}

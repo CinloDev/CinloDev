@@ -13,7 +13,7 @@ export default function HeroSection() {
           <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
             Soy Cintia Losada, una desarrolladora web y creadora de contenido apasionada por construir sitios web atractivos y funcionales, y una presencia atractiva en redes sociales para marcas.
           </p>
-          <div className="mt-8 flex justify-center gap-4">
+          <div className="mt-8 flex flex-row justify-center gap-4 custom-mobile-stack">
             <Button asChild size="lg" className="bg-primary hover:bg-secondary/50 transition-colors">
               <Link href="#contact">
                 Trabajemos Juntos <ArrowRight className="ml-2" />
