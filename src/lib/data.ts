@@ -1,4 +1,4 @@
-import { Code, Megaphone, Linkedin, Github, InstagramIcon, BriefcaseBusiness, Rocket, Users, PenTool, MonitorSmartphone } from 'lucide-react';
+import { Code, Megaphone, Linkedin, Github, InstagramIcon, MessageCircle, Rocket, Users, PenTool, MonitorSmartphone } from 'lucide-react';
 import { PlaceHolderImages } from './placeholder-images';
 
 
@@ -146,9 +146,9 @@ export const socialLinks = [
     icon: Github,
   },
   {
-    name: 'Portfolio',
-    url: 'https://cintialosada-portfolio.netlify.app/',
-    icon: BriefcaseBusiness,
+    name: 'WhattsApp',
+    url: 'https://wa.me/5492216757006',
+    icon: MessageCircle,
   },
   {
     name: 'instagram',
