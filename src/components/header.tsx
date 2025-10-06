@@ -43,12 +43,12 @@ export default function Header() {
         ))}
        </nav>
         <div className="hidden md:block">
-          <Button asChild>
+          <Button asChild className="bg-primary hover:bg-secondary/50 text-white transition-colors">
             <Link href="#contact">Contrátame</Link>
           </Button>
         </div>
         <div className="md:hidden">
-          <Button onClick={toggleMenu} variant="ghost" size="icon">
+          <Button onClick={toggleMenu} variant="ghost" size="icon" className="bg-primary hover:bg-secondary/50 text-white transition-colors">
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </Button>
         </div>
@@ -66,14 +66,14 @@ export default function Header() {
                 {link.label}
                 </Link>
             ))}
-            <Button asChild className="w-full mt-4">
+            <Button asChild className="w-full mt-4 hover:bg-secondary/50">
                 <Link href="#contact" onClick={() => setIsOpen(false)}>
                 Contrátame
                 </Link>
             </Button>
             </nav>
         </div>
-        )}
+    )}
     </header>
   );
 }

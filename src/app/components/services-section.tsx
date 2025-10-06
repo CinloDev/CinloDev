@@ -18,7 +18,7 @@ export default function ServicesSection() {
             <Card key={service.title} className="p-2">
               <CardHeader className="flex flex-row items-center gap-4">
                 <div className="bg-primary/10 p-3 rounded-full">
-                  <service.icon className="h-8 w-8 text-primary" />
+                  <service.icon className="h-8 w-8 text-secondary" />
                 </div>
                 <div>
                   <CardTitle className="text-xl font-headline">{service.title}</CardTitle>
