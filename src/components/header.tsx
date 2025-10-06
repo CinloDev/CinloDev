@@ -31,17 +31,17 @@ export default function Header() {
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
         <Logo />
-        <nav className="hidden md:flex items-center gap-6">
-          {navLinks.map((link) => (
+      <nav className="hidden md:flex items-center gap-6">
+        {navLinks.map((link) => (
             <Link
-              key={link.label}
-              href={link.href}
-              className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+            key={link.label}
+            href={link.href}
+            className="text-base font-semibold text-foreground hover:text-primary transition-colors px-2 py-1 rounded hover:bg-primary/10 underline-offset-4 hover:underline"
             >
-              {link.label}
+            {link.label}
             </Link>
-          ))}
-        </nav>
+        ))}
+       </nav>
         <div className="hidden md:block">
           <Button asChild>
             <Link href="#contact">Contrátame</Link>
@@ -55,25 +55,25 @@ export default function Header() {
       </div>
       {isOpen && (
         <div className="md:hidden bg-background border-t">
-          <nav className="flex flex-col items-center gap-4 p-4">
+            <nav className="flex flex-col items-center gap-4 p-4">
             {navLinks.map((link) => (
-              <Link
+                <Link
                 key={link.label}
                 href={link.href}
-                className="text-lg font-medium text-foreground/80 hover:text-primary transition-colors"
+                className="text-lg font-semibold text-foreground hover:text-primary transition-colors px-2 py-1 rounded hover:bg-primary/10 underline-offset-4 hover:underline"
                 onClick={() => setIsOpen(false)}
-              >
+                >
                 {link.label}
-              </Link>
+                </Link>
             ))}
             <Button asChild className="w-full mt-4">
-              <Link href="#contact" onClick={() => setIsOpen(false)}>
+                <Link href="#contact" onClick={() => setIsOpen(false)}>
                 Contrátame
-              </Link>
+                </Link>
             </Button>
-          </nav>
+            </nav>
         </div>
-      )}
+        )}
     </header>
   );
 }
