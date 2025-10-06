@@ -1,5 +1,6 @@
-import { Code, Megaphone, Linkedin, Github, InstagramIcon, BriefcaseBusiness } from 'lucide-react';
+import { Code, Megaphone, Linkedin, Github, InstagramIcon, BriefcaseBusiness, Rocket, Users, PenTool, MonitorSmartphone } from 'lucide-react';
 import { PlaceHolderImages } from './placeholder-images';
+
 
 export const navLinks = [
   { href: '#services', label: 'Servicios' },
@@ -11,14 +12,29 @@ export const navLinks = [
 
 export const services = [
   {
+    title: "Desarrollo Web",
+    description: "Diseño y desarrollo de sitios web modernos, rápidos y seguros, adaptados a tus necesidades y objetivos. Utilizo tecnologías actuales para garantizar una experiencia atractiva y funcional en cualquier dispositivo.",
     icon: Code,
-    title: 'Desarrollo Web',
-    description: 'Construyo sitios web modernos, responsivos y de alto rendimiento desde cero, garantizando una experiencia de usuario fluida en todos los dispositivos. Desde páginas de destino hasta complejas aplicaciones web.',
   },
   {
-    icon: Megaphone,
-    title: 'Contenido para Redes Sociales',
-    description: 'Creo contenido atractivo y estratégico para tus canales de redes sociales. Mis servicios incluyen planificación de contenido, diseño gráfico y redacción para potenciar tu presencia online y conectar con tu audiencia.',
+    title: "Lanzamiento de Marca",
+    description: "Te ayudo a crear y posicionar tu marca desde cero, definiendo identidad visual, estrategia digital y presencia online para destacar y conectar con tu público objetivo.",
+    icon: Rocket,
+  },
+  {
+    title: "Gestión de Redes Sociales",
+    description: "Planifico y gestiono tus redes sociales para aumentar tu comunidad, mejorar la interacción y potenciar tu marca. Creo contenido relevante y estrategias que generan resultados reales.",
+    icon: Users,
+  },
+  {
+    title: "Diseño Gráfico",
+    description: "Desarrollo piezas gráficas profesionales y creativas, desde logos hasta banners y publicaciones, que transmiten la esencia de tu marca y atraen a tus clientes ideales.",
+    icon: PenTool,
+  },
+  {
+    title: "Optimización Móvil",
+    description: "Me aseguro de que tu sitio y contenido se vean y funcionen perfectamente en dispositivos móviles, mejorando la experiencia de usuario y el alcance de tu marca.",
+    icon: MonitorSmartphone,
   },
 ];
 
