@@ -2,7 +2,7 @@ import AiReviewForm from './ai-review-form';
 
 export default function AiReviewSection() {
   return (
-    <section id="ai-review" className="w-full py-16 md:py-24 bg-secondary/50">
+    <section id="ai-review" className="w-full py-16 bg-secondary/50">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>

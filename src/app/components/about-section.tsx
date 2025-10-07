@@ -4,7 +4,7 @@ import { Card, CardContent } from '@/components/ui/card';
 
 export default function AboutSection() {
   return (
-    <section id="about" className="w-full py-16 md:py-24 bg-background">
+    <section id="about" className="w-full py-16  bg-background">
       <div className="container mx-auto px-4 md:px-6">
         {/* Título siempre arriba y centrado */}
         <h2 className="text-3xl font-bold font-headline tracking-tight text-blue-700 sm:text-4xl mb-8 text-center">

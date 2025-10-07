@@ -10,13 +10,13 @@ export default function HeroSection() {
         href="https://wa.me/5492216757006"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 z-50 bg-primary hover:bg-secondary/50 text-white rounded-full shadow-lg flex items-center px-4 py-3 gap-2 transition-colors"
+        className="fixed bottom-20 right-6 z-50 bg-primary hover:bg-secondary/50 text-white rounded-full shadow-lg flex items-center px-4 py-3 gap-2 transition-colors"
         aria-label="Contactar por WhatsApp"
       >
         <MessageCircle className="w-5 h-5" />
         WhatsApp
       </a>
-      <section className="w-full py-24 md:py-32 lg:py-40 bg-background">
+      <section className="w-full py-16 bg-background">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <div className="max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-headline tracking-tight text-foreground">
