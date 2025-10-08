@@ -10,7 +10,7 @@ export default function HeroSection() {
         href="https://wa.me/5492216757006"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-20 right-6 z-50 bg-primary hover:bg-secondary/50 text-white rounded-full shadow-lg flex items-center px-4 py-3 gap-2 transition-colors"
+        className="fixed bottom-40 right-6 z-50 bg-primary hover:bg-secondary/50 text-white rounded-full shadow-lg flex items-center px-4 py-3 gap-2 transition-colors"
         aria-label="Contactar por WhatsApp"
       >
         <MessageCircle className="w-5 h-5" />
@@ -28,7 +28,7 @@ export default function HeroSection() {
             <div className="mt-8 flex flex-row justify-center gap-4 custom-mobile-stack">
               <Button asChild size="lg" className="bg-primary hover:bg-secondary/50 transition-colors">
                 <Link href="#contact">
-                  Trabajemos Juntos <ArrowRight className="ml-2" />
+                  Trabajemos Juntos
                 </Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="bg-secondary/50 text-white hover:bg-primary transition-colors">

@@ -92,39 +92,37 @@ export const portfolioProjects = [
 ];
 
 export const testimonials = [
-{
-    quote: "El trabajo con Tejiendo con Ranchesca fue mágico. Cintia supo dar vida a un espacio digital donde el tejido se siente cercano y auténtico. Mis redes crecieron y los seguidores valoran cada publicación.",
+  {
+    quote: "Trabajar con Cintia fue una experiencia súper cercana. Supo entender lo que quería transmitir con Tejiendo con Ranchesca y logró que mi espacio digital se sintiera auténtico. Mis redes crecieron y la gente realmente conecta con cada publicación.",
     author: "Ranchesca",
     company: "Creadora de Tejiendo con Ranchesca",
   },
-   {
-    quote: "Gracias a la página y la identidad digital que creó para Roma, logramos transmitir la esencia de nuestros masajes y sesiones de reiki. Ahora más personas nos encuentran y se conectan con nuestros servicios.",
-    author: "Romina Cristi",
+  {
+    quote: "La página que hizo para Roma y toda la identidad digital nos ayudó muchísimo. Ahora la gente entiende mejor lo que ofrecemos y llegan más consultas por masajes y reiki. Siento que nuestra esencia se ve reflejada en cada detalle.",
+    author: "Romina",
     company: "Fundadora, Roma Masajes y Reiki",
   },
   {
-    quote: "Cintia entendió perfectamente lo que necesitábamos y lo convirtió en una web moderna y funcional. Supo combinar diseño y tecnología de una forma increíble. ¡Estamos felices con el resultado!",
-    author: "Mariana López",
+    quote: "Cintia captó enseguida lo que necesitábamos. Nos entregó una web moderna y fácil de usar, y siempre estuvo abierta a nuestras ideas. El resultado nos encantó y nuestros clientes lo notaron enseguida.",
+    author: "Mariana",
     company: "Fundadora, EcoVida",
   },
   {
-    quote: "Trabajar con Cintia fue como tener una socia estratégica. No solo creó un sitio web hermoso, sino que también nos guió en cómo aprovecharlo para atraer más clientes.",
+    quote: "Sentí que Cintia fue más que una desarrolladora, fue una aliada. No solo hizo un sitio web hermoso, sino que nos aconsejó sobre cómo aprovecharlo para atraer más clientes. Muy recomendable.",
     author: "Carlos Méndez",
-    company: "CEO, Mercado Local",
+    company: "Restaurante",
   },
   {
-    quote: "La gestión de redes sociales que desarrolló fue un antes y un después para nuestra marca. En pocas semanas vimos más interacción, seguidores genuinos y clientes interesados.",
+    quote: "La gestión de redes que hizo para nuestra marca fue un antes y un después. En poco tiempo vimos más interacción y seguidores que realmente se interesan por lo que hacemos. Se nota el trabajo y la dedicación.",
     author: "Lucía Fernández",
-    company: "Directora, Artesanía Única",
+    company: "Directora, Artesanía flowershop",
   },
   {
-    quote: "Lo que más valoro de Cintia es su profesionalismo y compromiso. Siempre estuvo atenta a los detalles y entregó cada etapa del proyecto en tiempo y forma.",
+    quote: "Lo que más destaco de Cintia es su profesionalismo y la atención a los detalles. Siempre estuvo disponible para responder dudas y cumplió con los plazos. Da gusto trabajar así.",
     author: "Diego Romero",
     company: "Gerente de Proyectos, InnovaTech",
   },
- 
 ];
-
 
 export const aboutMe = {
   description: `Soy Cintia, desarrolladora web full stack con experiencia en frontend y backend, apasionada por la creación de soluciones digitales que combinan diseño, funcionalidad y estrategia.
