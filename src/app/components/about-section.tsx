@@ -40,6 +40,7 @@ export default function AboutSection() {
                             src={aboutMe.image.imageUrl}
                             alt={aboutMe.image.description}
                             data-ai-hint={aboutMe.image.imageHint}
+                            aria-label="Foto de perfil de CinloDev"
                             width={300}
                             height={120}
                             className="w-full h-auto object-contain bg-white p-2 rounded"

@@ -68,6 +68,7 @@ export default function WorkShowcase() {
                         src={project.image.imageUrl}
                         alt={project.image.description}
                         data-ai-hint={project.image.imageHint}
+                        aria-label="Imagen del proyecto"
                         width={600}
                         height={400}
                         className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
@@ -99,6 +100,7 @@ export default function WorkShowcase() {
                       src={project.image.imageUrl}
                       alt={project.image.description}
                       data-ai-hint={project.image.imageHint}
+                      aria-label="Imagen del proyecto"
                       width={600}
                       height={400}
                       className="rounded-lg object-cover w-full h-full"
