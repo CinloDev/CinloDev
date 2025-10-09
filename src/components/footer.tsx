@@ -7,7 +7,18 @@ export default function Footer() {
     <footer className="w-full border-t bg-secondary/50">
       <div className="container mx-auto px-4 md:px-6 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-          <Logo />
+          <div className="flex flex-col items-center md:items-start gap-2">
+            <Logo />
+            <div className="flex gap-2 mt-2">
+              <Link href="/privacidad" className="text-sm text-muted-foreground hover:underline">
+                Política de privacidad
+              </Link>
+              <span className="text-muted-foreground">|</span>
+              <Link href="/terminos" className="text-sm text-muted-foreground hover:underline">
+                Términos y condiciones
+              </Link>
+            </div>
+          </div>
           <div className="flex gap-4">
             {socialLinks.map((link) => (
               <Link
@@ -22,7 +33,7 @@ export default function Footer() {
               </Link>
             ))}
           </div>
-          <p className="text-sm text-muted-foreground">
+          <p className="text-sm text-muted-foreground text-center md:text-right">
             © {new Date().getFullYear()} CinloDev. Todos los derechos reservados.
           </p>
         </div>
@@ -30,5 +41,3 @@ export default function Footer() {
     </footer>
   );
 }
-
-
