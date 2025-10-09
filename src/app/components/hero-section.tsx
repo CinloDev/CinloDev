@@ -1,6 +1,41 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, MessageCircle } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
+
+export const metadata = {
+    title: "CinloDev | Cintia Losada - Desarrolladora Web y Creadora de Contenido",
+    description: "Soy Cintia Losada, desarrolladora web y creadora de contenido. Construyo sitios web atractivos, funcionales y ayudo a marcas a destacar en redes sociales.",
+    keywords: [
+        "desarrolladora web",
+        "creadora de contenido",
+        "mantenimiento web",
+        "lanzamiento de marca",
+        "optimización móvil",
+        "sitios web",
+        "presencia digital",
+        "redes sociales",
+        "CinloDev",
+        "Cintia Losada",
+        "branding",
+        "marketing digital"
+    ],
+    openGraph: {
+        title: "CinloDev | Cintia Losada - Desarrolladora Web y Creadora de Contenido",
+        description: "Sitios web atractivos y funcionales, presencia digital y contenido para marcas. Conoce el trabajo de Cintia Losada.",
+        url: "https://cinlodev.com",
+        siteName: "CinloDev",
+        images: [
+        {
+            url: "/favicon.ico",
+            width: 1200,
+            height: 630,
+            alt: "CinloDev Logo",
+        },
+        ],
+        locale: "es_ES",
+        type: "website",
+    },
+};
 
 export default function HeroSection() {
   return (

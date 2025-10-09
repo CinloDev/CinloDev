@@ -14,6 +14,37 @@ import {
 import { Button } from '@/components/ui/button';
 import { ArrowUpRight } from 'lucide-react';
 
+export const metadata = {
+    title: "Trabajos | CinloDev",
+    description: "Explora los proyectos realizados por Cintia Losada: sitios web, branding y soluciones digitales para marcas y emprendedores.",
+    keywords: [
+        "trabajos",
+        "proyectos",
+        "portafolio",
+        "sitios web",
+        "branding",
+        "soluciones digitales",
+        "CinloDev",
+        "Cintia Losada"
+    ],
+    openGraph: {
+        title: "Trabajos | CinloDev",
+        description: "Mira los trabajos destacados de Cintia Losada en desarrollo web y branding para marcas y emprendedores.",
+        url: "https://cinlodev.com/work",
+        siteName: "CinloDev",
+        images: [
+        {
+            url: "/favicon.ico",
+            width: 1200,
+            height: 630,
+            alt: "CinloDev Logo",
+        },
+        ],
+        locale: "es_ES",
+        type: "website",
+    },
+};
+
 export default function WorkShowcase() {
   return (
     <section id="work" className="w-full py-16 bg-secondary/50">

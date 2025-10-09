@@ -1,6 +1,28 @@
 import { services } from '@/lib/data';
 import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 
+export const metadata = {
+    title: "Servicios | CinloDev",
+    description: "Descubre los servicios profesionales de desarrollo web que ofrece CinloDev.",
+    keywords: ["servicios web", "desarrollo", "mantenimiento web", "lanzamiento de marca", "optimización móvil", "soluciones digitales"],
+    openGraph: {
+        title: "Servicios | CinloDev",
+        description: "Descubre los servicios profesionales de desarrollo web que ofrece CinloDev.",
+        url: "https://cinlodev.com/services",
+        siteName: "CinloDev",
+        images: [
+        {
+            url: "/favicon.ico",
+            width: 1200,
+            height: 630,
+            alt: "CinloDev Logo",
+        },
+        ],
+        locale: "es_ES",
+        type: "website",
+    },
+};
+
 export default function ServicesSection() {
   return (
     <section id="services" className="w-full py-16 bg-background">

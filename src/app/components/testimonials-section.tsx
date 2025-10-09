@@ -8,6 +8,37 @@ import {
 } from '@/components/ui/carousel';
 import { Card, CardContent } from '@/components/ui/card';
 
+export const metadata = {
+    title: "Testimonios | CinloDev",
+    description: "Opiniones y experiencias de clientes satisfechos con el trabajo de Cintia Losada en desarrollo web y contenido digital.",
+    keywords: [
+        "testimonios",
+        "opiniones",
+        "clientes",
+        "experiencias",
+        "CinloDev",
+        "Cintia Losada",
+        "desarrollo web",
+        "contenido digital"
+    ],
+    openGraph: {
+        title: "Testimonios | CinloDev",
+        description: "Descubre lo que dicen los clientes sobre los servicios de desarrollo web y contenido digital de Cintia Losada.",
+        url: "https://cinlodev.com/testimonials",
+        siteName: "CinloDev",
+        images: [
+        {
+            url: "/favicon.ico",
+            width: 1200,
+            height: 630,
+            alt: "CinloDev Logo",
+        },
+        ],
+        locale: "es_ES",
+        type: "website",
+    },
+};
+
 export default function TestimonialsSection() {
   return (
     <section id="testimonials" className="w-full py-16 bg-background">

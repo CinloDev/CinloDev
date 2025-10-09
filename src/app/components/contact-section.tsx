@@ -13,6 +13,28 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Loader2 } from 'lucide-react';
 
+export const metadata = {
+    title: "Contacto | CinloDev",
+    description: "Ponte en contacto con CinloDev para consultas, proyectos o colaboraciones. ¡Responde rápido y profesional!",
+    keywords: ["contacto", "consultas", "proyectos", "CinloDev", "formulario"],
+    openGraph: {
+        title: "Contacto | CinloDev",
+        description: "Ponte en contacto con CinloDev para consultas, proyectos o colaboraciones.",
+        url: "https://cinlodev.com/contact",
+        siteName: "CinloDev",
+        images: [
+        {
+            url: "/favicon.ico",
+            width: 1200,
+            height: 630,
+            alt: "CinloDev Logo",
+        },
+        ],
+        locale: "es_ES",
+        type: "website",
+    },
+};
+
 const formSchema = z.object({
   name: z.string().min(2, 'El nombre debe tener al menos 2 caracteres.'),
   email: z.string().email('Por favor, introduce una dirección de correo electrónico válida.'),

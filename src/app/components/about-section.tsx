@@ -2,6 +2,28 @@ import Image from 'next/image';
 import { aboutMe } from '@/lib/data';
 import { Card } from '@/components/ui/card';
 
+export const metadata = {
+    title: "Sobre Mí | CinloDev",
+    description: "Conoce más sobre el desarrollador detrás de CinloDev, su experiencia y trayectoria profesional.",
+    keywords: ["sobre mí", "desarrollador", "experiencia", "CinloDev", "portfolio"],
+    openGraph: {
+        title: "Sobre Mí | CinloDev",
+        description: "Conoce más sobre el desarrollador detrás de CinloDev, su experiencia y trayectoria profesional.",
+        url: "https://cinlodev.com/about",
+        siteName: "CinloDev",
+        images: [
+            {
+                url: "/favicon.ico",
+                width: 1200,
+                height: 630,
+                alt: "CinloDev Logo",
+            },
+        ],
+        locale: "es_ES",
+        type: "profile",
+    },
+};
+
 export default function AboutSection() {
     return (
         <section id="about" className="w-full py-16  bg-background">
