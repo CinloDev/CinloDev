@@ -4,7 +4,6 @@ import { useForm, SubmitHandler } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
 import { useToast } from '@/hooks/use-toast';
-import { sendContactMessageAction } from '@/app/actions';
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -13,27 +12,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Loader2 } from 'lucide-react';
 
-export const metadata = {
-    title: "Contacto | CinloDev",
-    description: "Ponte en contacto con CinloDev para consultas, proyectos o colaboraciones. ¡Responde rápido y profesional!",
-    keywords: ["contacto", "consultas", "proyectos", "CinloDev", "formulario"],
-    openGraph: {
-        title: "Contacto | CinloDev",
-        description: "Ponte en contacto con CinloDev para consultas, proyectos o colaboraciones.",
-        url: "https://cinlodev.com/contact",
-        siteName: "CinloDev",
-        images: [
-        {
-            url: "/favicon.ico",
-            width: 1200,
-            height: 630,
-            alt: "CinloDev Logo",
-        },
-        ],
-        locale: "es_ES",
-        type: "website",
-    },
-};
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/mvgwqvge";
 
 const formSchema = z.object({
   name: z.string().min(2, 'El nombre debe tener al menos 2 caracteres.'),
@@ -59,12 +38,30 @@ export default function ContactSection() {
 
   const onSubmit: SubmitHandler<FormValues> = async (data) => {
     try {
-      await sendContactMessageAction(data);
-      toast({
-        title: '¡Mensaje Enviado!',
-        description: "Gracias por contactarme. Te responderé en breve.",
+      const formData = new FormData();
+      formData.append('name', data.name);
+      formData.append('email', data.email);
+      formData.append('message', data.message);
+
+      const response = await fetch(FORMSPREE_ENDPOINT, {
+        method: "POST",
+        body: formData,
+        headers: { "Accept": "application/json" },
       });
-      form.reset();
+
+      if (response.ok) {
+        toast({
+          title: '¡Mensaje Enviado!',
+          description: "Gracias por contactarme. Te responderé en breve.",
+        });
+        form.reset();
+      } else {
+        toast({
+          variant: 'destructive',
+          title: '¡Oh, no! Algo salió mal.',
+          description: 'Hubo un problema al enviar tu mensaje. Por favor, inténtalo de nuevo.',
+        });
+      }
     } catch (error) {
       toast({
         variant: 'destructive',

@@ -11,6 +11,9 @@ export default function PrivacidadPage() {
                 <li>No compartimos tu información con terceros.</li>
                 <li>Solo recopilamos datos necesarios para responder consultas o mejorar el servicio.</li>
                 <li>Puedes solicitar la eliminación de tus datos en cualquier momento.</li>
+                <li>
+                    Cuando envías el formulario de contacto, tus datos (nombre, email y mensaje) se procesan a través del servicio Formspree, que los almacena temporalmente para su envío y gestión. Consulta la <a href="https://formspree.io/legal/privacy-policy/" target="_blank" rel="noopener noreferrer" className="underline text-primary">política de privacidad de Formspree</a> para más información.
+                </li>
             </ul>
             <p>
                 Si tienes dudas sobre nuestra política, contáctanos a través del formulario.
