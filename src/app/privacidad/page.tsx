@@ -18,13 +18,20 @@ export default function PrivacidadPage() {
             <p>
                 Si tienes dudas sobre nuestra política, contáctanos a través del formulario.
             </p>
-            <div className="mt-8">
+            <div className="mt-8 px-4 flex gap-4">
                 <Link
                     href="/"
                     className="inline-block bg-primary text-white px-4 py-2 rounded hover:bg-secondary/50 transition-colors"
                 >
                     Volver al inicio
                 </Link>
+                <a
+                    href="/cintialosada-cv.pdf"
+                    download
+                    className="inline-block bg-secondary/50 text-white px-4 py-2 rounded hover:bg-primary transition-colors"
+                >
+                    Descargar CV
+                </a>
             </div>
         </main>
     );
