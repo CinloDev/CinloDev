@@ -5,31 +5,34 @@ import Header from '@/components/header';
 import Footer from '@/components/footer';
 
 export const metadata: Metadata = {
-  title: 'CinloDev',
-  description: 'Portafolio Profesional de Cintia Losada, Desarrolladora Web y Creadora de Contenido para Redes Sociales.',
+    title: 'CinloDev',
+    description: 'Portafolio Profesional de Cintia Losada, Desarrolladora Web y Creadora de Contenido para Redes Sociales.',
+    verification: {
+        google: 'v1sQ33KeojCawf2MH1DsQrvnV-HDjSvI4xeISDQd4jM',
+    },
 };
 
 export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="es" className="!scroll-smooth">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=PT+Sans:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
-      </head>
-      <body className="font-body bg-background text-foreground antialiased">
-        <Header />
-        {children}
-        <Footer />
-        <Toaster />
-      </body>
-    </html>
-  );
+    children,
+    }: Readonly<{
+    children: React.ReactNode;
+    }>) {
+    return (
+        <html lang="es" className="!scroll-smooth">
+        <head>
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+            <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=PT+Sans:wght@400;700&display=swap"
+            rel="stylesheet"
+            />
+        </head>
+        <body className="font-body bg-background text-foreground antialiased">
+            <Header />
+            {children}
+            <Footer />
+            <Toaster />
+        </body>
+        </html>
+    );
 }
