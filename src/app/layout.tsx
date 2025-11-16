@@ -1,16 +1,8 @@
-import type { Metadata } from 'next';
+
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
-import Header from '@/components/header';
 import Footer from '@/components/footer';
-
-export const metadata: Metadata = {
-    title: 'CinloDev',
-    description: 'Portafolio Profesional de Cintia Losada, Desarrolladora Web y Creadora de Contenido para Redes Sociales.',
-    verification: {
-        google: 'v1sQ33KeojCawf2MH1DsQrvnV-HDjSvI4xeISDQd4jM',
-    },
-};
+import ConditionalHeader from '@/components/conditional-header';
 
 export default function RootLayout({
     children,
@@ -27,9 +19,11 @@ export default function RootLayout({
             rel="stylesheet"
             />
         </head>
-        <body className="font-body bg-background text-foreground antialiased">
-            <Header />
-            {children}
+        <body className="font-body bg-background text-foreground antialiased min-h-screen flex flex-col">
+            <ConditionalHeader />
+            <main className='flex-1'>
+                {children}
+            </main>
             <Footer />
             <Toaster />
         </body>

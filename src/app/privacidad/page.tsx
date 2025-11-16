@@ -7,7 +7,7 @@ export default function PrivacidadPage() {
             <p className="mb-4">
                 Tu privacidad es importante para nosotros. Aquí explicamos cómo recopilamos, usamos y protegemos tus datos personales cuando visitas nuestro sitio web.
             </p>
-            <ul className="list-disc pl-6 mb-4 inline-block text-left">
+            <ul className="list-disc list-inside mb-4">
                 <li>No compartimos tu información con terceros.</li>
                 <li>Solo recopilamos datos necesarios para responder consultas o mejorar el servicio.</li>
                 <li>Puedes solicitar la eliminación de tus datos en cualquier momento.</li>
@@ -25,13 +25,7 @@ export default function PrivacidadPage() {
                 >
                     Volver al inicio
                 </Link>
-                <a
-                    href="/cintialosada-cv.pdf"
-                    download
-                    className="inline-block bg-secondary/50 text-white px-4 py-2 rounded hover:bg-primary transition-colors"
-                >
-                    Descargar CV
-                </a>
+            
             </div>
         </main>
     );

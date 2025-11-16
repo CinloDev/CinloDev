@@ -7,7 +7,7 @@ export default function TerminosPage() {
             <p className="mb-4">
                 Al usar este sitio web, aceptas los siguientes términos y condiciones:
             </p>
-            <ul className="list-disc pl-6 mb-4 inline-block text-left">
+            <ul className="list-disc list-inside mb-4">
                 <li>El contenido es solo informativo y puede cambiar sin previo aviso.</li>
                 <li>No nos responsabilizamos por el uso que hagas de la información publicada.</li>
                 <li>El diseño y contenido están protegidos por derechos de autor.</li>
