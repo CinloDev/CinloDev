@@ -9,7 +9,7 @@ import { navLinks } from '@/lib/data';
 
 function DesktopNav() {
   return (
-    <nav className="hidden md:flex items-center gap-6">
+    <nav className="hidden md:flex items-center gap-6 site-nav">
       {navLinks.map((link) => (
         <Link
           key={link.label}
@@ -37,74 +37,60 @@ function MobileMenu({ onClose }: { onClose: () => void }) {
                     {link.label}
                 </Link>
                 ))}
-                <a
-                    href="/cintialosada-cv.pdf"
-                    download
-                    className="text-base font-semibold text-foreground bg-primary text-white px-8 py-2 rounded hover:bg-secondary/50"
-                    aria-label="Descargar CV"
-                >
-                    Descargar CV
-                </a>
             </nav>
         </div>
     );
 }
 
 export default function Header() {
-  const [isOpen, setIsOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => setIsScrolled(window.scrollY > 10);
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+    useEffect(() => {
+        const handleScroll = () => setIsScrolled(window.scrollY > 10);
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
 
-  const toggleMenu = () => setIsOpen((v) => !v);
-  const closeMenu = () => setIsOpen(false);
+    const toggleMenu = () => setIsOpen((v) => !v);
+    const closeMenu = () => setIsOpen(false);
 
-  return (
-    <header
-      className={cn(
-        'sticky top-0 z-50 w-full transition-all duration-300',
-        isScrolled ? 'bg-background/80 backdrop-blur-sm border-b' : 'bg-background'
-      )}
-    >
-      <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
-         <div className="flex items-center gap-2" aria-label="Inicio" role="banner">
-          <Logo />
-        </div>
-
-        <DesktopNav />
-
-        <div className="flex items-center gap-3">
-          <div className="hidden md:block">
-                <a
-                    href="/cintialosada-cv.pdf"
-                    download
-                    className="text-base font-semibold text-foreground bg-primary text-white px-8 py-2 rounded hover:bg-secondary/50"
-                    aria-label="Descargar CV"
-                >
-                    Descargar CV
-                </a>
-          </div>
-
-          <div className="md:hidden">
-            <Button
-              onClick={toggleMenu}
-              variant="ghost"
-              size="icon"
-              aria-label="Abrir menú"
-              aria-expanded={isOpen}
-              className="bg-primary hover:bg-secondary/50 text-white transition-colors"
+    
+    return (
+        <header
+            className={cn(
+                'sticky top-0 z-50 w-full transition-all duration-300',
+                isScrolled ? 'bg-background/80 backdrop-blur-sm border-b' : 'bg-background'
+            )}
             >
-              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-            </Button>
-          </div>
-        </div>
-      </div>
+            <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
+                <div className="flex items-center gap-2 logo-wrapper" aria-label="Inicio" role="banner">
+                <Logo />
+                </div>
 
-      {isOpen && <MobileMenu onClose={closeMenu} />}
-    </header>
-  );
+                <DesktopNav />
+
+                <div className="flex items-center gap-3">
+                    <div className="hidden md:block">
+                         
+                    </div>
+
+                    <div className="md:hidden">
+                        <Button
+                        onClick={toggleMenu}
+                        variant="ghost"
+                        size="icon"
+                        aria-label="Abrir menú"
+                        aria-expanded={isOpen}
+                        className="bg-primary hover:bg-secondary/50 text-white transition-colors"
+                        >
+                        {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+                        </Button>
+                    </div>
+                </div>
+            </div>
+
+            {isOpen && <MobileMenu onClose={closeMenu} />}
+        </header>
+    );
 }

@@ -69,6 +69,14 @@ export default function HeroSection() {
               <Button asChild variant="outline" size="lg" className="bg-secondary/50 text-white hover:bg-primary transition-colors">
                 <Link href="#work">Ver Mi Trabajo</Link>
               </Button>
+                 <a
+                    href="/cintialosada-cv.pdf"
+                    download
+                    className="text-base text-foreground bg-primary text-white px-8 py-2 rounded hover:bg-secondary/50"
+                    aria-label="Descargar CV"
+                >
+                    Descargar CV
+                </a>
             </div>
           </div>
         </div>

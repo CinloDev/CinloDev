@@ -74,6 +74,7 @@
   }
 }
 
+
 @layer base {
   * {
     @apply border-border;
@@ -86,7 +87,26 @@
   }
 }
 
-@media (max-width: 424px) {
+body.minimal-header .site-nav {
+  display: none;
+}
+
+body.minimal-header .logo-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body.minimal-header .md\:hidden {
+  display: none !important;
+}
+
+body.minimal-header .header-cta,
+body.minimal-header .mobile-menu-button {
+  display: none;
+}
+
+@media (max-width: 600px) {
   .custom-mobile-stack {
     flex-direction: column !important;
     align-items: center;
