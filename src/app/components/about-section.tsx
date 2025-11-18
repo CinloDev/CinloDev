@@ -15,8 +15,8 @@ export const metadata = {
             {
                 url: "/favicon.ico",
                 width: 1200,
-                height: 630,
-                alt: "CinloDev Logo",
+                height: 1200,
+                alt: "CinloDev Image",
             },
         ],
         locale: "es_ES",

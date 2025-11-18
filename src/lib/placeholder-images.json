@@ -41,6 +41,13 @@
       "description": "Professional portrait of Cintia Losada",
       "imageUrl": "/images/about-me.png",
       "imageHint": "professional portrait"
+    },
+    {
+        "id": "logo",
+        "description": "CinloDev logo image",
+        "imageUrl": "/images/logo.png",
+        "imageHint": "logo"
     }
+
   ]
 }
