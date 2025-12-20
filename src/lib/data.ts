@@ -56,7 +56,7 @@ export const portfolioProjects = [
         description: 'Proyecto práctico que consume una API REST de películas utilizando JavaScript. Muestra datos en tiempo real con un diseño simple y responsivo',
         tags: ['HTML', 'CSS', 'Javascript'],
         image: getImage('work-2'),
-        liveUrl: 'https://cinlo82.github.io/api-rest-js-practico/',
+        liveUrl: 'https://cinlodev.github.io/api-rest-js-practico/',
   },
   {
         id: '3',
@@ -64,7 +64,7 @@ export const portfolioProjects = [
         description: 'Landing page para viajes, diseñada con Tailwind CSS. Ofrece un diseño atractivo y responsivo, destacando destinos y servicios turísticos de manera clara.',
         tags: ['JavaScript', 'Tailwind CSS', 'HTML5'],
         image: getImage('work-3'),
-        liveUrl: 'https://cinlo82.github.io/travel-tailwind/',
+        liveUrl: 'https://cinlodev.github.io/travel-tailwind/',
   },
   {
         id: '4',
@@ -136,12 +136,12 @@ export const aboutMe = {
 export const socialLinks = [
     {
         name: 'LinkedIn',
-        url: 'https://www.linkedin.com/in/cinlo-losada/',
+        url: 'https://www.linkedin.com/in/cinlodev/',
         icon: Linkedin,
     },
     {
         name: 'GitHub',
-        url: 'https://github.com/CinLo82',
+        url: 'https://github.com/CinloDev',
         icon: Github,
     },
     {
