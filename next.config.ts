@@ -5,9 +5,9 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  // Nota: la opción `eslint.ignoreDuringBuilds` ya no es compatible en Next.js
+  // Si quieres ignorar errores de lint en el build usa la CLI de lint o
+  // ajusta la configuración de CI. Se mantiene `typescript.ignoreBuildErrors`.
   images: {
     remotePatterns: [
       {
