@@ -27,13 +27,13 @@ export function ThemeToggle() {
       variant="ghost"
       size="icon"
       onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-      className="w-9 h-9"
+      className="group w-9 h-9 hover:bg-transparent"
       aria-label={theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
     >
       {theme === 'dark' ? (
-        <Sun className="h-5 w-5 text-foreground" />
+        <Sun className="h-5 w-5 text-foreground transition-all duration-200 group-hover:scale-110 group-hover:text-pink-500" />
       ) : (
-        <Moon className="h-5 w-5 text-foreground" />
+        <Moon className="h-5 w-5 text-foreground transition-all duration-200 group-hover:scale-110 group-hover:text-pink-600" />
       )}
       <span className="sr-only">
         {theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}

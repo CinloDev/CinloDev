@@ -48,7 +48,7 @@ export default function TestimonialsSection() {
                     <h2 className="text-3xl font-bold font-headline tracking-tight text-foreground sm:text-4xl">
                         Lo que dicen los clientes
                     </h2>
-                    <p className="mt-4 text-lg text-muted-foreground">
+                    <p className="mt-4 text-lg text-muted-foreground dark:text-white">
                         Estoy orgullosa de haber colaborado con clientes increíbles. Esto es lo que tienen que decir.
                     </p>
                 </div>

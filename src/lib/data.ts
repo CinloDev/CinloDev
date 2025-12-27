@@ -49,6 +49,7 @@ export const portfolioProjects = [
             tags: ['HTML', 'JavaScript', 'CSS'],
             image: getImage('work-1'),
             liveUrl: 'https://roma-masajes-reiki.netlify.app/',
+            githubUrl: 'https://github.com/CinloDev/roma-masajes-reiki',
     },
     {
             id: '2',
@@ -57,6 +58,7 @@ export const portfolioProjects = [
             tags: ['HTML', 'CSS', 'Javascript'],
             image: getImage('work-2'),
             liveUrl: 'https://cinlodev.github.io/api-rest-js-practico/',
+            githubUrl: 'https://github.com/CinloDev/api-rest-js-practico',
     },
     {
             id: '3',
@@ -65,6 +67,7 @@ export const portfolioProjects = [
             tags: ['JavaScript', 'Tailwind CSS', 'HTML5'],
             image: getImage('work-3'),
             liveUrl: 'https://cinlodev.github.io/travel-tailwind/',
+            githubUrl: 'https://github.com/CinloDev/travel-tailwind',
     },
     {
             id: '4',
@@ -73,6 +76,7 @@ export const portfolioProjects = [
             tags: ['JavaScript', 'CSS', 'HTML5'],
             image: getImage('work-4'),
             liveUrl: 'https://calendario-stardew.netlify.app/',
+            githubUrl: 'https://github.com/CinloDev/stardew-calendar',
     },
     {
             id: '5',
@@ -89,6 +93,7 @@ export const portfolioProjects = [
             tags: ['Astro', 'Tailwind CSS', 'TypeScript', 'React'],
             image: getImage('work-6'),
             liveUrl: 'https://cintialosada-portfolio.netlify.app/',
+            githubUrl: 'https://github.com/CinloDev/portfolio-cintialosada',
     },
 ];
 

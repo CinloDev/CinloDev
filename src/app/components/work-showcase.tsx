@@ -12,7 +12,7 @@ import {
   DialogTrigger,
 } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight, Github } from 'lucide-react';
 
 export const metadata = {
     title: "Trabajos | CinloDev",
@@ -117,11 +117,21 @@ export default function WorkShowcase() {
                         </Badge>
                       ))}
                     </div>
-                    <Button asChild>
-                      <Link href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                        Ver Proyecto en Vivo <ArrowUpRight className="ml-2 h-4 w-4" />
-                      </Link>
-                    </Button>
+                    <div className="flex gap-3">
+                      <Button asChild variant="outline" className="hover:bg-pink-500 hover:text-white hover:border-pink-500 transition-colors">
+                        <Link href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                          Ver Proyecto en Vivo <ArrowUpRight className="ml-2 h-4 w-4" />
+                        </Link>
+                      </Button>
+                      {project.githubUrl && ( 
+                        <Button asChild variant="outline" className="hover:bg-pink-500 hover:text-white hover:border-pink-500 transition-colors">
+                          <Link href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                            <Github className="mr-2 h-4 w-4" />
+                            Código
+                          </Link>
+                        </Button>
+                      )}
+                    </div>
                   </div>
                 </div>
               </DialogContent>

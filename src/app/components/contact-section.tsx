@@ -94,7 +94,7 @@ export default function ContactSection() {
                       <FormItem>
                         <FormLabel>Nombre</FormLabel>
                         <FormControl>
-                          <Input placeholder="Tu Nombre" {...field} className="dark:text-white" />
+                          <Input placeholder="Tu Nombre" {...field} className="dark:text-white placeholder:text-muted-foreground dark:placeholder:text-gray-400" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -107,7 +107,7 @@ export default function ContactSection() {
                       <FormItem>
                         <FormLabel>Email</FormLabel>
                         <FormControl>
-                          <Input placeholder="tu.email@ejemplo.com" {...field} className="dark:text-white" />
+                          <Input placeholder="tu.email@ejemplo.com" {...field} className="dark:text-white placeholder:text-muted-foreground dark:placeholder:text-gray-400" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -120,7 +120,7 @@ export default function ContactSection() {
                       <FormItem>
                         <FormLabel>Mensaje</FormLabel>
                         <FormControl>
-                          <Textarea placeholder="Cuéntame sobre tu proyecto..." {...field} rows={5} className="dark:text-white" />
+                          <Textarea placeholder="Cuéntame sobre tu proyecto..." {...field} rows={5} className="dark:text-white placeholder:text-muted-foreground dark:placeholder:text-gray-400" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
