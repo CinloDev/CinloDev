@@ -78,7 +78,7 @@ export default function ContactSection() {
           <h2 className="text-3xl font-bold font-headline tracking-tight text-foreground sm:text-4xl">
             Ponte en Contacto
           </h2>
-          <p className="mt-4 text-lg text-muted-foreground">
+          <p className="mt-4 text-lg text-muted-foreground dark:text-white">
             ¿Tienes un proyecto en mente o simplemente quieres saludar? Rellena el siguiente formulario y me pondré en contacto contigo lo antes posible.
           </p>
         </div>
@@ -94,7 +94,7 @@ export default function ContactSection() {
                       <FormItem>
                         <FormLabel>Nombre</FormLabel>
                         <FormControl>
-                          <Input placeholder="Tu Nombre" {...field} />
+                          <Input placeholder="Tu Nombre" {...field} className="dark:text-white" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -107,7 +107,7 @@ export default function ContactSection() {
                       <FormItem>
                         <FormLabel>Email</FormLabel>
                         <FormControl>
-                          <Input placeholder="tu.email@ejemplo.com" {...field} />
+                          <Input placeholder="tu.email@ejemplo.com" {...field} className="dark:text-white" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -120,7 +120,7 @@ export default function ContactSection() {
                       <FormItem>
                         <FormLabel>Mensaje</FormLabel>
                         <FormControl>
-                          <Textarea placeholder="Cuéntame sobre tu proyecto..." {...field} rows={5} />
+                          <Textarea placeholder="Cuéntame sobre tu proyecto..." {...field} rows={5} className="dark:text-white" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>

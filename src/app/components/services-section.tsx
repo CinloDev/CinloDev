@@ -10,7 +10,7 @@ export default function ServicesSection() {
                 <h2 className="text-3xl font-bold font-headline tracking-tight text-foreground sm:text-4xl">
                     Lo Que Ofrezco
                 </h2>
-                <p className="mt-4 text-lg text-muted-foreground">
+                <p className="mt-4 text-lg text-muted-foreground dark:text-white">
                     Transformo ideas en experiencias digitales únicas. Desde el diseño y desarrollo de sitios web funcionales y atractivos, hasta la creación de comunidades activas en redes sociales, pongo a tu alcance las herramientas que tu marca necesita para crecer, conectar y brillar en el mundo digital.  
                 </p>
                 </div>
@@ -25,7 +25,7 @@ export default function ServicesSection() {
                         <CardTitle className="text-xl font-headline">{service.title}</CardTitle>
                         </div>
                     </CardHeader>
-                    <CardDescription className="px-6 pb-6 text-base">
+                    <CardDescription className="px-6 pb-6 text-base dark:text-white">
                         {service.description}
                     </CardDescription>
                     </Card>

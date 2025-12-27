@@ -47,13 +47,13 @@ export const metadata = {
 
 export default function WorkShowcase() {
   return (
-    <section id="work" className="w-full py-16 bg-[#f6dcdc]">
+    <section id="work" className="w-full py-16 bg-[#f6dcdc] dark:bg-[#1a1a1a]">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-2xl mx-auto">
           <h2 className="text-3xl font-bold font-headline tracking-tight text-foreground sm:text-4xl">
             Mi Trabajo
           </h2>
-          <p className="mt-4 text-lg text-muted-foreground">
+          <p className="mt-4 text-lg text-muted-foreground dark:text-white">
             Aquí hay una selección de proyectos que muestran mis habilidades en desarrollo web y creación de contenido.
           </p>
         </div>

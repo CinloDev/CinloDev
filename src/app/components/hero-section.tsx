@@ -57,7 +57,7 @@ export default function HeroSection() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-headline tracking-tight text-foreground">
               Creando Experiencias Digitales que Conectan y Convierten
             </h1>
-            <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="mt-6 text-lg md:text-xl text-muted-foreground dark:text-white max-w-2xl mx-auto">
               Soy Cintia Losada, una desarrolladora web y creadora de contenido apasionada por construir sitios web atractivos y funcionales, y una presencia atractiva en redes sociales para marcas.
             </p>
             <div className="mt-8 flex flex-row justify-center gap-4 custom-mobile-stack">

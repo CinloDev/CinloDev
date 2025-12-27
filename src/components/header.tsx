@@ -6,6 +6,7 @@ import Logo from './logo';
 import { Button } from './ui/button';
 import { cn } from '@/lib/utils';
 import { navLinks } from '@/lib/data';
+import { ThemeToggle } from './theme-toggle';
 
 function DesktopNav() {
   return (
@@ -71,9 +72,7 @@ export default function Header() {
                 <DesktopNav />
 
                 <div className="flex items-center gap-3">
-                    <div className="hidden md:block">
-                         
-                    </div>
+                    <ThemeToggle />
 
                     <div className="md:hidden">
                         <Button

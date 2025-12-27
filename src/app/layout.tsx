@@ -3,6 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import Footer from '@/components/footer';
 import ConditionalHeader from '@/components/conditional-header';
+import { ThemeProvider } from '@/components/theme-provider';
 
 export default function RootLayout({
     children,
@@ -10,7 +11,7 @@ export default function RootLayout({
     children: React.ReactNode;
     }>) {
     return (
-        <html lang="es" className="!scroll-smooth">
+        <html lang="es" className="!scroll-smooth" suppressHydrationWarning>
         <head>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -20,12 +21,19 @@ export default function RootLayout({
             />
         </head>
         <body className="font-body bg-background text-foreground antialiased min-h-screen flex flex-col">
-            <ConditionalHeader />
-            <main className='flex-1'>
-                {children}
-            </main>
-            <Footer />
-            <Toaster />
+            <ThemeProvider
+                attribute="class"
+                defaultTheme="light"
+                enableSystem={false}
+                disableTransitionOnChange
+            >
+                <ConditionalHeader />
+                <main className='flex-1'>
+                    {children}
+                </main>
+                <Footer />
+                <Toaster />
+            </ThemeProvider>
         </body>
         </html>
     );

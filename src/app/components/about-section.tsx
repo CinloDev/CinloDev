@@ -49,7 +49,7 @@ export default function AboutSection() {
                         </Card>
                     </div>
                     <div className="md:col-span-3">
-                        <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
+                        <p className="mt-4 text-muted-foreground dark:text-white text-lg leading-relaxed">
                         {aboutMe.description}
                         </p>
                     </div>
