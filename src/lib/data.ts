@@ -49,7 +49,7 @@ export const portfolioProjects = [
             tags: ['HTML', 'JavaScript', 'CSS'],
             image: getImage('work-1'),
             liveUrl: 'https://roma-masajes-reiki.netlify.app/',
-            githubUrl: 'https://github.com/CinloDev/roma-masajes-reiki',
+            
     },
     {
             id: '2',
@@ -76,7 +76,7 @@ export const portfolioProjects = [
             tags: ['JavaScript', 'CSS', 'HTML5'],
             image: getImage('work-4'),
             liveUrl: 'https://calendario-stardew.netlify.app/',
-            githubUrl: 'https://github.com/CinloDev/stardew-calendar',
+            githubUrl: 'https://github.com/CinloDev/calendar-stardew/',
     },
     {
             id: '5',
@@ -93,7 +93,7 @@ export const portfolioProjects = [
             tags: ['Astro', 'Tailwind CSS', 'TypeScript', 'React'],
             image: getImage('work-6'),
             liveUrl: 'https://cintialosada-portfolio.netlify.app/',
-            githubUrl: 'https://github.com/CinloDev/portfolio-cintialosada',
+            githubUrl: 'https://github.com/CinloDev/cinlo-portfolio',
     },
 ];
 
