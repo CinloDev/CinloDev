@@ -42,7 +42,7 @@ export default function HeroSection() {
     <>
       {/* Botón flotante de WhatsApp */}
       <a
-        href="https://wa.me/5492216757006"
+        href="https://wa.me/5492212024901"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-40 right-6 z-50 bg-primary hover:bg-secondary/50 text-white rounded-full shadow-lg flex items-center px-4 py-3 gap-2 transition-colors"

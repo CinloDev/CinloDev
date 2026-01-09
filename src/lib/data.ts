@@ -151,7 +151,7 @@ export const socialLinks = [
     },
     {
         name: 'WhattsApp',
-        url: 'https://wa.me/5492216757006',
+        url: 'https://wa.me/5492212024901',
         icon: MessageCircle,
     },
     {
