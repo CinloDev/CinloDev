@@ -51,11 +51,14 @@ export default function HeroSection() {
         href="https://wa.me/5492212024901"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-40 right-6 z-50 bg-primary hover:bg-secondary/50 text-white rounded-full shadow-lg flex items-center px-4 py-3 gap-2 transition-colors"
+        className="fixed bottom-12 right-6 z-50 bg-primary hover:bg-secondary/50 text-white rounded-full shadow-lg flex items-center justify-center py-4 px-6 md:px-5 md:py-3 gap-0 md:gap-2 transition-colors"
         aria-label={t('hero.whatsapp')}
+        title={t('hero.whatsapp')}
       >
-        <MessageCircle className="w-5 h-5" />
-        {t('hero.whatsapp')}
+        <MessageCircle className="w-5 h-5 md:w-6 md:h-6" />
+        <span className="hidden md:inline-block ml-2 text-sm font-medium">
+          {t('hero.whatsapp')}
+        </span>
       </a>
       <section className="w-full py-16 bg-background">
         <div className="container mx-auto px-4 md:px-6 text-center">
