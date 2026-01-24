@@ -76,10 +76,10 @@ export default function ContactSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-2xl mx-auto">
           <h2 className="text-3xl font-bold font-headline tracking-tight text-foreground sm:text-4xl">
-            Ponte en Contacto
+            Contacto
           </h2>
           <p className="mt-4 text-lg text-muted-foreground dark:text-white">
-            ¿Tienes un proyecto en mente o simplemente quieres saludar? Rellena el siguiente formulario y me pondré en contacto contigo lo antes posible.
+            ¿Tenés un proyecto web, una idea para desarrollar o necesitás apoyo técnico? Completá el formulario y te respondo a la brevedad para coordinar los próximos pasos.
           </p>
         </div>
         <div className="mt-12 max-w-xl mx-auto">
@@ -140,6 +140,7 @@ export default function ContactSection() {
               </Form>
             </CardContent>
           </Card>
+          <p className="mt-4 text-lg text-center text-muted-foreground dark:text-white">Disponible para trabajo remoto y proyectos freelance.</p>
         </div>
       </div>
     </section>

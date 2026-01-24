@@ -62,14 +62,17 @@ export default function TestimonialsSection() {
                     >
                         <div className="overflow-hidden max-w-full">
                           <CarouselContent>
-                              {testimonials.map((testimonial, index) => (
+                              {testimonials.slice(0,5).map((testimonial, index) => (
                                   <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                                       <div className="p-1 h-full">
                                           <Card className="h-full flex flex-col justify-between shadow-sm">
                                               <CardContent className="p-6">
-                                                  <blockquote className="text-lg text-foreground">
-                                                  “{testimonial.quote}”
-                                                  </blockquote>
+                                                  <div className="flex items-start gap-3">
+                                                    <span className="text-4xl leading-none text-primary/30">“</span>
+                                                    <blockquote className="text-lg text-foreground">
+                                                      {testimonial.quote}
+                                                    </blockquote>
+                                                  </div>
                                                   <div className="mt-6">
                                                   <p className="font-semibold">{testimonial.author}</p>
                                                   <p className="text-sm text-muted-foreground">{testimonial.company}</p>

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { MessageCircle } from 'lucide-react';
+import TechLogos from './tech-logos';
 
 export const metadata = {
     title: "CinloDev | Cintia Losada - Desarrolladora Web y Creadora de Contenido",
@@ -55,19 +56,25 @@ export default function HeroSection() {
         <div className="container mx-auto px-4 md:px-6 text-center">
           <div className="max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-headline tracking-tight text-foreground">
-              Creando Experiencias Digitales que Conectan y Convierten
+              Desarrolladora Web Full-Stack
             </h1>
+            <div className="text-3xl md:text-4xl lg:text-5xl font-bold font-headline tracking-tight text-foreground">
+              <TechLogos />
+            </div>
             <p className="mt-6 text-lg md:text-xl text-muted-foreground dark:text-white max-w-2xl mx-auto">
-              Soy Cintia Losada, una desarrolladora web y creadora de contenido apasionada por construir sitios web atractivos y funcionales, y una presencia atractiva en redes sociales para marcas.
+              Construyo aplicaciones web modernas, escalables y orientadas a negocio. 
+            </p>
+            <p className="text-lg md:text-xl text-muted-foreground dark:text-white max-w-2xl mx-auto">
+               Busco oportunidades remotas y proyectos freelance.
             </p>
             <div className="mt-8 flex flex-row justify-center gap-4 custom-mobile-stack">
               <Button asChild size="lg" className="bg-primary hover:bg-secondary/50 transition-colors">
                 <Link href="#contact">
-                  Trabajemos Juntos
+                  Contactame
                 </Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="bg-secondary/50 text-white hover:bg-primary transition-colors">
-                <Link href="#work">Ver Mi Trabajo</Link>
+                <Link href="#work">Ver Proyectos</Link>
               </Button>
                  <a
                     href="/cintialosada-cv.pdf"

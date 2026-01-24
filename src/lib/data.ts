@@ -4,9 +4,10 @@ import { PlaceHolderImages } from './placeholder-images';
 
 export const navLinks = [
     { href: '#hero', label: 'Inicio' },
-    { href: '#services', label: 'Servicios' },
-    { href: '#work', label: 'Trabajos' },
     { href: '#about', label: 'Sobre Mí' },
+    { href: '#skills', label: 'Habilidades' },
+    { href: '#work', label: 'Trabajos' },
+    { href: '#services', label: 'Servicios' },
     { href: '#testimonials', label: 'Testimonios' },
     { href: '#contact', label: 'Contacto' },
 ];
@@ -14,28 +15,37 @@ export const navLinks = [
 export const services = [
     {
         title: "Desarrollo Web",
-        description: "Diseño y desarrollo de sitios web modernos, rápidos y seguros, adaptados a tus necesidades y objetivos. Utilizo tecnologías actuales para garantizar una experiencia atractiva y funcional en cualquier dispositivo.",
+        description: "Diseño y desarrollo de aplicaciones y sitios web modernos, rápidos y escalables, adaptados a objetivos concretos de negocio.",
         icon: Code,
+        featured: true,
+        includes: [
+            'Frontend con React / Next.js',
+            'Backend con Node y APIs REST',
+            'Diseño responsive y mobile-first',
+            'Deploy y configuración inicial',
+        ],
     },
     {
-        title: "Lanzamiento de Marca",
-        description: "Te ayudo a crear y posicionar tu marca desde cero, definiendo identidad visual, estrategia digital y presencia online para destacar y conectar con tu público objetivo.",
-        icon: Rocket,
-    },
-    {
-        title: "Gestión de Redes Sociales",
-        description: "Planifico y gestiono tus redes sociales para aumentar tu comunidad, mejorar la interacción y potenciar tu marca. Creo contenido relevante y estrategias que generan resultados reales.",
-        icon: Users,
-    },
-    {
-        title: "Diseño Gráfico",
-        description: "Desarrollo piezas gráficas profesionales y creativas, desde logos hasta banners y publicaciones, que transmiten la esencia de tu marca y atraen a tus clientes ideales.",
+        title: "Frontend & Experiencia de Usuario",
+        description: "Desarrollo interfaces claras, accesibles y optimizadas, cuidando tanto la estética como la usabilidad y la performance.",
         icon: PenTool,
+        includes: [
+            'UI con Tailwind',
+            'Adaptación de diseños (Figma → código)',
+            'Optimización de performance',
+            'Buenas prácticas de accesibilidad',
+        ],
     },
     {
-        title: "Optimización Móvil",
-        description: "Me aseguro de que tu sitio y contenido se vean y funcionen perfectamente en dispositivos móviles, mejorando la experiencia de usuario y el alcance de tu marca.",
-        icon: MonitorSmartphone,
+        title: "Optimización y Mantenimiento",
+        description: "Mejoro proyectos existentes para que funcionen mejor, carguen más rápido y sean más fáciles de mantener.",
+        icon: Rocket,
+        includes: [
+            'Refactors',
+            'Corrección de bugs',
+            'Nuevas funcionalidades',
+            'Mejoras de rendimiento',
+        ],
     },
 ];
 
@@ -99,43 +109,76 @@ export const portfolioProjects = [
 
 export const testimonials = [
     {
-            quote: "Trabajar con Cintia fue una experiencia súper cercana. Supo entender lo que quería transmitir con Tejiendo con Ranchesca y logró que mi espacio digital se sintiera auténtico. Mis redes crecieron y la gente realmente conecta con cada publicación.",
-            author: "Ranchesca",
-            company: "Creadora de Tejiendo con Ranchesca",
+        quote: "Destaco el profesionalismo de Cintia y su atención al detalle. Cumplió con los plazos, fue clara en la comunicación y siempre estuvo disponible para resolver dudas. Da gusto trabajar así.",
+        author: "Diego Romero",
+        company: "Gerente de Proyectos, InnovaTech",
     },
     {
-            quote: "La página que hizo para Roma y toda la identidad digital nos ayudó muchísimo. Ahora la gente entiende mejor lo que ofrecemos y llegan más consultas por masajes y reiki. Siento que nuestra esencia se ve reflejada en cada detalle.",
-            author: "Romina",
-            company: "Fundadora, Roma Masajes y Reiki",
+        quote: "Cintia captó enseguida lo que necesitábamos. Nos entregó una web moderna, clara y fácil de usar. El resultado nos encantó y nuestros clientes lo notaron desde el primer momento.",
+        author: "Mariana",
+        company: "Fundadora, EcoVida",
     },
     {
-            quote: "Cintia captó enseguida lo que necesitábamos. Nos entregó una web moderna y fácil de usar, y siempre estuvo abierta a nuestras ideas. El resultado nos encantó y nuestros clientes lo notaron enseguida.",
-            author: "Mariana",
-            company: "Fundadora, EcoVida",
+        quote: "La web y la identidad digital que desarrolló para Roma nos ayudaron muchísimo. Ahora la gente entiende mejor lo que ofrecemos y recibimos más consultas. Nuestra esencia se ve reflejada en cada detalle.",
+        author: "Romina",
+        company: "Fundadora, Roma Masajes y Reiki",
     },
     {
-            quote: "Sentí que Cintia fue más que una desarrolladora, fue una aliada. No solo hizo un sitio web hermoso, sino que nos aconsejó sobre cómo aprovecharlo para atraer más clientes. Muy recomendable.",
-            author: "Carlos Méndez",
-            company: "Restaurante",
+        quote: "Más que una desarrolladora, Cintia fue una aliada. No solo creó un sitio web atractivo, sino que nos ayudó a entender cómo usarlo para atraer más clientes. Muy recomendable.",
+        author: "Carlos Méndez",
+        company: "Propietario, Restaurante",
     },
     {
-            quote: "La gestión de redes que hizo para nuestra marca fue un antes y un después. En poco tiempo vimos más interacción y seguidores que realmente se interesan por lo que hacemos. Se nota el trabajo y la dedicación.",
-            author: "Lucía Fernández",
-            company: "Directora, Artesanía flowershop",
-    },
-    {
-            quote: "Lo que más destaco de Cintia es su profesionalismo y la atención a los detalles. Siempre estuvo disponible para responder dudas y cumplió con los plazos. Da gusto trabajar así.",
-            author: "Diego Romero",
-            company: "Gerente de Proyectos, InnovaTech",
+        quote: "Trabajar con Cintia fue una experiencia muy cercana. Supo entender la esencia de mi proyecto y llevarla al entorno digital de forma auténtica. El resultado fue un espacio claro, coherente y con el que la gente conecta de verdad.",
+        author: "Ranchesca",
+        company: "Creadora de Tejiendo con Ranchesca",
     },
 ];
 
 export const aboutMe = {
-    description: `Soy Cintia, desarrolladora web full stack con experiencia en frontend y backend, apasionada por la creación de soluciones digitales que combinan diseño, funcionalidad y estrategia.
-    Trabajo con tecnologías modernas como HTML, CSS, JavaScript, TypeScript, React, Node.js y Tailwind, lo que me permite desarrollar proyectos sólidos, escalables y adaptados a las necesidades de cada cliente.
-    Además del desarrollo, me interesa la gestión de comunidades digitales y el diseño de marcas, lo que me permite ofrecer un enfoque integral que va más allá del código, conectando empresas y personas en el mundo digital.
-    Mi objetivo es claro: ayudar a profesionales y emprendedores a potenciar su presencia online, construyendo experiencias digitales que transmitan confianza, generen impacto y aporten valor real.`,
+    description: `Soy desarrolladora web con foco en crear productos digitales funcionales, claros y escalables.
+Trabajo principalmente con React, Next.js y Node, combinando buenas prácticas de desarrollo con una fuerte atención a la experiencia de usuario.
+
+Vengo del mundo del diseño, lo que me permite entender el producto más allá del código: pienso en performance, mantenibilidad y objetivos reales de negocio.
+
+Actualmente estoy buscando mi primera oportunidad profesional en el mercado tech, idealmente en modalidad remota, donde pueda aportar valor desde el día uno y seguir creciendo como desarrolladora full-stack.`,
     image: getImage('about-me'),
+};
+
+export const skillsSection = {
+    title: 'Tecnologías y herramientas',
+    intro: 'Trabajo con un stack moderno orientado a performance, mantenibilidad y buenas prácticas.',
+    columns: [
+        {
+            title: 'Frontend',
+            items: [
+                { name: 'React', level: 'Proficient' },
+                { name: 'Next.js', level: 'Proficient' },
+                { name: 'JavaScript / TypeScript', level: 'Proficient' },
+                { name: 'Tailwind CSS', level: 'Proficient' },
+                { name: 'HTML · CSS', level: 'Proficient' },
+            ],
+        },
+        {
+            title: 'Backend',
+            items: [
+                { name: 'Node.js', level: 'Working knowledge' },
+                { name: 'APIs REST', level: 'Working knowledge' },
+                { name: 'Autenticación', level: 'Working knowledge' },
+                { name: 'Bases de datos', level: 'Working knowledge' },
+            ],
+        },
+        {
+            title: 'Herramientas',
+            items: [
+                { name: 'Git · GitHub', level: 'Proficient' },
+                { name: 'npm', level: 'Proficient' },
+                { name: 'Vercel', level: 'Working knowledge' },
+                { name: 'Figma', level: 'Familiar' },
+            ],
+        },
+    ],
+    levels: ['Proficient', 'Working knowledge', 'Familiar'],
 };
 
 export const socialLinks = [

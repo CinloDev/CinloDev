@@ -4,14 +4,16 @@ import ServicesSection from './components/services-section';
 import WorkShowcase from './components/work-showcase';
 import TestimonialsSection from './components/testimonials-section';
 import ContactSection from './components/contact-section';
+import SkillsSection from './components/skills-section';
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center">
       <HeroSection />
-      <ServicesSection />
-      <WorkShowcase />
       <AboutSection />
+      <SkillsSection />
+      <WorkShowcase />
+      <ServicesSection />
       <TestimonialsSection />
       <ContactSection />
     </main>
