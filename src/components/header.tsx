@@ -1,4 +1,4 @@
-'use client';
+ 'use client';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
@@ -7,35 +7,40 @@ import { Button } from './ui/button';
 import { cn } from '@/lib/utils';
 import { navLinks } from '@/lib/data';
 import { ThemeToggle } from './theme-toggle';
+import { useLocale } from './language-provider';
 
 function DesktopNav() {
-  return (
-    <nav className="hidden md:flex items-center gap-6 site-nav">
-      {navLinks.map((link) => (
-        <Link
-          key={link.label}
-          href={link.href}
-          className="text-base font-semibold text-foreground hover:text-primary transition-colors px-2 py-1 rounded hover:bg-primary/10 underline-offset-4 hover:underline"
-        >
-          {link.label}
-        </Link>
-      ))}
-    </nav>
-  );
+    const { t } = useLocale();
+
+    return (
+        <nav className="hidden md:flex items-center gap-6 site-nav">
+            {navLinks.map((link) => (
+                <Link
+                    key={link.href}
+                    href={link.href}
+                    className="text-base font-semibold text-foreground hover:text-primary transition-colors px-2 py-1 rounded hover:bg-primary/10 underline-offset-4 hover:underline"
+                >
+                    {t(link.labelKey)}
+                </Link>
+            ))}
+        </nav>
+    );
 }
 
 function MobileMenu({ onClose }: { onClose: () => void }) {
+    const { t } = useLocale();
+
     return (
         <div className="md:hidden bg-background border-t">
             <nav className="flex flex-col items-center gap-4 p-4">
                 {navLinks.map((link) => (
                 <Link
-                    key={link.label}
+                    key={link.href}
                     href={link.href}
                     className="text-lg font-semibold text-foreground hover:text-primary transition-colors px-2 py-1 rounded hover:bg-primary/10 underline-offset-4 hover:underline"
                     onClick={onClose}
                 >
-                    {link.label}
+                    {t(link.labelKey)}
                 </Link>
                 ))}
             </nav>

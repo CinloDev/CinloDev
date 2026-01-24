@@ -1,26 +1,26 @@
+"use client";
+
 import Link from 'next/link';
+import { useLocale } from '@/components/language-provider';
 
 export default function TerminosPage() {
+    const { t } = useLocale();
     return (
         <main className="container mx-auto px-4 md:px-6 py-16 flex flex-col items-center justify-center text-center">
-            <h1 className="text-3xl font-bold mb-6">Términos y condiciones</h1>
-            <p className="mb-4">
-                Al usar este sitio web, aceptas los siguientes términos y condiciones:
-            </p>
+            <h1 className="text-3xl font-bold mb-6">{t('terms.title')}</h1>
+            <p className="mb-4">{t('terms.intro')}</p>
             <ul className="list-disc list-inside mb-4">
-                <li>El contenido es solo informativo y puede cambiar sin previo aviso.</li>
-                <li>No nos responsabilizamos por el uso que hagas de la información publicada.</li>
-                <li>El diseño y contenido están protegidos por derechos de autor.</li>
+                <li>{t('terms.point1')}</li>
+                <li>{t('terms.point2')}</li>
+                <li>{t('terms.point3')}</li>
             </ul>
-            <p>
-                Para más información, contáctanos directamente.
-            </p>
+            <p>{t('terms.contactPrompt')}</p>
             <div className="mt-8">
                 <Link
                     href="/"
                     className="inline-block bg-primary text-white px-4 py-2 rounded hover:bg-secondary/50 transition-colors"
                 >
-                    Volver al inicio
+                    {t('terms.back')}
                 </Link>
             </div>
         </main>

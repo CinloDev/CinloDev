@@ -4,6 +4,7 @@ import { Toaster } from '@/components/ui/toaster';
 import Footer from '@/components/footer';
 import ConditionalHeader from '@/components/conditional-header';
 import { ThemeProvider } from '@/components/theme-provider';
+import LocaleProvider from '@/components/language-provider';
 
 export default function RootLayout({
     children,
@@ -27,12 +28,14 @@ export default function RootLayout({
                 enableSystem={false}
                 disableTransitionOnChange
             >
+                <LocaleProvider>
                 <ConditionalHeader />
                 <main className='flex-1'>
                     {children}
                 </main>
                 <Footer />
                 <Toaster />
+                </LocaleProvider>
             </ThemeProvider>
         </body>
         </html>

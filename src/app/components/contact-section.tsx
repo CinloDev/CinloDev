@@ -11,19 +11,25 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Loader2 } from 'lucide-react';
+import { useLocale } from '@/components/language-provider';
 
 const FORMSPREE_ENDPOINT = "https://formspree.io/f/mvgwqvge";
 
-const formSchema = z.object({
-  name: z.string().min(2, 'El nombre debe tener al menos 2 caracteres.'),
-  email: z.string().email('Por favor, introduce una dirección de correo electrónico válida.'),
-  message: z.string().min(10, 'El mensaje debe tener al menos 10 caracteres.'),
-});
-
-type FormValues = z.infer<typeof formSchema>;
+type FormValues = {
+  name: string;
+  email: string;
+  message: string;
+};
 
 export default function ContactSection() {
   const { toast } = useToast();
+  const { t } = useLocale();
+
+  const formSchema = z.object({
+    name: z.string().min(2, t('form.errors.name')),
+    email: z.string().email(t('form.errors.email')),
+    message: z.string().min(10, t('form.errors.message')),
+  });
 
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
@@ -51,22 +57,22 @@ export default function ContactSection() {
 
       if (response.ok) {
         toast({
-          title: '¡Mensaje Enviado!',
-          description: "Gracias por contactarme. Te responderé en breve.",
+          title: t('contact.success.title'),
+          description: t('contact.success.description'),
         });
         form.reset();
       } else {
         toast({
           variant: 'destructive',
-          title: '¡Oh, no! Algo salió mal.',
-          description: 'Hubo un problema al enviar tu mensaje. Por favor, inténtalo de nuevo.',
+          title: t('contact.error.title'),
+          description: t('contact.error.description'),
         });
       }
     } catch (error) {
       toast({
         variant: 'destructive',
-        title: '¡Oh, no! Algo salió mal.',
-        description: 'Hubo un problema al enviar tu mensaje. Por favor, inténtalo de nuevo.',
+        title: t('contact.error.title'),
+        description: t('contact.error.description'),
       });
     }
   };
@@ -76,10 +82,10 @@ export default function ContactSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-2xl mx-auto">
           <h2 className="text-3xl font-bold font-headline tracking-tight text-foreground sm:text-4xl">
-            Contacto
+            {t('contact.heading')}
           </h2>
           <p className="mt-4 text-lg text-muted-foreground dark:text-white">
-            ¿Tenés un proyecto web, una idea para desarrollar o necesitás apoyo técnico? Completá el formulario y te respondo a la brevedad para coordinar los próximos pasos.
+            {t('contact.intro')}
           </p>
         </div>
         <div className="mt-12 max-w-xl mx-auto">
@@ -92,9 +98,9 @@ export default function ContactSection() {
                     name="name"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Nombre</FormLabel>
+                        <FormLabel>{t('form.label.name')}</FormLabel>
                         <FormControl>
-                          <Input placeholder="Tu Nombre" {...field} className="dark:text-white placeholder:text-muted-foreground dark:placeholder:text-gray-400" />
+                          <Input placeholder={t('form.placeholder.name')} {...field} className="dark:text-white placeholder:text-muted-foreground dark:placeholder:text-gray-400" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -105,9 +111,9 @@ export default function ContactSection() {
                     name="email"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Email</FormLabel>
+                        <FormLabel>{t('form.label.email')}</FormLabel>
                         <FormControl>
-                          <Input placeholder="tu.email@ejemplo.com" {...field} className="dark:text-white placeholder:text-muted-foreground dark:placeholder:text-gray-400" />
+                          <Input placeholder={t('form.placeholder.email')} {...field} className="dark:text-white placeholder:text-muted-foreground dark:placeholder:text-gray-400" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -118,9 +124,9 @@ export default function ContactSection() {
                     name="message"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Mensaje</FormLabel>
+                        <FormLabel>{t('form.label.message')}</FormLabel>
                         <FormControl>
-                          <Textarea placeholder="Cuéntame sobre tu proyecto..." {...field} rows={5} className="dark:text-white placeholder:text-muted-foreground dark:placeholder:text-gray-400" />
+                          <Textarea placeholder={t('form.placeholder.message')} {...field} rows={5} className="dark:text-white placeholder:text-muted-foreground dark:placeholder:text-gray-400" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -130,17 +136,17 @@ export default function ContactSection() {
                     {isSubmitting ? (
                       <>
                         <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                        Enviando...
+                        {t('form.submit.sending')}
                       </>
                     ) : (
-                      'Enviar Mensaje'
+                      t('form.submit.label')
                     )}
                   </Button>
                 </form>
               </Form>
             </CardContent>
           </Card>
-          <p className="mt-4 text-lg text-center text-muted-foreground dark:text-white">Disponible para trabajo remoto y proyectos freelance.</p>
+          <p className="mt-4 text-lg text-center text-muted-foreground dark:text-white">{t('contact.available')}</p>
         </div>
       </div>
     </section>
