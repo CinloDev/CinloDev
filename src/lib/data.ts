@@ -1,4 +1,4 @@
-import { Code, Megaphone, Linkedin, Github, InstagramIcon, MessageCircle, Rocket, Users, PenTool, MonitorSmartphone } from 'lucide-react';
+import { Code, Megaphone, Linkedin, Github, InstagramIcon, MessageCircle, Rocket, Users, PenTool, MonitorSmartphone, Twitter } from 'lucide-react';
 import { PlaceHolderImages } from './placeholder-images';
 
 
@@ -192,13 +192,13 @@ export const socialLinks = [
         icon: Github,
     },
     {
-        name: 'WhattsApp',
-        url: 'https://wa.me/5492212024901',
-        icon: MessageCircle,
+        name: 'Twitter',
+        url: 'https://x.com/CinloDev',
+        icon: Twitter,
     },
     {
-        name: 'instagram',
-        url: 'https://www.instagram.com/cinlo82/',
+        name: 'Instagram',
+        url: 'https://www.instagram.com/cinlodev/',
         icon: InstagramIcon,
     }
 ];
