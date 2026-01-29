@@ -1,116 +1,53 @@
-"use client";
-import Image from 'next/image';
-import Link from 'next/link';
-import { portfolioProjects } from '@/lib/data';
-import { useLocale } from '@/components/language-provider';
-import { Card, CardContent, CardFooter } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-  DialogDescription,
-  DialogTrigger,
-} from '@/components/ui/dialog';
-import { Button } from '@/components/ui/button';
-import { ArrowUpRight, Github } from 'lucide-react';
+"use client"
 
-export default function WorkShowcase() {
-  const { t } = useLocale();
-  return (
-    <section id="work" className="w-full py-16 bg-[#f6dcdc] dark:bg-[#1a1a1a]">
-      <div className="container mx-auto px-4 md:px-6">
-        <div className="text-center max-w-2xl mx-auto">
-          <h2 className="text-3xl font-bold font-headline tracking-tight text-foreground sm:text-4xl">
-            {t('projects.heading')}
-          </h2>
-          <p className="mt-4 text-lg text-muted-foreground dark:text-white">
-            {t('projects.intro')}
-          </p>
-        </div>
-        <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {portfolioProjects.map((project) => (
-            <Dialog key={project.id}>
-              <DialogTrigger asChild>
-                <Card className="group overflow-hidden cursor-pointer shadow-md hover:shadow-xl transition-shadow duration-300">
-                  <CardContent className="p-0">
-                    {project.image && (
-                      <Image
-                        src={project.image.imageUrl}
-                        alt={project.image.description}
-                        data-ai-hint={project.image.imageHint}
-                        aria-label="Imagen del proyecto"
-                        width={600}
-                        height={400}
-                        className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                      />
-                    )}
-                    <div className="p-6">
-                      <h3 className="text-xl font-bold font-headline">{t(project.titleKey)}</h3>
-                      <p className="mt-2 text-muted-foreground text-sm line-clamp-2">
-                        {t(project.descriptionKey)}
-                      </p>
-                    </div>
-                  </CardContent>
-                  <CardFooter className="flex-wrap gap-2">
-                    {project.tags.slice(0, 3).map((tag) => (
-                      <Badge key={tag} variant="secondary">
-                        {tag}
-                      </Badge>
-                    ))}
-                  </CardFooter>
-                </Card>
-              </DialogTrigger>
-              <DialogContent className="sm:max-w-3xl">
-                <DialogHeader>
-                  <DialogTitle className="text-2xl font-headline">{t(project.titleKey)}</DialogTitle>
-                </DialogHeader>
-                <div className="grid md:grid-cols-2 gap-6 py-4">
-                  {project.image && (
-                    <Image
-                      src={project.image.imageUrl}
-                      alt={project.image.description}
-                      data-ai-hint={project.image.imageHint}
-                      aria-label="Imagen del proyecto"
-                      width={600}
-                      height={400}
-                      className="rounded-lg object-cover w-full h-full"
-                    />
-                  )}
-                    <div>
-                    <DialogDescription className="text-base text-foreground mb-4">
-                      {t(project.descriptionKey)}
-                    </DialogDescription>
-                    <div className="flex flex-wrap gap-2 my-4">
-                      {project.tags.map((tag) => (
-                        <Badge key={tag} variant="secondary">
-                          {tag}
-                        </Badge>
-                      ))}
-                    </div>
-                    <div className="flex gap-3">
-                      <Button asChild variant="outline" className="hover:bg-pink-500 hover:text-white hover:border-pink-500 transition-colors">
-                        <Link href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                          {t('projects.viewLive')} <ArrowUpRight className="ml-2 h-4 w-4" />
-                        </Link>
-                      </Button>
-                      {project.githubUrl && ( 
-                        <Button asChild variant="outline" className="hover:bg-pink-500 hover:text-white hover:border-pink-500 transition-colors">
-                          <Link href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                            <Github className="mr-2 h-4 w-4" />
-                            {t('projects.code')}
-                          </Link>
-                        </Button>
-                      )}
-                    </div>
-                  </div>
+import Image from "next/image"
+import React from "react"
+import { useLocale } from "@/components/language-provider"
+import { portfolioProjects as projects } from "@/lib/data"
+import { Button } from "@/components/ui/button"
+import Link from "next/link"
+
+type Props = {}
+
+const WorkShowcase: React.FC<Props> = () => {
+    const { t } = useLocale()
+
+    return (
+        <section id="work" className="w-full py-12 bg-background">
+            <div className="container mx-auto px-4 md:px-6">
+                <div className="text-center max-w-2xl mx-auto">
+                    <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">{t('projects.heading')}</h2>
+                    <p className="mt-4 text-lg text-muted-foreground dark:text-white">{t('projects.intro')}</p>
                 </div>
-              </DialogContent>
-            </Dialog>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
+
+                <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+                {projects.map((project) => (
+                    <article key={project.id} className="group relative">
+                        <div className="rounded-lg overflow-hidden">
+                          <Link href={`/projects/${project.id}`} className="block rounded-lg border overflow-hidden bg-muted/20 hover:scale-101 transition-transform duration-200 cursor-pointer">
+                              <div className="relative h-40 sm:h-52 w-full">
+                                {project.image ? (
+                                    <Image src={project.image.imageUrl} alt={project.image.description} fill className="object-cover" />
+                                ) : (
+                                    <div className="h-52 w-full bg-muted" />
+                                )}
+                            </div>
+                            <div className="p-4">
+                                <h3 className="text-lg font-semibold text-foreground dark:text-white">{t(project.titleKey)}</h3>
+                                <p className="text-sm text-muted-foreground dark:text-white mt-1">{t(project.descriptionKey)}</p>
+                            </div>
+                            <div className="p-3 border-t text-sm text-pink-600">
+                                {t('projects.viewMore') || 'Ver más'}
+                            </div>
+                          </Link>
+                                                    {/* github link intentionally shown on project detail page */}
+                        </div>
+                    </article>
+                ))}
+                </div>
+            </div>
+        </section>
+    )
 }
+
+export default WorkShowcase

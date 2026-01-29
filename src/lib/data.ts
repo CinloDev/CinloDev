@@ -3,13 +3,13 @@ import { PlaceHolderImages } from './placeholder-images';
 
 
 export const navLinks = [
-    { href: '#hero', labelKey: 'nav.home' },
-    { href: '#about', labelKey: 'nav.about' },
-    { href: '#skills', labelKey: 'nav.skills' },
-    { href: '#work', labelKey: 'nav.work' },
-    { href: '#services', labelKey: 'nav.services' },
-    { href: '#testimonials', labelKey: 'nav.testimonials' },
-    { href: '#contact', labelKey: 'nav.contact' },
+    { href: '/#hero', labelKey: 'nav.home' },
+    { href: '/#about', labelKey: 'nav.about' },
+    { href: '/#skills', labelKey: 'nav.skills' },
+    { href: '/#work', labelKey: 'nav.work' },
+    { href: '/#services', labelKey: 'nav.services' },
+    { href: '/#testimonials', labelKey: 'nav.testimonials' },
+    { href: '/#contact', labelKey: 'nav.contact' },
 ];
 
 export const services = [
@@ -59,7 +59,37 @@ export const portfolioProjects = [
             tags: ['HTML', 'JavaScript', 'CSS'],
             image: getImage('work-1'),
             liveUrl: 'https://roma-masajes-reiki.netlify.app/',
-            
+            details: {
+                nameKey: 'projects.1.details.name',
+                summaryKey: 'projects.1.details.summary',
+                // metadata
+                stackKey: 'projects.1.details.stack',
+                statusKey: 'projects.1.details.status',
+                typeKey: 'projects.1.details.type',
+                // context & client
+                clientKey: 'projects.1.details.client',
+                contextKey: 'projects.1.details.context',
+                // objective (paragraph + items)
+                objectiveKey: 'projects.1.details.objective',
+                objectiveItemsKey: 'projects.1.details.objective.items',
+                // process (paragraph + steps)
+                processKey: 'projects.1.details.process',
+                processStepsKey: 'projects.1.details.process.steps',
+                // result (paragraph + items)
+                resultKey: 'projects.1.details.result',
+                resultItemsKey: 'projects.1.details.result.items',
+                // STAR keys (kept for compatibility)
+                star: {
+                    situacionKey: 'projects.1.details.star.situacion',
+                    tareaKey: 'projects.1.details.star.tarea',
+                    accionKey: 'projects.1.details.star.accion',
+                    resultadoKey: 'projects.1.details.star.resultado',
+                },
+                roleKey: 'projects.1.details.role',
+                responsibilitiesKey: 'projects.1.details.responsibilities',
+                technologiesKey: 'projects.1.details.technologies',
+                feedbackKey: 'projects.1.details.feedback',
+            },
     },
     {
             id: '2',
@@ -83,10 +113,41 @@ export const portfolioProjects = [
             id: '4',
             titleKey: 'projects.4.title',
             descriptionKey: 'projects.4.description',
-            tags: ['JavaScript', 'CSS', 'HTML5'],
+            tags: ['HTML', 'CSS', 'JavaScript'],
             image: getImage('work-4'),
             liveUrl: 'https://calendario-stardew.netlify.app/',
             githubUrl: 'https://github.com/CinloDev/calendar-stardew/',
+            details: {
+                nameKey: 'projects.4.details.name',
+                summaryKey: 'projects.4.details.summary',
+                inspirationKey: 'projects.4.details.inspiration',
+                // metadata
+                stackKey: 'projects.4.details.stack',
+                statusKey: 'projects.4.details.status',
+                typeKey: 'projects.4.details.type',
+                // context & client
+                contextKey: 'projects.4.details.context',
+                // objective (paragraph + items)
+                objectiveKey: 'projects.4.details.objective',
+                objectiveItemsKey: 'projects.4.details.objective.items',
+                // process (paragraph + steps)
+                processKey: 'projects.4.details.process',
+                processStepsKey: 'projects.4.details.process.steps',
+                // result (paragraph + items)
+                resultKey: 'projects.4.details.result',
+                resultItemsKey: 'projects.4.details.result.items',
+                // STAR kept for compatibility (empty)
+                star: {
+                    situacionKey: 'projects.4.details.star.situacion',
+                    tareaKey: 'projects.4.details.star.tarea',
+                    accionKey: 'projects.4.details.star.accion',
+                    resultadoKey: 'projects.4.details.star.resultado',
+                },
+                roleKey: 'projects.4.details.role',
+                responsibilitiesKey: 'projects.4.details.responsibilities',
+                technologiesKey: 'projects.4.details.technologies',
+                feedbackKey: 'projects.4.details.feedback',
+            },
     },
     {
             id: '5',

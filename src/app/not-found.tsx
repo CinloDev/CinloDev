@@ -1,11 +1,13 @@
 
 import MinimalHeaderFlag from '@/components/minimal-header';
+import { useLocale } from '@/components/language-provider';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 
 import LogoImage from '@/components/logo-image';
 export default function NotFound() {
+    const { t } = useLocale();
     return (
         <>
             <MinimalHeaderFlag />
@@ -22,7 +24,7 @@ export default function NotFound() {
 
                 <div className="flex gap-4">
                     <Link href="/">
-                        <Button className="bg-primary text-white hover:bg-secondary/50">Volver al inicio</Button>
+                        <Button className="bg-primary text-white hover:bg-secondary/50">{t('privacy.back') || 'Back to home'}</Button>
                     </Link>
                 </div>
             </main>

@@ -60,8 +60,6 @@ export default function Header() {
 
     const toggleMenu = () => setIsOpen((v) => !v);
     const closeMenu = () => setIsOpen(false);
-
-    
     return (
         <header
             className={cn(
