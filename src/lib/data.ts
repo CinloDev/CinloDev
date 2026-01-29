@@ -1,7 +1,6 @@
 import { Code, Megaphone, Linkedin, Github, InstagramIcon, MessageCircle, Rocket, Users, PenTool, MonitorSmartphone, Twitter } from 'lucide-react';
 import { PlaceHolderImages } from './placeholder-images';
 
-
 export const navLinks = [
     { href: '/#hero', labelKey: 'nav.home' },
     { href: '/#about', labelKey: 'nav.about' },
@@ -95,10 +94,33 @@ export const portfolioProjects = [
             id: '2',
             titleKey: 'projects.2.title',
             descriptionKey: 'projects.2.description',
-            tags: ['HTML', 'CSS', 'Javascript'],
+            tags: ['JavaScript', 'Node.js', 'Express'],
             image: getImage('work-2'),
             liveUrl: 'https://cinlodev.github.io/api-rest-js-practico/',
             githubUrl: 'https://github.com/CinloDev/api-rest-js-practico',
+            details: {
+            nameKey: 'projects.2.details.name',
+            summaryKey: 'projects.2.details.summary',
+            // metadata
+            stackKey: 'projects.2.details.stack',
+            statusKey: 'projects.2.details.status',
+            typeKey: 'projects.2.details.type',
+            // context
+            contextKey: 'projects.2.details.context',
+            // objective (paragraph + items)
+            objectiveKey: 'projects.2.details.objective',
+            objectiveItemsKey: 'projects.2.details.objective.items',
+            // process (paragraph + steps)
+            processKey: 'projects.2.details.process',
+            processStepsKey: 'projects.2.details.process.steps',
+            // result (paragraph + items)
+            resultKey: 'projects.2.details.result',
+            resultItemsKey: 'projects.2.details.result.items',
+            roleKey: 'projects.2.details.role',
+            responsibilitiesKey: 'projects.2.details.responsibilities',
+            technologiesKey: 'projects.2.details.technologies',
+            feedbackKey: 'projects.2.details.feedback',
+            },
     },
     {
             id: '3',
@@ -108,6 +130,29 @@ export const portfolioProjects = [
             image: getImage('work-3'),
             liveUrl: 'https://cinlodev.github.io/travel-tailwind/',
             githubUrl: 'https://github.com/CinloDev/travel-tailwind',
+            details: {
+            nameKey: 'projects.3.details.name',
+            summaryKey: 'projects.3.details.summary',
+            // metadata
+            stackKey: 'projects.3.details.stack',
+            statusKey: 'projects.3.details.status',
+            typeKey: 'projects.3.details.type',
+            // context
+            contextKey: 'projects.3.details.context',
+            // objective (paragraph + items)
+            objectiveKey: 'projects.3.details.objective',
+            objectiveItemsKey: 'projects.3.details.objective.items',
+            // process (paragraph + steps)
+            processKey: 'projects.3.details.process',
+            processStepsKey: 'projects.3.details.process.steps',
+            // result (paragraph + items)
+            resultKey: 'projects.3.details.result',
+            resultItemsKey: 'projects.3.details.result.items',
+            roleKey: 'projects.3.details.role',
+            responsibilitiesKey: 'projects.3.details.responsibilities',
+            technologiesKey: 'projects.3.details.technologies',
+            feedbackKey: 'projects.3.details.feedback',
+            },
     },
     {
             id: '4',
@@ -149,22 +194,38 @@ export const portfolioProjects = [
                 feedbackKey: 'projects.4.details.feedback',
             },
     },
-    {
+        // Project removed temporarily: diseño de marca (was id '5')
+        {
             id: '5',
-            titleKey: 'projects.5.title',
-            descriptionKey: 'projects.5.description',
-            tags: ['Estrategia de Contenido', 'Branding', 'Instagram'],
-            image: getImage('work-5'),
-            liveUrl: 'https://www.instagram.com/tejiendo_con_ranchesca/',
-    },
-    {
-            id: '6',
             titleKey: 'projects.6.title',
             descriptionKey: 'projects.6.description',
             tags: ['Astro', 'Tailwind CSS', 'TypeScript', 'React'],
             image: getImage('work-6'),
             liveUrl: 'https://cintialosada-portfolio.netlify.app/',
             githubUrl: 'https://github.com/CinloDev/cinlo-portfolio',
+            details: {
+            nameKey: 'projects.6.details.name',
+            summaryKey: 'projects.6.details.summary',
+            // metadata
+            stackKey: 'projects.6.details.stack',
+            statusKey: 'projects.6.details.status',
+            typeKey: 'projects.6.details.type',
+            // context
+            contextKey: 'projects.6.details.context',
+            // objective (paragraph + items)
+            objectiveKey: 'projects.6.details.objective',
+            objectiveItemsKey: 'projects.6.details.objective.items',
+            // process (paragraph + steps)
+            processKey: 'projects.6.details.process',
+            processStepsKey: 'projects.6.details.process.steps',
+            // result (paragraph + items)
+            resultKey: 'projects.6.details.result',
+            resultItemsKey: 'projects.6.details.result.items',
+            roleKey: 'projects.6.details.role',
+            responsibilitiesKey: 'projects.6.details.responsibilities',
+            technologiesKey: 'projects.6.details.technologies',
+            feedbackKey: 'projects.6.details.feedback',
+            },
     },
 ];
 

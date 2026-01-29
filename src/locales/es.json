@@ -101,9 +101,99 @@
   "projects.labels.technologiesUsed": "Tecnologías utilizadas",
   "projects.labels.feedback": "Feedback",
   "projects.2.title": "Page de películas con API REST",
-  "projects.2.description": "Proyecto práctico que consume una API REST de películas utilizando JavaScript. Muestra datos en tiempo real con un diseño simple y responsivo",
+  "projects.2.description": "API REST construida con JavaScript puro para gestión de recursos",
+  "projects.2.details.name": "API REST JS Práctico",
+  "projects.2.details.summary": "API REST construida con JavaScript y Node.js para la gestión de recursos",
+  "projects.2.details.context": "En el desarrollo web moderno, las APIs REST son el fundamento para backend y aplicaciones distribuidas. Este proyecto fue creado como una implementación práctica de una API REST que administra recursos de forma coherente con las convenciones HTTP.",
+  "projects.2.details.stack": "JavaScript (Node.js) · Express",
+  "projects.2.details.status": "Desplegado / funcional",
+  "projects.2.details.type": "Backend / API REST",
+  "projects.2.details.objective": "Desarrollar una API REST funcional que permita:",
+  "projects.2.details.objective.items": [
+    "Listar recursos",
+    "Obtener un recurso por ID",
+    "Crear nuevos recursos",
+    "Actualizar recursos existentes",
+    "Eliminar recursos"
+  ],
+  "projects.2.details.process": "El desarrollo se abordó centrado en buenas prácticas de backend con Node.js y Express:",
+  "projects.2.details.process.steps": [
+    "Configuré un servidor básico con Express",
+    "Definí rutas RESTful según la lógica de recursos",
+    "Implementé manejo de métodos HTTP (GET, POST, PUT, DELETE)",
+    "Organicé el código en módulos claros",
+    "Añadí validaciones básicas y manejo de errores",
+    "Preparé documentación simple para uso de la API"
+  ],
+  "projects.2.details.result": "La API fue desarrollada y desplegada de forma funcional.",
+  "projects.2.details.result.items": [
+    "Rutas RESTful correctamente estructuradas",
+    "Código modular y legible",
+    "Manejadores de error claros",
+    "Funcionamiento estable para consumo desde frontend"
+  ],
+  "projects.2.details.role": "Desarrolladora Backend / Full Stack",
+  "projects.2.details.responsibilities": [
+    "Configuración de servidor con Node.js y Express",
+    "Definición de rutas RESTful",
+    "Implementación de lógica de controladores",
+    "Manejo de solicitudes y respuestas HTTP",
+    "Estructuración modular del código",
+    "Manejo de errores y validaciones básicas",
+    "Documentación para uso de la API"
+  ],
+  "projects.2.details.technologies": [
+    "Node.js — entorno de ejecución JavaScript para server",
+    "Express — framework web para rutas y middleware",
+    "JavaScript — lógica de aplicación",
+    "HTTP — métodos y códigos estandarizados",
+    "GH Pages (demo) — despliegue de documentación y ejemplos"
+  ],
+  "projects.2.details.feedback": "El proyecto sirve como base para validar conceptos backend fundamentales y facilitar integraciones futuras.",
   "projects.3.title": "Travel Landing Page",
-  "projects.3.description": "Landing page para viajes, diseñada con Tailwind CSS. Ofrece un diseño atractivo y responsivo, destacando destinos y servicios turísticos de manera clara.",
+  "projects.3.description": "Landing page responsive para sitio de viajes construida con Tailwind CSS",
+  "projects.3.details.name": "Travel Landing Tailwind",
+  "projects.3.details.summary": "Landing page responsive para sitio de viajes construida con Tailwind CSS",
+  "projects.3.details.context": "Este proyecto fue desarrollado como práctica enfocada en diseño visual y maquetación responsiva utilizando Tailwind CSS. La idea principal fue reforzar la capacidad de traducir diseños a código real.",
+  "projects.3.details.stack": "HTML · Tailwind CSS",
+  "projects.3.details.status": "Desplegado y funcional",
+  "projects.3.details.type": "Landing page interactiva y responsive",
+  "projects.3.details.objective": "Desarrollar una landing page que:",
+  "projects.3.details.objective.items": [
+    "Resalte secciones típicas de servicios de viajes",
+    "Se visualice correctamente en dispositivos de distintos tamaños",
+    "Utilice utilidades de Tailwind de forma coherente y escalable"
+  ],
+  "projects.3.details.process": "El proyecto fue abordado con atención al detalle visual y a la consistencia del código:",
+  "projects.3.details.process.steps": [
+    "Configuré Tailwind CSS desde cero para el proyecto",
+    "Diseñé secciones principales: hero, servicios, galería, testimonios, footer",
+    "Apliqué utilidades de Tailwind para espaciado, tipografía, colores y layout",
+    "Aseguré legibilidad y estética en móviles, tablet y desktop",
+    "Organicé clases y componentes para mantener un diseño coherente"
+  ],
+  "projects.3.details.result": "La landing fue desplegada correctamente y funciona de forma responsiva en distintos dispositivos.",
+  "projects.3.details.result.items": [
+    "Diseño visual moderno y armónico",
+    "Comportamiento responsive sin romper puntos de quiebre",
+    "Implementación clara de utilidades Tailwind CSS",
+    "Código organizado y fácil de leer"
+  ],
+  "projects.3.details.role": "Desarrolladora Web / Frontend",
+  "projects.3.details.responsibilities": [
+    "Configuración de Tailwind CSS",
+    "Maquetación de secciones del sitio",
+    "Diseño responsivo por puntos de quiebre",
+    "Organización semántica del HTML",
+    "Deploy de la landing"
+  ],
+  "projects.3.details.technologies": [
+    "HTML5 — estructura semántica del sitio",
+    "Tailwind CSS — utilidades de diseño y layout",
+    "Responsive Design — adaptación a distintos tamaños de pantalla",
+    "GitHub Pages — despliegue rápido y accesible"
+  ],
+  "projects.3.details.feedback": "El proyecto demuestra capacidad para implementar diseños UI complejos con un enfoque productivo y mantenible.",
   "projects.4.title": "Web sobre calendario y Regalos de Stardew Valley",
   "projects.4.description": "Sitio web dedicado a la planificación de calendario y regalos en Stardew Valley.",
   "projects.4.details.name": "Stardew Valley – Calendario Interactivo",
@@ -157,6 +247,47 @@
   "projects.5.description": "Identidad de marca completa y estrategia de contenido para aumentar visibilidad y engagement.",
   "projects.6.title": "Portafolio Personal sobre Desarrollo Web",
   "projects.6.description": "Portafolio personal que combina habilidades en desarrollo web y diseño, utilizando Astro y Tailwind CSS.",
+  "projects.6.details.name": "Portfolio Personal (Versión Anterior)",
+  "projects.6.details.summary": "Primer portfolio web como desarrolladora frontend",
+  "projects.6.details.context": "Este portfolio fue mi primer sitio personal como desarrolladora web, creado con el objetivo de comenzar a mostrar mis conocimientos en frontend y tener una presencia online básica.",
+  "projects.6.details.stack": "HTML · CSS · JavaScript",
+  "projects.6.details.status": "Desplegado (archivo histórico)",
+  "projects.6.details.type": "Sitio web de presentación personal",
+  "projects.6.details.objective": "Construir un sitio web que:",
+  "projects.6.details.objective.items": [
+    "Presente información personal y profesional",
+    "Muestre primeros proyectos realizados",
+    "Permita practicar maquetación y estilos",
+    "Sirva como punto de partida para el perfil profesional"
+  ],
+  "projects.6.details.process": "El desarrollo se centró en aplicar fundamentos clave de frontend:",
+  "projects.6.details.process.steps": [
+    "Estructuración del contenido con HTML semántico",
+    "Estilizado con CSS",
+    "Incorporación de interacciones básicas con JavaScript",
+    "Organización simple del proyecto",
+    "Deploy del sitio para hacerlo accesible públicamente"
+  ],
+  "projects.6.details.result": "El sitio fue desplegado correctamente y cumplió su función como primer portfolio funcional.",
+  "projects.6.details.result.items": [
+    "Comprensión práctica de la estructura de un sitio web",
+    "Primer acercamiento a diseño y presentación profesional",
+    "Base sólida para proyectos posteriores",
+    "Punto de partida para la evolución hacia un stack más moderno"
+  ],
+  "projects.6.details.role": "Desarrolladora Web / Frontend",
+  "projects.6.details.responsibilities": [
+    "Diseño y maquetación del sitio",
+    "Desarrollo frontend básico",
+    "Organización del contenido",
+    "Deploy del proyecto"
+  ],
+  "projects.6.details.technologies": [
+    "HTML5 — estructura del sitio",
+    "CSS3 — estilos y layout",
+    "JavaScript — interacciones básicas"
+  ],
+  "projects.6.details.feedback": "Este proyecto permitió afianzar fundamentos de frontend y sirvió como base para adoptar herramientas y arquitecturas más modernas.",
 
   "testimonials.heading": "Lo que dicen los clientes",
   "testimonials.intro": "Estoy orgullosa de haber colaborado con clientes increíbles. Esto es lo que tienen que decir.",

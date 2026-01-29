@@ -100,10 +100,100 @@
   "projects.labels.responsibilities": "Responsibilities",
   "projects.labels.technologiesUsed": "Technologies used",
   "projects.labels.feedback": "Feedback",
-  "projects.2.title": "Movies page with REST API",
-  "projects.2.description": "Practical project consuming a movies REST API using JavaScript, showing live data in a responsive layout.",
+  "projects.2.title": "Practical REST API with JS",
+  "projects.2.description": "REST API built with plain JavaScript for resource management",
+  "projects.2.details.name": "Practical REST API (JS)",
+  "projects.2.details.summary": "REST API built with JavaScript and Node.js for resource management",
+  "projects.2.details.context": "In modern web development, REST APIs are the backbone for backends and distributed applications. This project was created as a practical implementation of a REST API that manages resources consistently with HTTP conventions.",
+  "projects.2.details.stack": "JavaScript (Node.js) · Express",
+  "projects.2.details.status": "Deployed / functional",
+  "projects.2.details.type": "Backend / REST API",
+  "projects.2.details.objective": "Develop a functional REST API that allows:",
+  "projects.2.details.objective.items": [
+    "List resources",
+    "Get a resource by ID",
+    "Create new resources",
+    "Update existing resources",
+    "Delete resources"
+  ],
+  "projects.2.details.process": "Development focused on backend best practices with Node.js and Express:",
+  "projects.2.details.process.steps": [
+    "Set up a basic Express server",
+    "Defined RESTful routes according to resource logic",
+    "Implemented HTTP method handlers (GET, POST, PUT, DELETE)",
+    "Organized code into clear modules",
+    "Added basic validations and error handling",
+    "Prepared simple documentation for API usage"
+  ],
+  "projects.2.details.result": "The API was developed and deployed successfully and works as expected.",
+  "projects.2.details.result.items": [
+    "Properly structured RESTful routes",
+    "Modular and readable code",
+    "Clear error handlers",
+    "Stable operation for consumption from frontends"
+  ],
+  "projects.2.details.role": "Backend Developer / Full Stack",
+  "projects.2.details.responsibilities": [
+    "Server setup with Node.js and Express",
+    "Definition of RESTful routes",
+    "Implementation of controller logic",
+    "Handling HTTP requests and responses",
+    "Modular code organization",
+    "Error handling and basic validations",
+    "Documentation for API usage"
+  ],
+  "projects.2.details.technologies": [
+    "Node.js — JavaScript runtime for the server",
+    "Express — web framework for routes and middleware",
+    "JavaScript — application logic",
+    "HTTP — standardized methods and status codes",
+    "GH Pages (demo) — hosting docs and examples"
+  ],
+  "projects.2.details.feedback": "This project is useful to validate core backend concepts and to provide a solid base for future integrations.",
   "projects.3.title": "Travel Landing Page",
-  "projects.3.description": "A travel landing page built with Tailwind CSS highlighting destinations and services.",
+  "projects.3.description": "Responsive landing page for a travel site built with Tailwind CSS",
+  "projects.3.details.name": "Travel Landing Tailwind",
+  "projects.3.details.summary": "Responsive landing page for a travel site built with Tailwind CSS",
+  "projects.3.details.context": "This project was developed as a practice focused on visual design and responsive layout using Tailwind CSS. The main idea was to strengthen the ability to translate designs into real code.",
+  "projects.3.details.stack": "HTML · Tailwind CSS",
+  "projects.3.details.status": "Deployed and functional",
+  "projects.3.details.type": "Interactive, responsive landing page",
+  "projects.3.details.objective": "Develop a landing page that:",
+  "projects.3.details.objective.items": [
+    "Highlights typical travel service sections",
+    "Displays correctly on devices of various sizes",
+    "Uses Tailwind utilities coherently and scalably"
+  ],
+  "projects.3.details.process": "The project was tackled with attention to visual detail and code consistency:",
+  "projects.3.details.process.steps": [
+    "Configured Tailwind CSS from scratch for the project",
+    "Designed main sections: hero, services, gallery, testimonials, footer",
+    "Applied Tailwind utilities for spacing, typography, colors and layout",
+    "Ensured readability and aesthetics on mobile, tablet and desktop",
+    "Organized classes and components to keep a consistent design"
+  ],
+  "projects.3.details.result": "The landing was deployed successfully and works responsively across devices.",
+  "projects.3.details.result.items": [
+    "Modern and harmonious visual design",
+    "Responsive behavior without breaking breakpoints",
+    "Clear implementation of Tailwind CSS utilities",
+    "Organized and easy-to-read code"
+  ],
+  "projects.3.details.role": "Web Developer / Frontend",
+  "projects.3.details.responsibilities": [
+    "Tailwind CSS setup",
+    "Layout of site sections",
+    "Responsive design across breakpoints",
+    "Semantic HTML organization",
+    "Landing deploy"
+  ],
+  "projects.3.details.technologies": [
+    "HTML5 — semantic site structure",
+    "Tailwind CSS — design and layout utilities",
+    "Responsive Design — adaptation to various screen sizes",
+    "GitHub Pages — quick and accessible deployment"
+  ],
+  "projects.3.details.feedback": "This project demonstrates the ability to implement complex UI designs with a productive and maintainable approach.",
   "projects.4.title": "Stardew Valley Gifts Calendar",
   "projects.4.description": "Website dedicated to gift preferences in Stardew Valley with localStorage support.",
   "projects.4.details.name": "Stardew Valley – Interactive Calendar",
@@ -157,6 +247,47 @@
   "projects.5.description": "Full brand identity and content strategy to increase visibility and engagement.",
   "projects.6.title": "Personal Web Development Portfolio",
   "projects.6.description": "Personal portfolio combining web development and design skills using Astro and Tailwind CSS.",
+  "projects.6.details.name": "Personal Portfolio (Previous Version)",
+  "projects.6.details.summary": "First web portfolio as a frontend developer",
+  "projects.6.details.context": "This portfolio was my first personal site as a web developer, created to start showcasing frontend skills and to have a basic online presence.",
+  "projects.6.details.stack": "HTML · CSS · JavaScript",
+  "projects.6.details.status": "Deployed (archived)",
+  "projects.6.details.type": "Personal presentation website",
+  "projects.6.details.objective": "Build a website that:",
+  "projects.6.details.objective.items": [
+    "Presents personal and professional information",
+    "Shows early projects",
+    "Provides practice for layout and styles",
+    "Serves as a starting point for a professional profile"
+  ],
+  "projects.6.details.process": "Development focused on applying core frontend fundamentals:",
+  "projects.6.details.process.steps": [
+    "Structuring content with semantic HTML",
+    "Styling with CSS",
+    "Adding basic JavaScript interactions",
+    "Simple project organization",
+    "Deploying the site to make it publicly accessible"
+  ],
+  "projects.6.details.result": "The site was deployed successfully and served as the first functional portfolio.",
+  "projects.6.details.result.items": [
+    "Practical understanding of website structure",
+    "Initial approach to design and professional presentation",
+    "Solid base for later projects",
+    "Starting point for evolving to a modern stack"
+  ],
+  "projects.6.details.role": "Web Developer / Frontend",
+  "projects.6.details.responsibilities": [
+    "Site design and layout",
+    "Basic frontend development",
+    "Content organization",
+    "Project deployment"
+  ],
+  "projects.6.details.technologies": [
+    "HTML5 — site structure",
+    "CSS3 — styles and layout",
+    "JavaScript — basic interactions"
+  ],
+  "projects.6.details.feedback": "This project helped solidify frontend fundamentals and served as the basis to adopt more modern tools and architectures.",
 
   "testimonials.heading": "What clients say",
   "testimonials.intro": "Proud to have worked with amazing clients. Here’s what they say.",
