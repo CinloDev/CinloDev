@@ -1,4 +1,4 @@
-
+"use client";
 import MinimalHeaderFlag from '@/components/minimal-header';
 import { useLocale } from '@/components/language-provider';
 import Link from 'next/link';
