@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://cinlodev.com
+Host: https://www.cinlodev.com
 
 # Sitemaps
-Sitemap: https://cinlodev.com/sitemap.xml
+Sitemap: https://www.cinlodev.com/sitemap.xml
