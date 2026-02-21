@@ -67,7 +67,7 @@ export default function Header() {
                 isScrolled ? 'bg-background/80 backdrop-blur-sm border-b' : 'bg-background'
             )}
             >
-            <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
+            <div className="mx-auto flex h-20 w-full max-w-[1200px] items-center justify-between px-4 md:px-6">
                 <div className="flex items-center gap-2 logo-wrapper" aria-label="Inicio" role="banner">
                 <Logo />
                 </div>
