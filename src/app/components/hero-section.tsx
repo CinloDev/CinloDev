@@ -8,8 +8,7 @@ import { useLocale } from '@/components/language-provider';
 
 
 export default function HeroSection() {
-    const { t } = useLocale();
-    const { locale } = useLocale();
+    const { t, locale } = useLocale();
     return (
         <>
             {/* Botón flotante de WhatsApp */}
@@ -26,46 +25,53 @@ export default function HeroSection() {
                 {t('hero.whatsapp')}
                 </span>
             </a>
-            <section className="w-full py-16 bg-background">
-                <div className="container mx-auto px-4 md:px-6 text-center">
-                    <div className="mb-6 flex flex-col items-center gap-1 sm:flex-row sm:items-baseline sm:justify-between">
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-headline tracking-tight text-foreground">
-                        {t('hero.title')}
-                        </h1>
-                         <p className="text-lg md:text-xl text-muted-foreground dark:text-white max-w-2xl mx-auto">
-                        {t('hero.lead')}
-                        </p>
-                    </div>
-                    <div className="max-w-3xl mx-auto">
-                        <div className=" mb-6 text-3xl md:text-4xl lg:text-5xl font-bold font-headline tracking-tight text-foreground">
-                            <TechLogos />
-                        </div>
-                       
-                        <p className="mt-6 text-base md:text-lg text-foreground/90 max-w-[34rem] mx-auto">
+           <section className="w-full py-16 md:py-24 bg-background">
+                <div className="container mx-auto px-4 md:px-6">
+                    
+                    <div className="grid items-center gap-12 lg:grid-cols-2">
+                    
+                        {/* LEFT COLUMN — Texto */}
+                        <div className="space-y-6 text-center lg:text-left">
+                            
+                            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-headline tracking-tight text-foreground leading-tight">
+                            {t('hero.title')}
+                            </h1>
+
+                            <p className="text-lg md:text-xl text-muted-foreground dark:text-white max-w-2xl lg:mx-0 mx-auto">
+                            {t('hero.lead')}
+                            </p>
+
+                            <p className="text-base md:text-lg text-foreground/90 max-w-[34rem] lg:mx-0 mx-auto">
                             {t('hero.cta')}
-                        </p>
-                        <div className="mt-8 flex w-full flex-col items-center justify-center gap-4 sm:flex-row sm:flex-wrap">
+                            </p>
+
+                            <div className="flex flex-col gap-4 pt-4 sm:flex-row sm:flex-wrap sm:justify-center lg:justify-start">
+                            
+                            {/* Primary */}
                             <Button
                                 asChild
                                 size="lg"
-                                className="w-[50%] sm:w-auto bg-primary hover:bg-secondary/50 transition-colors"
+                                className="w-full sm:w-auto bg-primary hover:bg-secondary/50 transition-colors"
                             >
                                 <Link href="#contact">{t('hero.contact')}</Link>
                             </Button>
 
+                            {/* Secondary */}
                             <Button
                                 asChild
                                 variant="outline"
                                 size="lg"
-                                className="w-[50%] sm:w-auto bg-secondary/50 text-white hover:bg-primary transition-colors"
+                                className="w-full sm:w-auto hover:bg-secondary/50"
                             >
                                 <Link href="#work">{t('hero.viewProjects')}</Link>
                             </Button>
 
+                            {/* Tertiary */}
                             <Button
                                 asChild
+                                variant="ghost"
                                 size="lg"
-                                className="w-[50%] sm:w-auto bg-primary hover:bg-secondary/50 transition-colors"
+                                className="w-full sm:w-auto hover:bg-secondary/50"
                             >
                                 <a
                                 href={locale === 'es' ? '/cintialosada-cv-es.pdf' : '/cintialosada-cv-en.pdf'}
@@ -75,7 +81,17 @@ export default function HeroSection() {
                                 {t('hero.downloadCv')}
                                 </a>
                             </Button>
+
+                            </div>
                         </div>
+
+                        {/* RIGHT COLUMN — Tech Logos */}
+                        <div className="flex justify-center lg:justify-end">
+                            <div className="text-4xl lg:text-5xl ">
+                            <TechLogos />
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </section>

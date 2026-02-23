@@ -74,6 +74,48 @@
   }
 }
 
+@keyframes float-0 {
+  0% { transform: translate(0,0); }
+  50% { transform: translate(6px,-8px); }
+  100% { transform: translate(0,0); }
+}
+
+@keyframes float-1 {
+  0% { transform: translate(0,0); }
+  50% { transform: translate(-8px,6px); }
+  100% { transform: translate(0,0); }
+}
+
+@keyframes float-2 {
+  0% { transform: translate(0,0); }
+  50% { transform: translate(10px,4px); }
+  100% { transform: translate(0,0); }
+}
+
+@keyframes float-3 {
+  0% { transform: translate(0,0); }
+  50% { transform: translate(-6px,-10px); }
+  100% { transform: translate(0,0); }
+}
+
+@keyframes float-4 {
+  0% { transform: translate(0,0); }
+  50% { transform: translate(8px,-6px); }
+  100% { transform: translate(0,0); }
+}
+
+@keyframes float-5 {
+  0% { transform: translate(0,0); }
+  50% { transform: translate(-10px,8px); }
+  100% { transform: translate(0,0); }
+}
+
+@keyframes waveColorStrong {
+  0%   { color: hsl(var(--primary)); filter: drop-shadow(0 0 0px hsl(var(--secondary))); }
+  30%  { color: hsl(var(--secondary)); filter: drop-shadow(0 0 6px hsl(var(--secondary))); }
+  60%  { color: hsl(var(--secondary)); filter: drop-shadow(0 0 6px hsl(var(--secondary))); }
+  100% { color: hsl(var(--primary)); filter: drop-shadow(0 0 0px hsl(var(--secondary))); }
+}
 
 @layer base {
   * {
