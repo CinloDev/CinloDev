@@ -307,8 +307,10 @@
     "testimonials.4.author": "Ranchesca",
     "testimonials.4.company": "Creadora de Tejiendo con Ranchesca",
 
-    "about.title": "Sobre Mí",
-    "about.description": "Soy desarrolladora web con foco en crear productos digitales funcionales, claros y escalables. Trabajo principalmente con React, Next.js y Node, combinando buenas prácticas de desarrollo con una fuerte atención a la experiencia de usuario. Vengo del mundo del diseño, lo que me permite entender el producto más allá del código: pienso en performance, mantenibilidad y objetivos reales de negocio. Actualmente estoy buscando mi primera oportunidad profesional en el mercado tech, idealmente en modalidad remota.",
+   "about.title": "Sobre Mí",
+    "about.p1": "Soy Frontend Developer con enfoque en construir productos digitales funcionales, claros y escalables. Trabajo principalmente con JavaScript, TypeScript, React y Next.js aplicando buenas prácticas de desarrollo, estructura mantenible y atención a la experiencia de usuario.",
+    "about.p2": "Tengo experiencia integrando APIs, componentizando UI y coordinando entregas con Git y flujos de colaboración.",
+    "about.p3": "Vengo del diseño, lo que me permite entender el producto más allá del código: desempeño atención al rendimiento, consistencia visual y estándares de accesibilidad. Actualmente busco integrarme a un equipo donde pueda aportar valor desde el primer día, asumir nuevos desafíos y seguir creciendo profesionalmente en el ecosistema tech.",
 
     "skills.title": "Tecnologías y herramientas",
     "skills.intro": "Trabajo con un stack moderno orientado a performance, mantenibilidad y buenas prácticas.",
