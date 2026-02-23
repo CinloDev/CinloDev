@@ -30,9 +30,17 @@ export default function AboutSection() {
                         )}
                         </Card>
                     </div>
-                    <div className="md:col-span-3">
-                        <p className="mt-4 text-muted-foreground dark:text-white text-lg leading-relaxed">
-                        {t(aboutMe.descriptionKey)}
+                    <div className="md:col-span-3 space-y-4">
+                        <p className="text-muted-foreground dark:text-white text-lg leading-relaxed">
+                            {t("about.p1")}
+                        </p>
+
+                        <p className="text-muted-foreground dark:text-white text-lg leading-relaxed">
+                            {t("about.p2")}
+                        </p>
+
+                        <p className="text-muted-foreground dark:text-white text-lg leading-relaxed">
+                            {t("about.p3")}
                         </p>
                     </div>
                 </div>

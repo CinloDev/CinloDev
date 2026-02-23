@@ -307,8 +307,10 @@
     "testimonials.4.author": "Ranchesca",
     "testimonials.4.company": "Creator, Tejiendo con Ranchesca",
 
-    "about.title": "About",
-    "about.description": "I am a web developer focused on building functional, clear and scalable digital products. I primarily work with React, Next.js and Node, combining best practices with strong attention to user experience. I come from a design background, which helps me understand products beyond code: I consider performance, maintainability and real business goals. I am currently looking for my first professional opportunity in the tech market, ideally remote.",
+   "about.title": "About Me",
+    "about.p1": "I am a Frontend Developer focused on building functional, clear, and scalable digital products. I work mainly with JavaScript, TypeScript, React, and Next.js, applying best development practices, maintainable structure, and strong attention to user experience.",
+    "about.p2": "I have experience integrating APIs, building reusable UI components, and collaborating through Git-based workflows.",
+    "about.p3": "My background in design allows me to approach product development beyond the code, with attention to performance, visual consistency, and accessibility standards. I am looking for an opportunity in the tech industry, ideally in a remote environment, where I can grow within a team and contribute from day one.",
 
     "skills.title": "Technologies & tools",
     "skills.intro": "I work with a modern stack focused on performance, maintainability and best practices.",
