@@ -13,7 +13,7 @@
 </p>
 
 <p>
-  🌐 <a href="https://www.cinlodev.com">Visit Live Website</a>
+  🌐 <a href="https://www.cinlodev.com" target="_blank" rel="noopener noreferrer">Visit Live Website</a>
 </p>
 
 ---
