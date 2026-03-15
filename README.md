@@ -1,36 +1,69 @@
-# cinloDev - Portfolio Profesional
 
-Bienvenido a **cinloDev**, tu portafolio digital para mostrar tus proyectos de desarrollo web y gestión de contenido en redes sociales. Este sitio está construido con [Next.js](https://nextjs.org/) y alojado en Firebase Studio, ofreciendo velocidad, seguridad y escalabilidad.
+# CinloDev — Web Portfolio
 
-## Características principales
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000?logo=next.js&logoColor=white" style="margin:0 4px;"/>
+  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" style="margin:0 4px;"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" style="margin:0 4px;"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white" style="margin:0 4px;"/>
+</p>
 
-- **Portafolio de trabajos:** Exhibe tus proyectos con imágenes, descripciones y enlaces a versiones en vivo.
-- **Revisión de portafolio con IA:** Herramienta inteligente que analiza tus muestras y sugiere mejoras para títulos, etiquetas y descripciones, optimizando SEO y posicionamiento.
-- **Servicios:** Detalla tus servicios de desarrollo web y creación de contenido, resaltando beneficios y propuestas de valor.
-- **Formulario de contacto:** Permite que potenciales clientes te envíen mensajes directamente.
-- **Testimonios:** Muestra opiniones de clientes para generar confianza y credibilidad.
-- **Sobre mí:** Presenta tu experiencia profesional, habilidades y trayectoria.
-- **Redes sociales:** Integra enlaces a tus perfiles profesionales (LinkedIn, Twitter, etc.).
+<p>
+  Personal portfolio of <strong>Cintia Losada (Cinlo)</strong>, frontend web developer focused on building modern, responsive and user-centered web applications.
+</p>
 
-## Tecnologías utilizadas
+<p>
+  🌐 <a href="https://www.cinlodev.com">Visit Live Website</a>
+</p>
 
-- **Next.js**: Framework React para aplicaciones web modernas.
-- **Firebase Studio**: Hosting y backend escalable.
-- **Tailwind CSS**: Estilos rápidos y personalizables.
-- **TypeScript**: Tipado estático para mayor robustez.
-- **IA Genkit**: Motor de revisión inteligente para portafolios.
+---
 
-## Estructura del proyecto
+## Preview
 
-- `src/app`: Componentes principales y páginas.
-- `src/components`: UI reutilizable (botones, formularios, etc.).
-- `src/ai`: Lógica de revisión inteligente.
-- `src/lib`: Utilidades y datos estáticos.
-- `public/images`: Imágenes del portafolio.
+![Portfolio Preview](./public/images/preview.png)
 
-## Instalación y uso
+---
 
-1. Clona el repositorio:
-   ```sh
-   git clone https://github.com/tu-usuario/cinloDev.git
-   cd cinloDev
+## Overview
+
+This portfolio was designed and developed to showcase:
+
+* 💻 frontend development projects
+* 🤝 real client work
+* 🧩 UI component implementations
+* 🧪 ongoing experiments and work-in-progress applications
+
+The goal is to provide a clear view of my development approach, code structure and design decisions.
+
+---
+
+## Features
+
+* 🧱 Component-based architecture using modern React patterns
+* 📱 Responsive layouts optimized for multiple devices
+* 🌎 Language switcher (Spanish / English)
+* 🎨 UI components built with Radix UI and Tailwind
+* 📝 Form handling with React Hook Form and Zod
+* 🌙 Dark mode support
+* ⚡ Performance-focused frontend structure
+
+---
+
+## Projects
+
+The portfolio includes a selection of:
+
+* 🧑‍💻 personal development projects
+* 🎛 UI and component experiments
+* 🌐 real client websites
+* 🛠 applications currently in development
+
+Some client projects are presented as live demos while the source code remains private due to commercial use.
+
+---
+
+## Author
+
+**Cintia Losada (CinloDev)**
+Frontend Web Developer
+
