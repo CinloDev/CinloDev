@@ -22,21 +22,21 @@ const WorkShowcase: React.FC<Props> = () => {
 
                 <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
                 {projects.map((project) => (
-                    <article key={project.id} className="group relative">
-                        <div className="rounded-lg overflow-hidden">
-                          <Link href={`/projects/${project.id}`} className="block rounded-lg border overflow-hidden bg-muted/20 hover:scale-101 transition-transform duration-200 cursor-pointer">
-                              <div className="relative h-40 sm:h-52 w-full">
+                    <article key={project.id} className="group relative h-full">
+                        <div className="rounded-lg overflow-hidden h-full">
+                          <Link href={`/projects/${project.id}`} className="block rounded-lg border overflow-hidden bg-muted/20 hover:scale-101 transition-transform duration-200 cursor-pointer h-full flex flex-col">
+                              <div className="relative w-full flex-shrink-0 h-40 sm:h-52">
                                 {project.image ? (
-                                    <Image src={project.image.imageUrl} alt={project.image.description} fill className="object-cover" />
+                                    <Image src={project.image.imageUrl} alt={project.image.description} fill sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="object-cover" />
                                 ) : (
                                     <div className="h-52 w-full bg-muted" />
                                 )}
                             </div>
-                            <div className="p-4">
+                            <div className="p-4 flex-1">
                                 <h3 className="text-lg font-semibold text-foreground dark:text-white">{t(project.titleKey)}</h3>
                                 <p className="text-sm text-muted-foreground dark:text-white mt-1">{t(project.descriptionKey)}</p>
                             </div>
-                            <div className="p-3 border-t text-sm text-pink-600">
+                            <div className="p-3 border-t text-sm text-pink-600 flex-shrink-0">
                                 {t('projects.viewMore') || 'Ver más'}
                             </div>
                           </Link>

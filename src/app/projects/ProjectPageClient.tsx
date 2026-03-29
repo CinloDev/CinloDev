@@ -32,9 +32,9 @@ export default function ProjectPageClient({ id }: Props) {
 
       <section className="mt-6 grid gap-8 lg:grid-cols-3 lg:items-start">
         {project.image ? (
-          <div className="lg:col-span-1">
+            <div className="lg:col-span-1">
             <div className="w-full rounded-lg overflow-hidden aspect-video max-h-[50vh] relative mx-auto">
-              <Image src={project.image.imageUrl} alt={project.image.description} fill className="object-cover" />
+              <Image src={project.image.imageUrl} alt={project.image.description} fill sizes="(min-width:1024px) 33vw, 100vw" className="object-cover" />
             </div>
           </div>
         ) : null}
@@ -124,8 +124,8 @@ export default function ProjectPageClient({ id }: Props) {
               <h3 className="font-semibold">{t('projects.labels.technologiesUsed')}</h3>
               {Array.isArray((t(details.technologiesKey) as unknown as any[])) ? (
                 <div className="flex flex-wrap gap-2 mt-2">
-                  {(t(details.technologiesKey) as unknown as string[] || []).map((tech, i) => (
-                    <span key={i} className="px-2 py-1 text-xs border rounded">{tech}</span>
+                    {(t(details.technologiesKey) as unknown as string[] || []).map((tech, i) => (
+                      <span key={i} className="px-2 py-1 text-xs rounded text-pink-600 dark:text-fuchsia-400 font-medium">{tech}</span>
                   ))}
                 </div>
               ) : (
@@ -167,14 +167,14 @@ export default function ProjectPageClient({ id }: Props) {
         <h2 className="sr-only">{t('projects.heading')}</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 justify-items-center">
           {projects.map((p) => (
-            <div key={p.id} className="w-full rounded-lg overflow-hidden">
-              <Link key={p.id} href={`/projects/${p.id}`} className="block w-full rounded-lg overflow-hidden border bg-card hover:shadow-lg transition">
-                <div className="relative h-32 w-full bg-muted/10">
+            <div key={p.id} className="w-full rounded-lg overflow-hidden h-full">
+              <Link key={p.id} href={`/projects/${p.id}`} className="block w-full rounded-lg overflow-hidden border bg-card hover:shadow-lg transition h-full flex flex-col">
+                <div className="relative h-32 w-full bg-muted/10 flex-shrink-0">
                   {p.image ? (
-                    <Image src={p.image.imageUrl} alt={p.image.description || t(p.titleKey)} fill className="object-cover" />
+                    <Image src={p.image.imageUrl} alt={p.image.description || t(p.titleKey)} fill sizes="(min-width: 1024px) 16.6vw, (min-width: 768px) 25vw, 50vw" className="object-cover" />
                   ) : null}
                 </div>
-                <div className="p-3 text-center">
+                <div className="p-3 text-center flex-1 flex items-center justify-center">
                   <h3 className="text-sm font-semibold text-foreground dark:text-white">{t(p.titleKey)}</h3>
                 </div>
               </Link>

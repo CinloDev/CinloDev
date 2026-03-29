@@ -19,14 +19,14 @@ export default function ProjectsIndexClient() {
       <section className="mt-8">
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 justify-items-center">
           {projects.map((p) => (
-            <div key={p.id} className="w-full rounded-lg overflow-hidden">
-              <Link href={`/projects/${p.id}`} className="block w-full rounded-lg overflow-hidden border bg-card hover:shadow-lg transition">
-                <div className="relative h-40 w-full bg-muted/10">
+            <div key={p.id} className="w-full rounded-lg overflow-hidden h-full">
+              <Link href={`/projects/${p.id}`} className="block w-full rounded-lg overflow-hidden border bg-card hover:shadow-lg transition h-full flex flex-col">
+                <div className="relative h-40 w-full bg-muted/10 flex-shrink-0">
                   {p.image ? (
-                    <Image src={p.image.imageUrl} alt={p.image.description || t(p.titleKey)} fill className="object-cover" />
+                    <Image src={p.image.imageUrl} alt={p.image.description || t(p.titleKey)} fill sizes="(min-width: 1024px) 16.6vw, (min-width: 768px) 25vw, 50vw" className="object-cover" />
                   ) : null}
                 </div>
-                <div className="p-3">
+                <div className="p-3 flex-1 flex items-center justify-center">
                   <h3 className="text-sm font-semibold text-foreground dark:text-white text-center">{t(p.titleKey)}</h3>
                 </div>
               </Link>

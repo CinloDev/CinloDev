@@ -250,7 +250,7 @@
     "projects.6.details.name": "Personal Portfolio (Previous Version)",
     "projects.6.details.summary": "First web portfolio as a frontend developer",
     "projects.6.details.context": "This portfolio was my first personal site as a web developer, created to start showcasing frontend skills and to have a basic online presence.",
-    "projects.6.details.stack": "HTML · CSS · JavaScript",
+    "projects.6.details.stack": "Astro · Tailwind CSS · TypeScript",
     "projects.6.details.status": "Deployed (archived)",
     "projects.6.details.type": "Personal presentation website",
     "projects.6.details.objective": "Build a website that:",
@@ -283,9 +283,9 @@
         "Project deployment"
     ],
     "projects.6.details.technologies": [
-        "HTML5 — site structure",
-        "CSS3 — styles and layout",
-        "JavaScript — basic interactions"
+        "Astro — modern static-site framework",
+        "Tailwind CSS — utility-first styling",
+        "TypeScript — typed JavaScript for reliability"
     ],
     "projects.6.details.feedback": "This project helped solidify frontend fundamentals and served as the basis to adopt more modern tools and architectures.",
 
