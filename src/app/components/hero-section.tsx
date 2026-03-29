@@ -25,7 +25,7 @@ export default function HeroSection() {
                 {t('hero.whatsapp')}
                 </span>
             </a>
-           <section className="w-full py-16 md:py-24 bg-background">
+           <section className="w-full py-16 md:py-24">
                 <div className="container mx-auto px-4 md:px-6">
                     
                     <div className="grid items-center gap-12 lg:grid-cols-2">
@@ -61,7 +61,7 @@ export default function HeroSection() {
                                 asChild
                                 variant="outline"
                                 size="lg"
-                                className="w-full sm:w-auto hover:bg-secondary/50 hero-view-projects-btn"
+                                className="w-full sm:w-auto hover:bg-secondary/50 hero-view-projects-btn dark:bg-card dark:hover:bg-secondary/50"
                             >
                                 <Link href="#work">{t('hero.viewProjects')}</Link>
                             </Button>
