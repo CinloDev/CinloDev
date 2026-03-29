@@ -259,32 +259,36 @@ export const portfolioProjects = [
         },
     },
 ];
-
 export const testimonials = [
     {
         quoteKey: 'testimonials.0.quote',
         authorKey: 'testimonials.0.author',
         companyKey: 'testimonials.0.company',
+        avatar: './images/testimonial-aye.jpg',
     },
     {
         quoteKey: 'testimonials.1.quote',
         authorKey: 'testimonials.1.author',
         companyKey: 'testimonials.1.company',
+        avatar: 'https://plus.unsplash.com/premium_photo-1681493353999-a3eea8b95e1d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
     {
         quoteKey: 'testimonials.2.quote',
         authorKey: 'testimonials.2.author',
         companyKey: 'testimonials.2.company',
+        avatar: 'https://plus.unsplash.com/premium_photo-1702598904442-de1d96570fa8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
     {
         quoteKey: 'testimonials.3.quote',
         authorKey: 'testimonials.3.author',
         companyKey: 'testimonials.3.company',
+        avatar: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
     {
         quoteKey: 'testimonials.4.quote',
         authorKey: 'testimonials.4.author',
         companyKey: 'testimonials.4.company',
+        avatar: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
 ];
 
