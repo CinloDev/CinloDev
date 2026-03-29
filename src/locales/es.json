@@ -250,7 +250,7 @@
     "projects.6.details.name": "Portfolio Personal (Versión Anterior)",
     "projects.6.details.summary": "Primer portfolio web como desarrolladora frontend",
     "projects.6.details.context": "Este portfolio fue mi primer sitio personal como desarrolladora web, creado con el objetivo de comenzar a mostrar mis conocimientos en frontend y tener una presencia online básica.",
-    "projects.6.details.stack": "HTML · CSS · JavaScript",
+    "projects.6.details.stack": "Astro · Tailwind CSS · TypeScript",
     "projects.6.details.status": "Desplegado (archivo histórico)",
     "projects.6.details.type": "Sitio web de presentación personal",
     "projects.6.details.objective": "Construir un sitio web que:",
@@ -283,11 +283,57 @@
         "Deploy del proyecto"
     ],
     "projects.6.details.technologies": [
-        "HTML5 — estructura del sitio",
-        "CSS3 — estilos y layout",
-        "JavaScript — interacciones básicas"
+        "Astro — framework para sitios estáticos y componentes",
+        "Tailwind CSS — utilidades para estilos rápidos y responsivos",
+        "TypeScript — tipado y seguridad en el frontend"
     ],
     "projects.6.details.feedback": "Este proyecto permitió afianzar fundamentos de frontend y sirvió como base para adoptar herramientas y arquitecturas más modernas.",
+
+    "projects.7.title": "Landing Page Ayepsicope — Plataforma Psicopedagógica",
+    "projects.7.description": "Aplicación web desarrollada con Next.js, TypeScript y Tailwind CSS, desplegada en Vercel.",
+    "projects.7.details.name": "Ayepsicope",
+    "projects.7.details.summary": "Implementado con Next.js, TypeScript y Tailwind CSS, desplegado en Vercel. Incluye envío de emails, sistema inicial de turnos y base de panel administrativo en desarrollo. Proyecto en evolución desde una landing institucional hacia una plataforma digital con funcionalidades de gestión y escalabilidad fullstack.",
+    "projects.7.details.context": "Cliente independiente que necesitaba profesionalizar su presencia online y construir una base técnica para escalar hacia una plataforma de servicios y productos digitales.",
+    "projects.7.details.stack": "Next.js · TypeScript · Tailwind CSS · Vercel",
+    "projects.7.details.status": "En desarrollo (desplegado para testing)",
+    "projects.7.details.type": "Sitio institucional + plataforma en desarrollo",
+    "projects.7.details.objective": "Objetivos principales:",
+    "projects.7.details.objective.items": [
+        "Consolidar una presencia online profesional",
+        "Centralizar el contacto con pacientes",
+        "Incorporar gestión inicial de turnos",
+        "Desarrollar un panel administrativo base",
+        "Preparar la base para una futura tienda de contenido digital"
+    ],
+    "projects.7.details.process": "Enfoque y estrategia: desarrollo incremental orientado a validar rápido sin perder escalabilidad técnica.",
+    "projects.7.details.process.steps": [
+        "Iteraciones cortas con feedback del cliente",
+        "Priorización de funcionalidades críticas",
+        "Separación clara entre UI y lógica de negocio",
+        "Base técnica preparada para integrar Supabase y autenticación"
+    ],
+    "projects.7.details.result": "Estado actual: prototipo en desarrollo desplegado para testing, con funcionalidades institucionales y base para evolucionar a producto fullstack.",
+    "projects.7.details.result.items": [
+        "Base sólida para escalar hacia producto digital",
+        "Canal de contacto centralizado y validado",
+        "Panel administrativo inicial y gestión de turnos en desarrollo"
+    ],
+    "projects.7.details.role": "Desarrolladora Web / Frontend",
+    "projects.7.details.responsibilities": [
+           "Definición de la arquitectura frontend con enfoque escalable",
+           "Desarrollo de interfaz y lógica de formularios y solicitud de turnos",
+           "Implementación mobile-first priorizando accesibilidad y usabilidad",
+           "Organización del código para facilitar futuras integraciones fullstack",
+           "Deploy continuo, testing y validación en entorno Vercel"
+    ],
+    "projects.7.details.technologies": [
+        "Next.js — App Router y SSR para escalabilidad",
+        "TypeScript — tipado para mantenibilidad",
+        "Tailwind CSS — sistema de estilos eficiente",
+        "Vercel — deploy continuo y previews",
+        "Supabase (planificado) — BDD y auth para evolución fullstack"
+    ],
+    "projects.7.details.feedback": "Evolución exitosa desde una landing hacia una base técnica preparada para convertirse en producto digital. El enfoque incremental permitió validar rápidamente con el cliente, mientras que las decisiones técnicas (Next.js + arquitectura escalable) dejan el proyecto listo para integrar base de datos, autenticación y funcionalidades más complejas sin necesidad de refactorizaciones profundas.",
 
     "testimonials.heading": "Lo que dicen los clientes",
     "testimonials.intro": "Estoy orgullosa de haber colaborado con clientes increíbles. Esto es lo que tienen que decir.",

@@ -6,7 +6,7 @@ type Props = {
 }
 
 export async function generateMetadata({ params }: Props) {
-  const id = params.id
+  const { id } = await params as { id: string }
   return {
     alternates: { canonical: `https://cinlodev.com/projects/${id}` },
     openGraph: { url: `https://cinlodev.com/projects/${id}` },

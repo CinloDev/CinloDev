@@ -2,44 +2,44 @@
   "placeholderImages": [
     {
       "id": "work-1",
-      "description": "A modern e-commerce website interface.",
-      "imageUrl": "/images/work-1.png",
-      "imageHint": "web design"
+      "description": "Roma landing page.",
+      "imageUrl": "/images/landing-roma.webp",
+      "imageHint": "roma landing"
     },
     {
       "id": "work-2",
-      "description": "A dashboard for a social media analytics platform.",
-      "imageUrl": "/images/work-2.png",
-      "imageHint": "social media"
+      "description": "Project: movies or media showcase.",
+      "imageUrl": "/images/movies.webp",
+      "imageHint": "movies"
     },
     {
       "id": "work-3",
-      "description": "Landing page for a mobile application.",
-      "imageUrl": "/images/work-3.png",
-      "imageHint": "app landing"
+      "description": "Landing page for a travel site.",
+      "imageUrl": "/images/landing-travel.webp",
+      "imageHint": "travel landing"
     },
     {
       "id": "work-4",
-      "description": "A visually engaging blog layout.",
-      "imageUrl": "/images/work-4.png",
-      "imageHint": "blog layout"
+      "description": "Stardew calendar project.",
+      "imageUrl": "/images/stardew-calendar.webp",
+      "imageHint": "stardew calendar"
     },
     {
       "id": "work-5",
-      "description": "Identidad de marca, incluyendo logo y paleta de colores.",
-      "imageUrl": "/images/work-5.png",
-      "imageHint": "brand identity"
+      "description": "Ayepsicope preview image.",
+      "imageUrl": "/images/ayepsicope.webp",
+      "imageHint": "ayepsicope"
     },
     {
       "id": "work-6",
-      "description": "Content strategy examples for an Instagram feed.",
-      "imageUrl": "/images/work-6.png",
-      "imageHint": "instagram feed"
+      "description": "Portfolio project preview.",
+      "imageUrl": "/images/portfolio-web.webp",
+      "imageHint": "portfolio"
     },
     {
       "id": "about-me",
       "description": "Professional portrait of Cintia Losada",
-      "imageUrl": "/images/about-me.png",
+      "imageUrl": "/images/about-me.webp",
       "imageHint": "professional portrait"
     },
     {

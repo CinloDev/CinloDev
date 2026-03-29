@@ -52,180 +52,211 @@ const getImage = (id: string) => PlaceHolderImages.find(img => img.id === id);
 
 export const portfolioProjects = [
     {
-            id: '1',
-            titleKey: 'projects.1.title',
-            descriptionKey: 'projects.1.description',
-            tags: ['HTML', 'JavaScript', 'CSS'],
-            image: getImage('work-1'),
-            liveUrl: 'https://roma-masajes-reiki.netlify.app/',
-            details: {
-                nameKey: 'projects.1.details.name',
-                summaryKey: 'projects.1.details.summary',
-                // metadata
-                stackKey: 'projects.1.details.stack',
-                statusKey: 'projects.1.details.status',
-                typeKey: 'projects.1.details.type',
-                // context & client
-                clientKey: 'projects.1.details.client',
-                contextKey: 'projects.1.details.context',
-                // objective (paragraph + items)
-                objectiveKey: 'projects.1.details.objective',
-                objectiveItemsKey: 'projects.1.details.objective.items',
-                // process (paragraph + steps)
-                processKey: 'projects.1.details.process',
-                processStepsKey: 'projects.1.details.process.steps',
-                // result (paragraph + items)
-                resultKey: 'projects.1.details.result',
-                resultItemsKey: 'projects.1.details.result.items',
-                // STAR keys (kept for compatibility)
-                star: {
-                    situacionKey: 'projects.1.details.star.situacion',
-                    tareaKey: 'projects.1.details.star.tarea',
-                    accionKey: 'projects.1.details.star.accion',
-                    resultadoKey: 'projects.1.details.star.resultado',
-                },
-                roleKey: 'projects.1.details.role',
-                responsibilitiesKey: 'projects.1.details.responsibilities',
-                technologiesKey: 'projects.1.details.technologies',
-                feedbackKey: 'projects.1.details.feedback',
-            },
+        id: '6',
+        titleKey: 'projects.7.title',
+        descriptionKey: 'projects.7.description',
+        tags: ['HTML', 'CSS', 'Responsive'],
+        image: getImage('work-5'),
+        liveUrl: 'https://ayepsicope.vercel.app/',
+        details: {
+        nameKey: 'projects.7.details.name',
+        summaryKey: 'projects.7.details.summary',
+        // metadata
+        stackKey: 'projects.7.details.stack',
+        statusKey: 'projects.7.details.status',
+        typeKey: 'projects.7.details.type',
+        // context
+        contextKey: 'projects.7.details.context',
+        // objective (paragraph + items)
+        objectiveKey: 'projects.7.details.objective',
+        objectiveItemsKey: 'projects.7.details.objective.items',
+        // process (paragraph + steps)
+        processKey: 'projects.7.details.process',
+        processStepsKey: 'projects.7.details.process.steps',
+        // result (paragraph + items)
+        resultKey: 'projects.7.details.result',
+        resultItemsKey: 'projects.7.details.result.items',
+        roleKey: 'projects.7.details.role',
+        responsibilitiesKey: 'projects.7.details.responsibilities',
+        technologiesKey: 'projects.7.details.technologies',
+        feedbackKey: 'projects.7.details.feedback',
+        },
     },
     {
-            id: '2',
-            titleKey: 'projects.2.title',
-            descriptionKey: 'projects.2.description',
-            tags: ['JavaScript', 'Node.js', 'Express'],
-            image: getImage('work-2'),
-            liveUrl: 'https://cinlodev.github.io/api-rest-js-practico/',
-            githubUrl: 'https://github.com/CinloDev/api-rest-js-practico',
-            details: {
-            nameKey: 'projects.2.details.name',
-            summaryKey: 'projects.2.details.summary',
-            // metadata
-            stackKey: 'projects.2.details.stack',
-            statusKey: 'projects.2.details.status',
-            typeKey: 'projects.2.details.type',
-            // context
-            contextKey: 'projects.2.details.context',
-            // objective (paragraph + items)
-            objectiveKey: 'projects.2.details.objective',
-            objectiveItemsKey: 'projects.2.details.objective.items',
-            // process (paragraph + steps)
-            processKey: 'projects.2.details.process',
-            processStepsKey: 'projects.2.details.process.steps',
-            // result (paragraph + items)
-            resultKey: 'projects.2.details.result',
-            resultItemsKey: 'projects.2.details.result.items',
-            roleKey: 'projects.2.details.role',
-            responsibilitiesKey: 'projects.2.details.responsibilities',
-            technologiesKey: 'projects.2.details.technologies',
-            feedbackKey: 'projects.2.details.feedback',
-            },
+        id: '1',
+        titleKey: 'projects.1.title',
+        descriptionKey: 'projects.1.description',
+        tags: ['HTML', 'JavaScript', 'CSS'],
+        image: getImage('work-1'),
+        liveUrl: 'https://roma-masajes-reiki.netlify.app/',
+        details: {
+        nameKey: 'projects.1.details.name',
+        summaryKey: 'projects.1.details.summary',
+        // metadata
+        stackKey: 'projects.1.details.stack',
+        statusKey: 'projects.1.details.status',
+        typeKey: 'projects.1.details.type',
+        // context & client
+        clientKey: 'projects.1.details.client',
+        contextKey: 'projects.1.details.context',
+        // objective (paragraph + items)
+        objectiveKey: 'projects.1.details.objective',
+        objectiveItemsKey: 'projects.1.details.objective.items',
+        // process (paragraph + steps)
+        processKey: 'projects.1.details.process',
+        processStepsKey: 'projects.1.details.process.steps',
+        // result (paragraph + items)
+        resultKey: 'projects.1.details.result',
+        resultItemsKey: 'projects.1.details.result.items',
+        // STAR keys (kept for compatibility)
+        star: {
+            situacionKey: 'projects.1.details.star.situacion',
+            tareaKey: 'projects.1.details.star.tarea',
+            accionKey: 'projects.1.details.star.accion',
+            resultadoKey: 'projects.1.details.star.resultado',
+        },
+        roleKey: 'projects.1.details.role',
+        responsibilitiesKey: 'projects.1.details.responsibilities',
+        technologiesKey: 'projects.1.details.technologies',
+        feedbackKey: 'projects.1.details.feedback',
+        },
     },
     {
-            id: '3',
-            titleKey: 'projects.3.title',
-            descriptionKey: 'projects.3.description',
-            tags: ['JavaScript', 'Tailwind CSS', 'HTML5'],
-            image: getImage('work-3'),
-            liveUrl: 'https://cinlodev.github.io/travel-tailwind/',
-            githubUrl: 'https://github.com/CinloDev/travel-tailwind',
-            details: {
-            nameKey: 'projects.3.details.name',
-            summaryKey: 'projects.3.details.summary',
-            // metadata
-            stackKey: 'projects.3.details.stack',
-            statusKey: 'projects.3.details.status',
-            typeKey: 'projects.3.details.type',
-            // context
-            contextKey: 'projects.3.details.context',
-            // objective (paragraph + items)
-            objectiveKey: 'projects.3.details.objective',
-            objectiveItemsKey: 'projects.3.details.objective.items',
-            // process (paragraph + steps)
-            processKey: 'projects.3.details.process',
-            processStepsKey: 'projects.3.details.process.steps',
-            // result (paragraph + items)
-            resultKey: 'projects.3.details.result',
-            resultItemsKey: 'projects.3.details.result.items',
-            roleKey: 'projects.3.details.role',
-            responsibilitiesKey: 'projects.3.details.responsibilities',
-            technologiesKey: 'projects.3.details.technologies',
-            feedbackKey: 'projects.3.details.feedback',
-            },
+        id: '2',
+        titleKey: 'projects.2.title',
+        descriptionKey: 'projects.2.description',
+        tags: ['JavaScript', 'Node.js', 'Express'],
+        image: getImage('work-2'),
+        liveUrl: 'https://cinlodev.github.io/api-rest-js-practico/',
+        githubUrl: 'https://github.com/CinloDev/api-rest-js-practico',
+        details: {
+        nameKey: 'projects.2.details.name',
+        summaryKey: 'projects.2.details.summary',
+        // metadata
+        stackKey: 'projects.2.details.stack',
+        statusKey: 'projects.2.details.status',
+        typeKey: 'projects.2.details.type',
+        // context
+        contextKey: 'projects.2.details.context',
+        // objective (paragraph + items)
+        objectiveKey: 'projects.2.details.objective',
+        objectiveItemsKey: 'projects.2.details.objective.items',
+        // process (paragraph + steps)
+        processKey: 'projects.2.details.process',
+        processStepsKey: 'projects.2.details.process.steps',
+        // result (paragraph + items)
+        resultKey: 'projects.2.details.result',
+        resultItemsKey: 'projects.2.details.result.items',
+        roleKey: 'projects.2.details.role',
+        responsibilitiesKey: 'projects.2.details.responsibilities',
+        technologiesKey: 'projects.2.details.technologies',
+        feedbackKey: 'projects.2.details.feedback',
+        },
     },
     {
-            id: '4',
-            titleKey: 'projects.4.title',
-            descriptionKey: 'projects.4.description',
-            tags: ['HTML', 'CSS', 'JavaScript'],
-            image: getImage('work-4'),
-            liveUrl: 'https://calendario-stardew.netlify.app/',
-            githubUrl: 'https://github.com/CinloDev/calendar-stardew/',
-            details: {
-                nameKey: 'projects.4.details.name',
-                summaryKey: 'projects.4.details.summary',
-                inspirationKey: 'projects.4.details.inspiration',
-                // metadata
-                stackKey: 'projects.4.details.stack',
-                statusKey: 'projects.4.details.status',
-                typeKey: 'projects.4.details.type',
-                // context & client
-                contextKey: 'projects.4.details.context',
-                // objective (paragraph + items)
-                objectiveKey: 'projects.4.details.objective',
-                objectiveItemsKey: 'projects.4.details.objective.items',
-                // process (paragraph + steps)
-                processKey: 'projects.4.details.process',
-                processStepsKey: 'projects.4.details.process.steps',
-                // result (paragraph + items)
-                resultKey: 'projects.4.details.result',
-                resultItemsKey: 'projects.4.details.result.items',
-                // STAR kept for compatibility (empty)
-                star: {
-                    situacionKey: 'projects.4.details.star.situacion',
-                    tareaKey: 'projects.4.details.star.tarea',
-                    accionKey: 'projects.4.details.star.accion',
-                    resultadoKey: 'projects.4.details.star.resultado',
-                },
-                roleKey: 'projects.4.details.role',
-                responsibilitiesKey: 'projects.4.details.responsibilities',
-                technologiesKey: 'projects.4.details.technologies',
-                feedbackKey: 'projects.4.details.feedback',
-            },
+        id: '3',
+        titleKey: 'projects.3.title',
+        descriptionKey: 'projects.3.description',
+        tags: ['JavaScript', 'Tailwind CSS', 'HTML5'],
+        image: getImage('work-3'),
+        liveUrl: 'https://cinlodev.github.io/travel-tailwind/',
+        githubUrl: 'https://github.com/CinloDev/travel-tailwind',
+        details: {
+        nameKey: 'projects.3.details.name',
+        summaryKey: 'projects.3.details.summary',
+        // metadata
+        stackKey: 'projects.3.details.stack',
+        statusKey: 'projects.3.details.status',
+        typeKey: 'projects.3.details.type',
+        // context
+        contextKey: 'projects.3.details.context',
+        // objective (paragraph + items)
+        objectiveKey: 'projects.3.details.objective',
+        objectiveItemsKey: 'projects.3.details.objective.items',
+        // process (paragraph + steps)
+        processKey: 'projects.3.details.process',
+        processStepsKey: 'projects.3.details.process.steps',
+        // result (paragraph + items)
+        resultKey: 'projects.3.details.result',
+        resultItemsKey: 'projects.3.details.result.items',
+        roleKey: 'projects.3.details.role',
+        responsibilitiesKey: 'projects.3.details.responsibilities',
+        technologiesKey: 'projects.3.details.technologies',
+        feedbackKey: 'projects.3.details.feedback',
+        },
+    },
+    {
+        id: '4',
+        titleKey: 'projects.4.title',
+        descriptionKey: 'projects.4.description',
+        tags: ['HTML', 'CSS', 'JavaScript'],
+        image: getImage('work-4'),
+        liveUrl: 'https://calendario-stardew.netlify.app/',
+        githubUrl: 'https://github.com/CinloDev/calendar-stardew/',
+        details: {
+        nameKey: 'projects.4.details.name',
+        summaryKey: 'projects.4.details.summary',
+        inspirationKey: 'projects.4.details.inspiration',
+        // metadata
+        stackKey: 'projects.4.details.stack',
+        statusKey: 'projects.4.details.status',
+        typeKey: 'projects.4.details.type',
+        // context & client
+        contextKey: 'projects.4.details.context',
+        // objective (paragraph + items)
+        objectiveKey: 'projects.4.details.objective',
+        objectiveItemsKey: 'projects.4.details.objective.items',
+        // process (paragraph + steps)
+        processKey: 'projects.4.details.process',
+        processStepsKey: 'projects.4.details.process.steps',
+        // result (paragraph + items)
+        resultKey: 'projects.4.details.result',
+        resultItemsKey: 'projects.4.details.result.items',
+        // STAR kept for compatibility (empty)
+        star: {
+            situacionKey: 'projects.4.details.star.situacion',
+            tareaKey: 'projects.4.details.star.tarea',
+            accionKey: 'projects.4.details.star.accion',
+            resultadoKey: 'projects.4.details.star.resultado',
+        },
+        roleKey: 'projects.4.details.role',
+        responsibilitiesKey: 'projects.4.details.responsibilities',
+        technologiesKey: 'projects.4.details.technologies',
+        feedbackKey: 'projects.4.details.feedback',
+        },
     },
         // Project removed temporarily: diseño de marca (was id '5')
         {
-            id: '5',
-            titleKey: 'projects.6.title',
-            descriptionKey: 'projects.6.description',
-            tags: ['Astro', 'Tailwind CSS', 'TypeScript', 'React'],
-            image: getImage('work-6'),
-            liveUrl: 'https://cintialosada-portfolio.netlify.app/',
-            githubUrl: 'https://github.com/CinloDev/cinlo-portfolio',
-            details: {
-            nameKey: 'projects.6.details.name',
-            summaryKey: 'projects.6.details.summary',
-            // metadata
-            stackKey: 'projects.6.details.stack',
-            statusKey: 'projects.6.details.status',
-            typeKey: 'projects.6.details.type',
-            // context
-            contextKey: 'projects.6.details.context',
-            // objective (paragraph + items)
-            objectiveKey: 'projects.6.details.objective',
-            objectiveItemsKey: 'projects.6.details.objective.items',
-            // process (paragraph + steps)
-            processKey: 'projects.6.details.process',
-            processStepsKey: 'projects.6.details.process.steps',
-            // result (paragraph + items)
-            resultKey: 'projects.6.details.result',
-            resultItemsKey: 'projects.6.details.result.items',
-            roleKey: 'projects.6.details.role',
-            responsibilitiesKey: 'projects.6.details.responsibilities',
-            technologiesKey: 'projects.6.details.technologies',
-            feedbackKey: 'projects.6.details.feedback',
-            },
+        id: '5',
+        titleKey: 'projects.6.title',
+        descriptionKey: 'projects.6.description',
+        tags: ['Astro', 'Tailwind CSS', 'TypeScript', 'React'],
+        image: getImage('work-6'),
+        liveUrl: 'https://cintialosada-portfolio.netlify.app/',
+        githubUrl: 'https://github.com/CinloDev/cinlo-portfolio',
+        details: {
+        nameKey: 'projects.6.details.name',
+        summaryKey: 'projects.6.details.summary',
+        // metadata
+        stackKey: 'projects.6.details.stack',
+        statusKey: 'projects.6.details.status',
+        typeKey: 'projects.6.details.type',
+        // context
+        contextKey: 'projects.6.details.context',
+        // objective (paragraph + items)
+        objectiveKey: 'projects.6.details.objective',
+        objectiveItemsKey: 'projects.6.details.objective.items',
+        // process (paragraph + steps)
+        processKey: 'projects.6.details.process',
+        processStepsKey: 'projects.6.details.process.steps',
+        // result (paragraph + items)
+        resultKey: 'projects.6.details.result',
+        resultItemsKey: 'projects.6.details.result.items',
+        roleKey: 'projects.6.details.role',
+        responsibilitiesKey: 'projects.6.details.responsibilities',
+        technologiesKey: 'projects.6.details.technologies',
+        feedbackKey: 'projects.6.details.feedback',
+        },
     },
 ];
 
