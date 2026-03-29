@@ -289,6 +289,52 @@
     ],
     "projects.6.details.feedback": "This project helped solidify frontend fundamentals and served as the basis to adopt more modern tools and architectures.",
 
+    "projects.7.title": "Ayepsicope — Psychopedagogical Platform (Landing & Prototype)",
+    "projects.7.description": "Web application developed with Next.js, TypeScript and Tailwind CSS, deployed on Vercel.",
+    "projects.7.details.name": "Ayepsicope",
+    "projects.7.details.summary": "Implemented with Next.js, TypeScript and Tailwind CSS, deployed on Vercel. Includes email sending, an initial appointment system and a base admin panel in development. The project is evolving from an institutional landing to a digital platform with management features and fullstack scalability.",
+    "projects.7.details.context": "Independent practitioner aiming to professionalize digital presence and build a technical base to scale toward a services and digital products platform.",
+    "projects.7.details.stack": "Next.js · TypeScript · Tailwind CSS · Vercel",
+    "projects.7.details.status": "In development (deployed for testing)",
+    "projects.7.details.type": "Institutional website + platform in development",
+    "projects.7.details.objective": "Main objectives:",
+    "projects.7.details.objective.items": [
+        "Consolidate a professional online presence",
+        "Centralize patient contact",
+        "Introduce basic appointment management",
+        "Provide an initial admin panel",
+        "Lay groundwork for a future digital content store"
+    ],
+    "projects.7.details.process": "Approach and strategy: incremental product development focused on validating quickly while keeping technical scalability.",
+    "projects.7.details.process.steps": [
+        "Short iterations with client feedback",
+        "Prioritization of critical features",
+        "Separation between UI and business logic",
+        "Technical base prepared to integrate Supabase and auth"
+    ],
+    "projects.7.details.result": "Current state: prototype in active development, deployed for testing, with institutional features and a foundation to grow into a fullstack product.",
+    "projects.7.details.result.items": [
+        "Solid base to scale toward a digital product",
+        "Centralized and validated contact channel",
+        "Initial admin panel and appointment flow in progress"
+    ],
+    "projects.7.details.role": "Web Developer / Frontend",
+    "projects.7.details.responsibilities": [
+        "Definition of the frontend architecture with a scalable focus",
+        "Development of interface and logic for forms and appointment requests",
+        "Mobile-first implementation prioritizing accessibility and usability",
+        "Code organization to facilitate future fullstack integrations",
+        "Continuous deploy, testing and validation on Vercel"
+    ],
+    "projects.7.details.technologies": [
+        "Next.js — App Router and SSR for scalability",
+        "TypeScript — typing for maintainability",
+        "Tailwind CSS — efficient styling system",
+        "Vercel — continuous deploy and previews",
+        "Supabase (planned) — DB and auth for fullstack evolution"
+    ],
+    "projects.7.details.feedback": "Successful evolution from a landing to a technical foundation ready to become a digital product. The incremental approach allowed for rapid validation with the client, while the technical decisions (Next.js + scalable architecture) leave the project ready to integrate a database, authentication and more complex features without requiring deep refactors.",
+
     "testimonials.heading": "What clients say",
     "testimonials.intro": "Proud to have worked with amazing clients. Here’s what they say.",
     "testimonials.0.quote": "I highlight Cintia's professionalism and attention to detail. She met deadlines, communicated clearly and was always available to resolve doubts. It's a pleasure to work with her.",

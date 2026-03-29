@@ -40,7 +40,7 @@ const WorkShowcase: React.FC<Props> = () => {
                                 {t('projects.viewMore') || 'Ver más'}
                             </div>
                           </Link>
-                                                    {/* github link intentionally shown on project detail page */}
+                                               
                         </div>
                     </article>
                 ))}
