@@ -41,7 +41,7 @@
   .dark {
     --background: 0 0% 18%;             /* #2e2e2e */
     --foreground: 214 36% 82%;          /* #b0c4de */
-    --card: 0 0% 18%;                   /* #2e2e2e */
+    --card: 0 0% 18% / 0.1;             /* #2e2e2e con 10% opacidad */
     --card-foreground: 214 36% 82%;     /* #b0c4de */
     --popover: 0 0% 18%;                /* #2e2e2e */
     --popover-foreground: 214 36% 82%;  /* #b0c4de */
@@ -82,6 +82,17 @@ html.light body {
     radial-gradient(circle at 50% 10%, rgba(236,72,153,0.14), transparent 50%),
     radial-gradient(circle at 50% 90%, rgba(16,185,129,0.12), transparent 50%);
   
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+html.dark body {
+  background-color: #121212;
+  background-image:
+    radial-gradient(circle at 15% 25%, rgba(59,130,246,0.12), transparent 45%),
+    radial-gradient(circle at 85% 75%, rgba(139,92,246,0.12), transparent 45%),
+    radial-gradient(circle at 50% 10%, rgba(236,72,153,0.06), transparent 50%),
+    radial-gradient(circle at 50% 90%, rgba(16,185,129,0.08), transparent 50%);
   background-attachment: fixed;
   background-repeat: no-repeat;
 }

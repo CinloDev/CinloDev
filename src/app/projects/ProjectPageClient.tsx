@@ -165,7 +165,7 @@ export default function ProjectPageClient({ id }: Props) {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 justify-items-center">
           {projects.map((p) => (
             <div key={p.id} className="w-full rounded-lg overflow-hidden h-full">
-              <Link key={p.id} href={`/projects/${p.id}`} className="block w-full rounded-lg overflow-hidden border bg-card hover:shadow-lg transition h-full flex flex-col">
+              <Link key={p.id} href={`/projects/${p.id}`} className="block w-full rounded-lg overflow-hidden border bg-card dark:bg-card/80 hover:shadow-lg transition h-full flex flex-col">
                 <div className="relative h-32 w-full bg-muted/10 flex-shrink-0">
                   {p.image ? (
                     <Image src={p.image.imageUrl} alt={p.image.description || t(p.titleKey)} fill sizes="(min-width: 1024px) 16.6vw, (min-width: 768px) 25vw, 50vw" className="object-cover" />

@@ -1,4 +1,4 @@
- 'use client';
+'use client';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
@@ -62,10 +62,7 @@ export default function Header() {
     const closeMenu = () => setIsOpen(false);
     return (
         <header
-            className={cn(
-                'sticky top-0 z-50 w-full transition-all duration-300',
-                isScrolled ? 'bg-background/80 backdrop-blur-sm border-b' : 'bg-background'
-            )}
+            className="sticky top-0 z-50 w-full transition-all duration-300 bg-transparent backdrop-blur"
             >
             <div className="mx-auto flex h-20 w-full max-w-[1200px] items-center justify-between px-4 md:px-6">
                 <div className="flex items-center gap-2 logo-wrapper" aria-label="Inicio" role="banner">

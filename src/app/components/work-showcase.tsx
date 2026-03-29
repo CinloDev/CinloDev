@@ -13,7 +13,7 @@ const WorkShowcase: React.FC<Props> = () => {
     const { t } = useLocale()
 
     return (
-        <section id="work" className="w-full py-12 bg-background">
+        <section id="work" className="w-full py-12">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="text-center max-w-2xl mx-auto">
                     <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">{t('projects.heading')}</h2>
@@ -24,7 +24,7 @@ const WorkShowcase: React.FC<Props> = () => {
                 {projects.map((project) => (
                     <article key={project.id} className="group relative h-full">
                         <div className="rounded-lg overflow-hidden h-full">
-                          <Link href={`/projects/${project.id}`} className="block rounded-lg border overflow-hidden bg-muted/20 hover:scale-101 transition-transform duration-200 cursor-pointer h-full flex flex-col">
+                          <Link href={`/projects/${project.id}`} className="block rounded-lg border overflow-hidden bg-card hover:scale-101 transition-transform duration-200 cursor-pointer h-full flex flex-col">
                               <div className="relative w-full flex-shrink-0 h-40 sm:h-52">
                                 {project.image ? (
                                     <Image src={project.image.imageUrl} alt={project.image.description} fill sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="object-cover" />
@@ -32,15 +32,14 @@ const WorkShowcase: React.FC<Props> = () => {
                                     <div className="h-52 w-full bg-muted" />
                                 )}
                             </div>
-                            <div className="p-4 flex-1 bg-card">
+                            <div className="p-4 flex-1">
                                 <h3 className="text-lg font-semibold text-foreground dark:text-white">{t(project.titleKey)}</h3>
                                 <p className="text-sm text-muted-foreground dark:text-white mt-1">{t(project.descriptionKey)}</p>
                             </div>
-                            <div className="p-3 border-t text-sm bg-card text-pink-600 flex-shrink-0">
+                            <div className="p-3 border-t text-sm text-pink-600 flex-shrink-0">
                                 {t('projects.viewMore') || 'Ver más'}
                             </div>
                           </Link>
-                                               
                         </div>
                     </article>
                 ))}

@@ -8,7 +8,7 @@ import { useLocale } from '@/components/language-provider';
 export default function SkillsSection() {
     const { t } = useLocale();
     return (
-        <section id="skills" aria-labelledby="skills-title" className="w-full py-16 bg-background">
+        <section id="skills" aria-labelledby="skills-title" className="w-full py-16">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="text-center max-w-2xl mx-auto">
                     <h3 id="skills-title" className="text-3xl font-bold font-headline tracking-tight text-foreground sm:text-4xl mb-2">

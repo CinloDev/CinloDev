@@ -78,7 +78,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="w-full py-16 bg-background">
+    <section id="contact" className="w-full py-16">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-2xl mx-auto">
           <h2 className="text-3xl font-bold font-headline tracking-tight text-foreground sm:text-4xl">
