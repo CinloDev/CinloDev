@@ -61,7 +61,7 @@ export default function HeroSection() {
                                 asChild
                                 variant="outline"
                                 size="lg"
-                                className="w-full sm:w-auto hover:bg-secondary/50"
+                                className="w-full sm:w-auto hover:bg-secondary/50 hero-view-projects-btn"
                             >
                                 <Link href="#work">{t('hero.viewProjects')}</Link>
                             </Button>

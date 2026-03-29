@@ -16,10 +16,10 @@ export default function ProjectsIndexClient() {
         <p className="mt-2 text-muted-foreground">{t('projects.intro')}</p>
       </header>
 
-      <section className="mt-8">
+      <section className="mt-8 projects-cards-list">
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 justify-items-center">
           {projects.map((p) => (
-            <div key={p.id} className="w-full rounded-lg overflow-hidden h-full">
+            <div key={p.id} className="w-full rounded-lg overflow-hidden h-full card-project">
               <Link href={`/projects/${p.id}`} className="block w-full rounded-lg overflow-hidden border bg-card hover:shadow-lg transition h-full flex flex-col">
                 <div className="relative h-40 w-full bg-muted/10 flex-shrink-0">
                   {p.image ? (

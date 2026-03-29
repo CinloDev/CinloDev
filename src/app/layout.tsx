@@ -21,7 +21,7 @@ export default function RootLayout({
             rel="stylesheet"
             />
         </head>
-        <body className="font-body bg-background text-foreground antialiased min-h-screen flex flex-col">
+        <body className="font-body text-foreground antialiased min-h-screen flex flex-col">
             <ThemeProvider
                 attribute="class"
                 defaultTheme="light"
