@@ -143,10 +143,10 @@ export default function ProjectPageClient({ id }: Props) {
 
           <div className="mt-4 flex items-center justify-center gap-3">
             {project.liveUrl ? (
-              <a href={project.liveUrl} target="_blank" rel="noreferrer" className="inline-block px-4 py-2 bg-sky-600 text-white rounded-md hover:bg-sky-700">{t('projects.viewLive') || 'Ver proyecto en vivo'}</a>
+              <a href={project.liveUrl} target="_blank" rel="noreferrer" className="inline-block px-4 py-2 bg-primary text-white rounded-md hover:bg-secondary/50">{t('projects.viewLive') || 'Ver proyecto en vivo'}</a>
             ) : null}
             {project.githubUrl ? (
-              <a href={project.githubUrl} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-4 py-2 bg-secondary/50 hover:bg-secondary text-secondary-foreground rounded-md transition-colors dark:bg-secondary/60 dark:hover:bg-secondary">
+              <a href={project.githubUrl} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-4 py-2 bg-secondary/50 hover:bg-primary/90 text-secondary-foreground rounded-md transition-colors dark:bg-secondary/60 dark:hover:bg-primary/80">
                 <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 .5C5.73.5.88 5.35.88 11.62c0 4.77 3.09 8.82 7.38 10.25.54.10.74-.24.74-.52 0-.26-.01-1-.02-1.96-3 .65-3.64-1.45-3.64-1.45-.49-1.25-1.2-1.58-1.2-1.58-.98-.67.07-.66.07-.66 1.08.08 1.64 1.11 1.64 1.11.96 1.65 2.51 1.17 3.12.9.1-.7.38-1.17.69-1.44-2.4-.27-4.92-1.2-4.92-5.32 0-1.18.42-2.15 1.11-2.91-.11-.28-.48-1.4.11-2.92 0 0 .9-.29 2.95 1.11A10.1 10.1 0 0 1 12 6.8c.91.004 1.83.12 2.69.35 2.04-1.4 2.94-1.11 2.94-1.11.6 1.52.23 2.64.11 2.92.69.76 1.11 1.73 1.11 2.91 0 4.13-2.53 5.05-4.94 5.31.39.34.74 1.02.74 2.06 0 1.48-.01 2.67-.01 3.03 0 .29.19.62.75.52 4.29-1.43 7.38-5.48 7.38-10.25C23.12 5.35 18.27.5 12 .5z"/></svg>
                 <span>{t('projects.code') || 'Repo'}</span>
               </a>
@@ -156,10 +156,7 @@ export default function ProjectPageClient({ id }: Props) {
       </section>
 
       <div className="mt-8 flex flex-col items-center space-y-3">
-        <Link href="/" className="inline-block px-4 py-2 bg-sky-600 text-white rounded-md hover:bg-sky-700">{t('privacy.back') || 'Back to home'}</Link>
-        <div>
-          <Link href="/" className="text-muted-foreground underline">{t('projects.backToWork') || 'Back to work'}</Link>
-        </div>
+        <Link href="/" className="inline-block px-4 py-2 bg-primary text-white rounded-md hover:bg-secondary/50">{t('privacy.back') || 'Back to home'}</Link>
       </div>
 
       {/* Todas las tarjetas de proyectos */}

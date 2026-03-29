@@ -32,11 +32,11 @@ const WorkShowcase: React.FC<Props> = () => {
                                     <div className="h-52 w-full bg-muted" />
                                 )}
                             </div>
-                            <div className="p-4 flex-1">
+                            <div className="p-4 flex-1 bg-card">
                                 <h3 className="text-lg font-semibold text-foreground dark:text-white">{t(project.titleKey)}</h3>
                                 <p className="text-sm text-muted-foreground dark:text-white mt-1">{t(project.descriptionKey)}</p>
                             </div>
-                            <div className="p-3 border-t text-sm text-pink-600 flex-shrink-0">
+                            <div className="p-3 border-t text-sm bg-card text-pink-600 flex-shrink-0">
                                 {t('projects.viewMore') || 'Ver más'}
                             </div>
                           </Link>
