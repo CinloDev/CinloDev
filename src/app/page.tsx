@@ -4,22 +4,18 @@ export const metadata = {
 };
 
 import HeroSection from './components/hero-section';
-import AboutSection from './components/about-section';
-import ServicesSection from './components/services-section';
 import WorkShowcase from './components/work-showcase';
-import TestimonialsSection from './components/testimonials-section';
 import ContactSection from './components/contact-section';
-import SkillsSection from './components/skills-section';
+import AboutSection from './components/about-section';
+import ExperienceSection from './components/experience-section';
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center">
       <HeroSection />
-      <AboutSection />
-      <SkillsSection />
+      <ExperienceSection />
       <WorkShowcase />
-      <ServicesSection />
-      <TestimonialsSection />
+      <AboutSection />
       <ContactSection />
     </main>
   );
