@@ -25,7 +25,7 @@ export default function HeroSection() {
                 {t('hero.whatsapp')}
                 </span>
             </a>
-           <section className="w-full py-16 md:py-24">
+           <section className="w-full py-16 md:py-12">
                 <div className="container mx-auto px-4 md:px-6">
                     
                     <div className="grid items-center gap-12 lg:grid-cols-2">

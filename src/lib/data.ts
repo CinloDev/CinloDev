@@ -3,11 +3,9 @@ import { PlaceHolderImages } from './placeholder-images';
 
 export const navLinks = [
     { href: '/#hero', labelKey: 'nav.home' },
-    { href: '/#about', labelKey: 'nav.about' },
-    { href: '/#skills', labelKey: 'nav.skills' },
+    { href: '/#experience', labelKey: 'nav.experience' },
     { href: '/#work', labelKey: 'nav.work' },
-    { href: '/#services', labelKey: 'nav.services' },
-    { href: '/#testimonials', labelKey: 'nav.testimonials' },
+    { href: '/#about', labelKey: 'nav.about' },
     { href: '/#contact', labelKey: 'nav.contact' },
 ];
 
