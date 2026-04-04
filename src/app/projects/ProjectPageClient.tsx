@@ -164,8 +164,8 @@ export default function ProjectPageClient({ id }: Props) {
         <h2 className="sr-only">{t('projects.heading')}</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 justify-items-center">
           {projects.map((p) => (
-            <div key={p.id} className="w-full rounded-lg overflow-hidden h-full">
-              <Link key={p.id} href={`/projects/${p.id}`} className="block w-full rounded-lg overflow-hidden border bg-card dark:bg-card/80 hover:shadow-lg transition h-full flex flex-col">
+            <div key={p.id} className="w-full rounded-lg h-full">
+              <Link key={p.id} href={`/projects/${p.id}`} className="w-full rounded-lg overflow-hidden border bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10 dark:bg-card dark:bg-none shadow-[0_8px_20px_rgba(80,150,217,0.16)] hover:shadow-[0_16px_34px_rgba(80,150,217,0.24)] hover:scale-[1.015] transition-all duration-200 h-full flex flex-col">
                 <div className="relative h-32 w-full bg-muted/10 flex-shrink-0">
                   {p.image ? (
                     <Image src={p.image.imageUrl} alt={p.image.description || t(p.titleKey)} fill sizes="(min-width: 1024px) 16.6vw, (min-width: 768px) 25vw, 50vw" className="object-cover" />

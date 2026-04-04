@@ -23,8 +23,8 @@ const WorkShowcase: React.FC<Props> = () => {
                 <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
                 {projects.map((project) => (
                     <article key={project.id} className="group relative h-full">
-                        <div className="rounded-lg overflow-hidden h-full">
-                          <Link href={`/projects/${project.id}`} className="block rounded-lg border overflow-hidden bg-card hover:scale-101 transition-transform duration-200 cursor-pointer h-full flex flex-col">
+                                                <div className="rounded-lg h-full">
+                          <Link href={`/projects/${project.id}`} className="rounded-lg border overflow-hidden bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10 dark:bg-card dark:bg-none shadow-[0_8px_20px_rgba(80,150,217,0.16)] hover:shadow-[0_16px_34px_rgba(80,150,217,0.24)] hover:scale-[1.015] transition-all duration-200 cursor-pointer h-full flex flex-col">
                               <div className="relative w-full flex-shrink-0 h-40 sm:h-52">
                                 {project.image ? (
                                     <Image src={project.image.imageUrl} alt={project.image.description} fill sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" className="object-cover" />
