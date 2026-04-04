@@ -187,10 +187,10 @@ export const portfolioProjects = [
         id: '4',
         titleKey: 'projects.4.title',
         descriptionKey: 'projects.4.description',
-        tags: ['HTML', 'CSS', 'JavaScript'],
+        tags: ['Next.js', 'TypeScript', 'Zustand', 'Tailwind'],
         image: getImage('work-4'),
-        liveUrl: 'https://calendario-stardew.netlify.app/',
-        githubUrl: 'https://github.com/CinloDev/calendar-stardew/',
+        liveUrl: 'https://stardewguide.vercel.app/',
+        githubUrl: 'https://github.com/CinloDev/stardew-guide',
         details: {
         nameKey: 'projects.4.details.name',
         summaryKey: 'projects.4.details.summary',
