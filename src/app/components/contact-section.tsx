@@ -89,7 +89,7 @@ export default function ContactSection() {
           </p>
         </div>
         <div className="mt-12 max-w-xl mx-auto">
-          <Card>
+          <Card className="border-primary/20 bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10 shadow-xl dark:border-border dark:bg-card dark:bg-none dark:shadow-none">
             <CardContent className="p-6">
               <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">

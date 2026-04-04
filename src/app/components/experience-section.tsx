@@ -19,7 +19,7 @@ const experiences: Experience[] = [
         company: 'Campus Mariana Casella',
         periodKey: 'experience.1.period',
         descriptionKey: 'experience.1.description',
-        stack: ['Vue', 'Tailwind', 'PHP', 'Laravel', 'PostgreSQL', 'Neon'],
+        stack: ['Vue', 'Laravel', 'PostgreSQL', 'Neon'],
         tasksKeys: [
             'experience.1.tasks.0',
             'experience.1.tasks.1',
@@ -75,7 +75,7 @@ export default function ExperienceSection() {
                     {t('experience.heading')}
                 </h2>
 
-                <div className="grid gap-6 max-w-6xl mx-auto md:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-6 lg:gap-8 md:grid-cols-2 lg:grid-cols-3">
                     {experiences.map((exp, index) => (
                         <Card
                             key={index}
