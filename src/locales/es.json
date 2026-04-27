@@ -206,7 +206,9 @@
         "Organizar contenido de forma clara y accesible",
         "Mejorar la experiencia de navegación del usuario",
         "Implementar interacción dinámica en la exploración de información",
-        "Construir una base escalable para nuevas funcionalidades"
+        "Construir una base escalable para nuevas funcionalidades",
+        "Modo claro y oscuro (Light/Dark mode) integrado",
+        "Soporte multi-idioma (Español e Inglés)"
     ],
     "projects.4.details.process": "El desarrollo se abordó enfocándose en la estructura del contenido y la experiencia de usuario.",
     "projects.4.details.process.steps": [
@@ -329,6 +331,56 @@
         "Supabase (planificado) — BDD y auth para evolución fullstack"
     ],
     "projects.7.details.feedback": "Evolución exitosa desde una landing hacia una base técnica preparada para convertirse en producto digital. El enfoque incremental permitió validar rápidamente con el cliente, mientras que las decisiones técnicas (Next.js + arquitectura escalable) dejan el proyecto listo para integrar base de datos, autenticación y funcionalidades más complejas sin necesidad de refactorizaciones profundas.",
+    
+    "projects.8.title": "Command Center Dev",
+    "projects.8.description": "Capa de ejecución de flujos de trabajo para GitHub, Node.js y Docker. Diseñado para centralizar y agilizar el día a día del desarrollador.",
+    "projects.8.details.name": "Command Center Dev",
+    "projects.8.details.summary": "Espacio de trabajo unificado para la ejecución de comandos y gestión de flujos de trabajo.",
+    "projects.8.details.stack": "React · Tailwind · Lucide Icons · Framer Motion",
+    "projects.8.details.status": "Desplegado / En evolución",
+    "projects.8.details.type": "Herramienta de productividad para desarrolladores",
+    "projects.8.details.context": "Los flujos de trabajo modernos están fragmentados: GitHub para control de versiones, terminal para scripts y Docker para contenedores. Esta fragmentación causa cambios de contexto constantes y pérdida de velocidad. Command Center Dev introduce una capa de ejecución estructurada para unificar estas herramientas en una sola interfaz.",
+    "projects.8.details.objective": "Optimizar la experiencia del desarrollador (DX) mediante:",
+    "projects.8.details.objective.items": [
+        "Interfaz de comandos global unificada",
+        "Sesiones conscientes del contexto (GitHub, Node, Docker)",
+        "Organización persistente de grupos de comandos",
+        "Interacción optimizada para teclado",
+        "Acceso rápido a comandos de alta frecuencia",
+        "Arquitectura extensible para nuevos dominios",
+        "Soporte multi-idioma (Español e Inglés)"
+    ],
+    "projects.8.details.process": "El diseño se centró en la velocidad y la reducción de la carga cognitiva:",
+    "projects.8.details.process.steps": [
+        "Definición de sesiones por dominio (GitHub, Node, Docker)",
+        "Implementación de sistema de búsqueda y ejecución instantánea",
+        "Diseño de interfaz 'keyboard-first' para máxima productividad",
+        "Creación de un dock de acceso rápido para comandos frecuentes",
+        "Optimización de la persistencia de estados y grupos de comandos"
+    ],
+    "projects.8.details.result": "Una interfaz premium y fluida que centraliza la ejecución de tareas críticas.",
+    "projects.8.details.result.items": [
+        "Reducción drástica del cambio de contexto",
+        "Mayor velocidad en la ejecución de flujos repetitivos",
+        "Entorno de comandos organizado y persistente",
+        "Experiencia de usuario premium con micro-animaciones y feedback instantáneo"
+    ],
+    "projects.8.details.role": "Desarrolladora Web / Diseñadora de Producto",
+    "projects.8.details.responsibilities": [
+        "Diseño de la arquitectura de la interfaz y experiencia de usuario",
+        "Implementación de la lógica de sesiones y comandos",
+        "Desarrollo de componentes interactivos con Framer Motion",
+        "Diseño estético premium con enfoque en productividad",
+        "Optimización de la interacción mediante atajos de teclado"
+    ],
+    "projects.8.details.technologies": [
+        "React — base de la aplicación y componentes",
+        "Tailwind CSS — diseño visual y responsive",
+        "Framer Motion — micro-animaciones y transiciones fluidas",
+        "Lucide Icons — iconografía consistente por dominio",
+        "Vercel — despliegue y optimización"
+    ],
+    "projects.8.details.feedback": "El proyecto destaca por su enfoque en la productividad real, eliminando la fricción de saltar entre múltiples herramientas y proporcionando un centro de control elegante y potente para el desarrollador moderno.",
 
     "testimonials.heading": "Lo que dicen mis clientes",
     "testimonials.intro": "Algunos clientes compartieron su experiencia trabajando conmigo.",
