@@ -206,7 +206,9 @@
         "Organize content clearly and accessibly",
         "Improve user navigation experience",
         "Implement dynamic interaction in content exploration",
-        "Build a scalable foundation for new features"
+        "Build a scalable foundation for new features",
+        "Integrated Light and Dark mode",
+        "Multi-language support (Spanish and English)"
     ],
     "projects.4.details.process": "Development focused on content structure and user experience.",
     "projects.4.details.process.steps": [
@@ -329,6 +331,56 @@
         "Supabase (planned) — DB and auth for fullstack evolution"
     ],
     "projects.7.details.feedback": "Successful evolution from a landing to a technical foundation ready to become a digital product. The incremental approach allowed for rapid validation with the client, while the technical decisions (Next.js + scalable architecture) leave the project ready to integrate a database, authentication and more complex features without requiring deep refactors.",
+
+    "projects.8.title": "Command Center Dev",
+    "projects.8.description": "Workflow execution layer for GitHub, Node.js & Docker. Designed to centralize and streamline developer workflows.",
+    "projects.8.details.name": "Command Center Dev",
+    "projects.8.details.summary": "Unified command workspace for workflow execution and management.",
+    "projects.8.details.stack": "React · Tailwind · Lucide Icons · Framer Motion",
+    "projects.8.details.status": "Deployed / Evolving",
+    "projects.8.details.type": "Developer Productivity Tool",
+    "projects.8.details.context": "Modern development workflows are fragmented across multiple tools: GitHub for version control, terminal for scripts, and Docker for containers. This fragmentation causes constant context switching and loss of speed. Command Center Dev introduces a structured execution layer to unify these tools into a single interface.",
+    "projects.8.details.objective": "Optimize developer experience (DX) through:",
+    "projects.8.details.objective.items": [
+        "Unified global command interface",
+        "Context-aware sessions (GitHub, Node, Docker)",
+        "Persistent command group organization",
+        "Keyboard-first interaction model",
+        "Quick access command dock",
+        "Extensible architecture for new tool domains",
+        "Multi-language support (Spanish and English)"
+    ],
+    "projects.8.details.process": "Design focused on speed and reducing cognitive load:",
+    "projects.8.details.process.steps": [
+        "Defined domain-based sessions (GitHub, Node, Docker)",
+        "Implemented instant search and execution system",
+        "Designed 'keyboard-first' interface for maximum productivity",
+        "Created a quick access dock for high-frequency commands",
+        "Optimized state persistence and command organization"
+    ],
+    "projects.8.details.result": "A premium, fluid interface that centralizes critical task execution.",
+    "projects.8.details.result.items": [
+        "Drastic reduction in context switching",
+        "Increased execution speed for repetitive workflows",
+        "Organized and persistent command environment",
+        "Premium user experience with micro-animations and instant feedback"
+    ],
+    "projects.8.details.role": "Web Developer / Product Designer",
+    "projects.8.details.responsibilities": [
+        "Interface architecture and UX design",
+        "Implementation of session and command logic",
+        "Development of interactive components with Framer Motion",
+        "Premium aesthetic design with productivity focus",
+        "Interaction optimization through keyboard shortcuts"
+    ],
+    "projects.8.details.technologies": [
+        "React — core application and components",
+        "Tailwind CSS — visual design and responsiveness",
+        "Framer Motion — micro-animations and smooth transitions",
+        "Lucide Icons — consistent iconography per domain",
+        "Vercel — deployment and optimization"
+    ],
+    "projects.8.details.feedback": "The project stands out for its focus on real-world productivity, eliminating the friction of jumping between multiple tools and providing a sleek, powerful control center for the modern developer.",
 
    "testimonials.heading": "What my clients say",
     "testimonials.intro": "Some clients shared their experience working with me.",

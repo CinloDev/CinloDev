@@ -21,7 +21,7 @@
     {
       "id": "work-4",
       "description": "Stardew Guide project.",
-      "imageUrl": "/images/stardew-guide.webp",
+      "imageUrl": "/images/stardew-guide-new.webp",
       "imageHint": "stardew guide"
     },
     {
@@ -43,11 +43,16 @@
       "imageHint": "professional portrait"
     },
     {
-        "id": "logo",
-        "description": "CinloDev logo image",
-        "imageUrl": "/images/logo.png",
-        "imageHint": "logo"
+      "id": "logo",
+      "description": "CinloDev logo image",
+      "imageUrl": "/images/logo.png",
+      "imageHint": "logo"
+    },
+    {
+      "id": "work-7",
+      "description": "Command Center Dev preview.",
+      "imageUrl": "/images/command-center.webp",
+      "imageHint": "command center"
     }
-
   ]
 }
