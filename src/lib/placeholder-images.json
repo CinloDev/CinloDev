@@ -53,6 +53,18 @@
       "description": "Command Center Dev preview.",
       "imageUrl": "/images/command-center.webp",
       "imageHint": "command center"
+    },
+    {
+      "id": "work-8",
+      "description": "MailQuark Dashboard preview.",
+      "imageUrl": "/images/mailquark.png",
+      "imageHint": "mailquark dashboard"
+    },
+    {
+      "id": "work-9",
+      "description": "Campus Educational Platform preview.",
+      "imageUrl": "/images/desafio-express.png",
+      "imageHint": "campus educational platform"
     }
   ]
 }
