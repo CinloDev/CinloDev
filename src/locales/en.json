@@ -39,7 +39,7 @@
     "projects.code": "Code",
 
     "projects.notFound": "Project not found",
-    "projects.backToWork": "Back to projects",
+    "projects.backToWork": "Back to home",
 
     "projects.1.title": "Landing Page Roma: Massages & Reiki",
     "projects.1.description": "Website for Roma Massages & Reiki, a space focused on wellbeing and relaxation.",
@@ -336,7 +336,7 @@
     "projects.8.description": "Workflow execution layer for GitHub, Node.js & Docker. Designed to centralize and streamline developer workflows.",
     "projects.8.details.name": "Command Center Dev",
     "projects.8.details.summary": "Unified command workspace for workflow execution and management.",
-    "projects.8.details.stack": "React · Tailwind · Lucide Icons · Framer Motion",
+    "projects.8.details.stack": "Vanilla JavaScript · Vite · Tailwind CSS",
     "projects.8.details.status": "Deployed / Evolving",
     "projects.8.details.type": "Developer Productivity Tool",
     "projects.8.details.context": "Modern development workflows are fragmented across multiple tools: GitHub for version control, terminal for scripts, and Docker for containers. This fragmentation causes constant context switching and loss of speed. Command Center Dev introduces a structured execution layer to unify these tools into a single interface.",
@@ -369,20 +369,118 @@
     "projects.8.details.responsibilities": [
         "Interface architecture and UX design",
         "Implementation of session and command logic",
-        "Development of interactive components with Framer Motion",
+        "Development of interactive components with Vanilla JavaScript",
         "Premium aesthetic design with productivity focus",
         "Interaction optimization through keyboard shortcuts"
     ],
     "projects.8.details.technologies": [
-        "React — core application and components",
+        "Vanilla JavaScript — core logic and DOM manipulation",
+        "Vite — ultra-fast build tool",
         "Tailwind CSS — visual design and responsiveness",
-        "Framer Motion — micro-animations and smooth transitions",
         "Lucide Icons — consistent iconography per domain",
-        "Vercel — deployment and optimization"
+        "Netlify — deployment and hosting"
     ],
     "projects.8.details.feedback": "The project stands out for its focus on real-world productivity, eliminating the friction of jumping between multiple tools and providing a sleek, powerful control center for the modern developer.",
 
-   "testimonials.heading": "What my clients say",
+    "projects.9.title": "MailQuark — Premium Email Testing Tool",
+    "projects.9.description": "Intercept SMTP emails in real-time, inspect HTML/Text/Headers, and validate dynamic variables to prevent production errors.",
+    "projects.9.details.name": "MailQuark",
+    "projects.9.details.summary": "An email testing platform designed for developers seeking speed, precision, and superior aesthetics.",
+    "projects.9.details.stack": "Next.js 16 · TypeScript · SMTP · Vanilla CSS (Glassmorphism)",
+    "projects.9.details.status": "Deployed / Portfolio Ready",
+    "projects.9.details.type": "Dev Tool / Engineering Utility",
+    "projects.9.details.context": "Born out of 'Dogfooding', MailQuark addresses the need for a lightweight, local, and unrestricted email testing tool. The goal was to create a self-hosted solution that eliminated quantity limits and extra costs associated with third-party services during the development cycle of multiple applications.",
+    "projects.9.details.objective": "Create a custom-built email testing tool that removes quantity limits and eliminates extra costs during application development, raising the standard through:",
+    "projects.9.details.objective.items": [
+        "Full independence from third-party services and quotas",
+        "Instant SMTP interception in local environments",
+        "QA validator to detect unreplaced variables",
+        "Detailed inspection of HTML, Plain Text, and Headers",
+        "Responsive view to validate emails on mobile devices",
+        "Attachment downloads and data JSON export",
+        "Premium aesthetics based on Glassmorphism and Dark Mode"
+    ],
+    "projects.9.details.process": "Development prioritized performance and code readability for public exposure:",
+    "projects.9.details.process.steps": [
+        "Decoupled static architecture for the portfolio version",
+        "Implementation of a custom CSS variable system (no Tailwind)",
+        "Mocking of SMTP server logic for static hosting on Vercel",
+        "Design of realistic templates (invoices, welcomes) for the demo",
+        "UX optimization for fast and fluid interactions"
+    ],
+    "projects.9.details.result": "A robust tool that feels alive and functional, ready to demonstrate senior-level quality.",
+    "projects.9.details.result.items": [
+        "Functional dashboard with real-time filtering and search",
+        "Development of an efficient persistence system capable of processing and storing large attachments using optimized data streams",
+        "Realistic attachment download experience",
+        "Integrated QA system with immediate visual alerts",
+        "Clean, modular code highly valued in technical audits"
+    ],
+    "projects.9.details.role": "Fullstack Developer & Architect",
+    "projects.9.details.responsibilities": [
+        "SMTP server architecture and SQLite database logic (private version)",
+        "Design and development of the Vanilla CSS style system",
+        "Implementation of filtering and search logic",
+        "Creation of the mock dataset and dynamic templates",
+        "Optimization of Dashboard performance and responsiveness",
+        "Design of the 'Engineering-grade' user experience"
+    ],
+    "projects.9.details.technologies": [
+        "Next.js — modern application framework",
+        "TypeScript — robust typing for scalability",
+        "Vanilla CSS — custom design without heavy dependencies",
+        "Lucide Icons — minimalist and functional iconography",
+        "Vercel — optimized deployment platform"
+    ],
+    "projects.9.details.feedback": "The project has been praised for its attention to both visual and technical detail, proving that an internal utility can possess final-product quality.",
+
+    "projects.10.title": "Mariana Casella Campus — Challenge System",
+    "projects.10.description": "Interactive programming learning platform featuring a real-time challenge system, progress tracking, and dynamic feedback.",
+    "projects.10.details.name": "Mariana Casella Academy Campus",
+    "projects.10.details.summary": "Fullstack educational platform focused on teaching programming to real users.",
+    "projects.10.details.stack": "Vue.js · Laravel · PostgreSQL · Tailwind CSS",
+    "projects.10.details.status": "In production / Real users",
+    "projects.10.details.type": "Fullstack Web Application / E-learning",
+    "projects.10.details.context": "Development of a comprehensive platform for managing programming courses and challenges. The project required a highly interactive interface for students and a robust backend capable of handling the progress of hundreds of users in real-time within a production environment.",
+    "projects.10.details.objective": "Modernize and scale the learning experience through:",
+    "projects.10.details.objective.items": [
+        "Interactive challenge system with result validation",
+        "Detailed student progress dashboard",
+        "Seamless integration between Vue.js frontend and Laravel backend",
+        "Efficient management of complex data in PostgreSQL",
+        "Responsive design tailored to study environments"
+    ],
+    "projects.10.details.process": "Work focused on the creation and evolution of critical features for the final product:",
+    "projects.10.details.process.steps": [
+        "Development of interactive components with Vue.js",
+        "Consumption and design of RESTful APIs in Laravel",
+        "Optimization of queries and data structure in PostgreSQL using Neon",
+        "Implementation of complex user flows (onboarding and activation)",
+        "Refactoring of core modules to improve maintainability"
+    ],
+    "projects.10.details.result": "A stable and scalable platform currently successfully serving the academy community.",
+    "projects.10.details.result.items": [
+        "Significant improvement in student engagement",
+        "Reduction of technical incidents in progress tracking",
+        "Modular architecture allowing continuous product growth"
+    ],
+    "projects.10.details.role": "Fullstack Developer",
+    "projects.10.details.responsibilities": [
+        "Development of new frontend features with Vue.js",
+        "Maintenance and evolution of the Laravel API",
+        "Database management and optimization in PostgreSQL",
+        "Debugging and incident resolution in a production environment"
+    ],
+    "projects.10.details.technologies": [
+        "Vue.js — dynamic and reactive interfaces",
+        "Laravel — robust backend and secure APIs",
+        "PostgreSQL — complex relational data management",
+        "Tailwind CSS — fast and consistent visual design",
+        "Git & GitHub — task management and version control"
+    ],
+    "projects.10.details.feedback": "The project stands out for its production stability and the fluidity of the student experience, achieving a technically and functionally high-quality educational product.",
+
+    "testimonials.heading": "What my clients say",
     "testimonials.intro": "Some clients shared their experience working with me.",
     "testimonials.0.quote": "Cintia made the whole process easy. She was always available to clarify doubts and delivered the work on time, with great attention to detail.",
     "testimonials.0.author": "Ayelén Candia",

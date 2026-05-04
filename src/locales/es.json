@@ -39,7 +39,7 @@
     "projects.code": "Código",
 
     "projects.notFound": "Proyecto no encontrado",
-    "projects.backToWork": "Volver a Proyectos",
+    "projects.backToWork": "Volver al inicio",
 
     "projects.1.title": "Landing Page Roma: Masajes y Reiki",
     "projects.1.description": "Sitio web para Roma Masajes y Reiki, un espacio dedicado al bienestar, la relajación y el equilibrio personal.",
@@ -336,7 +336,7 @@
     "projects.8.description": "Capa de ejecución de flujos de trabajo para GitHub, Node.js y Docker. Diseñado para centralizar y agilizar el día a día del desarrollador.",
     "projects.8.details.name": "Command Center Dev",
     "projects.8.details.summary": "Espacio de trabajo unificado para la ejecución de comandos y gestión de flujos de trabajo.",
-    "projects.8.details.stack": "React · Tailwind · Lucide Icons · Framer Motion",
+    "projects.8.details.stack": "Vanilla JavaScript · Vite · Tailwind CSS",
     "projects.8.details.status": "Desplegado / En evolución",
     "projects.8.details.type": "Herramienta de productividad para desarrolladores",
     "projects.8.details.context": "Los flujos de trabajo modernos están fragmentados: GitHub para control de versiones, terminal para scripts y Docker para contenedores. Esta fragmentación causa cambios de contexto constantes y pérdida de velocidad. Command Center Dev introduce una capa de ejecución estructurada para unificar estas herramientas en una sola interfaz.",
@@ -369,18 +369,116 @@
     "projects.8.details.responsibilities": [
         "Diseño de la arquitectura de la interfaz y experiencia de usuario",
         "Implementación de la lógica de sesiones y comandos",
-        "Desarrollo de componentes interactivos con Framer Motion",
+        "Desarrollo de componentes interactivos con Vanilla JavaScript",
         "Diseño estético premium con enfoque en productividad",
         "Optimización de la interacción mediante atajos de teclado"
     ],
     "projects.8.details.technologies": [
-        "React — base de la aplicación y componentes",
+        "Vanilla JavaScript — lógica central y manipulación del DOM",
+        "Vite — herramienta de construcción ultra-rápida",
         "Tailwind CSS — diseño visual y responsive",
-        "Framer Motion — micro-animaciones y transiciones fluidas",
         "Lucide Icons — iconografía consistente por dominio",
-        "Vercel — despliegue y optimización"
+        "Netlify — despliegue y optimización"
     ],
     "projects.8.details.feedback": "El proyecto destaca por su enfoque en la productividad real, eliminando la fricción de saltar entre múltiples herramientas y proporcionando un centro de control elegante y potente para el desarrollador moderno.",
+    
+    "projects.9.title": "MailQuark — Herramienta Premium de Email Testing",
+    "projects.9.description": "Intercepta correos SMTP en tiempo real, inspecciona HTML/Texto/Headers y valida variables dinámicas para evitar errores en producción.",
+    "projects.9.details.name": "MailQuark",
+    "projects.9.details.summary": "Plataforma de testing de correos electrónicos diseñada para desarrolladores que buscan velocidad, precisión y una estética superior.",
+    "projects.9.details.stack": "Next.js 16 · TypeScript · SMTP · Vanilla CSS (Glassmorphism)",
+    "projects.9.details.status": "Desplegado / Portfolio Ready",
+    "projects.9.details.type": "Dev Tool / Herramienta de Ingeniería",
+    "projects.9.details.context": "Nacido por 'Dogfooding', MailQuark resuelve la necesidad de una herramienta de testing de correos ligera, local y sin restricciones. El objetivo fue crear una solución propia que eliminara los límites de cantidad y los costes extra asociados a servicios de terceros durante el ciclo de desarrollo de múltiples aplicaciones.",
+    "projects.9.details.objective": "Crear una herramienta de uso propio para el testeo de emails que no me limitara a cierta cantidad ni me generara gastos extra durante el desarrollo de mis aplicaciones, elevando el estándar mediante:",
+    "projects.9.details.objective.items": [
+        "Independencia total de servicios de terceros y sus cuotas",
+        "Intercepción SMTP instantánea en entorno local",
+        "Validador de QA para detectar variables no reemplazadas",
+        "Inspección detallada de HTML, Texto Plano y Headers",
+        "Vista responsiva para validar correos en móviles",
+        "Descarga de adjuntos y exportación de JSON de datos",
+        "Estética premium basada en Glassmorphism y Modo Oscuro"
+    ],
+    "projects.9.details.process": "El desarrollo priorizó la performance y la legibilidad del código para su exposición pública:",
+    "projects.9.details.process.steps": [
+        "Arquitectura estática desacoplada para la versión de portfolio",
+        "Implementación de un sistema de variables CSS personalizado (no Tailwind)",
+        "Mockeo de lógica de servidor SMTP para hosting estático en Vercel",
+        "Diseño de plantillas realistas (facturas, bienvenidas) para la demo",
+        "Optimización de la UX para interacciones rápidas y fluidas"
+    ],
+    "projects.9.details.result": "Una herramienta robusta que se siente viva y funcional, lista para demostrar calidad senior.",
+    "projects.9.details.result.items": [
+        "Dashboard funcional con filtrado y búsqueda en tiempo real",
+        "Desarrollo de un sistema de persistencia eficiente capaz de procesar y almacenar archivos adjuntos de gran tamaño mediante flujos de datos optimizados",
+        "Experiencia de descarga de adjuntos realista",
+        "Sistema de QA integrado con alertas visuales inmediatas",
+        "Código limpio y modular altamente valorado en auditorías técnicas"
+    ],
+    "projects.9.details.role": "Fullstack Developer & Architect",
+    "projects.9.details.responsibilities": [
+        "Arquitectura del servidor SMTP y lógica de base de datos SQLite (versión privada)",
+        "Diseño y desarrollo del sistema de estilos Vanilla CSS",
+        "Implementación de la lógica de filtrado y búsqueda",
+        "Creación del set de datos mock y plantillas dinámicas",
+        "Optimización del rendimiento y respuesta del Dashboard",
+        "Diseño de la experiencia de usuario 'Engineering-grade'"
+    ],
+    "projects.9.details.technologies": [
+        "Next.js — framework de aplicaciones modernas",
+        "TypeScript — tipado robusto para escalabilidad",
+        "Vanilla CSS — diseño personalizado sin dependencias pesadas",
+        "Lucide Icons — iconografía minimalista y funcional",
+        "Vercel — plataforma de despliegue optimizada"
+    ],
+    "projects.9.details.feedback": "El proyecto ha sido elogiado por su atención al detalle visual y técnico, demostrando que una herramienta de uso interno puede tener una calidad de producto final.",
+
+    "projects.10.title": "Campus Academia Mariana Casella — Sistema de Desafíos",
+    "projects.10.description": "Plataforma interactiva de aprendizaje de programación con sistema de desafíos en tiempo real, gestión de progreso y feedback dinámico.",
+    "projects.10.details.name": "Campus Academia Mariana Casella",
+    "projects.10.details.summary": "Plataforma educativa fullstack orientada a la enseñanza de programación con usuarios reales.",
+    "projects.10.details.stack": "Vue.js · Laravel · PostgreSQL · Tailwind CSS",
+    "projects.10.details.status": "En producción / Usuarios reales",
+    "projects.10.details.type": "Aplicación Web Fullstack / E-learning",
+    "projects.10.details.context": "Desarrollo de una plataforma integral para la gestión de cursos y desafíos de programación. El proyecto requería una interfaz altamente interactiva para los estudiantes y un backend robusto capaz de manejar el progreso de cientos de usuarios en tiempo real en un entorno productivo.",
+    "projects.10.details.objective": "Modernizar y escalar la experiencia de aprendizaje mediante:",
+    "projects.10.details.objective.items": [
+        "Sistema de desafíos interactivos con validación de resultados",
+        "Panel de progreso detallado para el estudiante",
+        "Integración fluida entre el frontend en Vue.js y el backend en Laravel",
+        "Gestión eficiente de datos complejos en PostgreSQL",
+        "Diseño responsive adaptado a entornos de estudio"
+    ],
+    "projects.10.details.process": "El trabajo se centró en la creación y evolución de funcionalidades críticas para el producto final:",
+    "projects.10.details.process.steps": [
+        "Desarrollo de componentes interactivos con Vue.js",
+        "Consumo y diseño de APIs RESTful en Laravel",
+        "Optimización de consultas y estructura de datos en PostgreSQL utilizando Neon",
+        "Implementación de flujos de usuario complejos (onboarding y activación)",
+        "Refactorización de módulos core para mejorar la mantenibilidad"
+    ],
+    "projects.10.details.result": "Una plataforma estable y escalable que actualmente sirve a la comunidad de la academia con éxito.",
+    "projects.10.details.result.items": [
+        "Mejora significativa en el engagement de los estudiantes",
+        "Reducción de incidencias técnicas en el seguimiento de progreso",
+        "Arquitectura modular que permite el crecimiento continuo del producto"
+    ],
+    "projects.10.details.role": "Fullstack Developer",
+    "projects.10.details.responsibilities": [
+        "Desarrollo de nuevas funcionalidades en el frontend con Vue.js",
+        "Mantenimiento y evolución de la API en Laravel",
+        "Gestión y optimización de base de datos en PostgreSQL",
+        "Debugging y resolución de incidencias en entorno productivo"
+    ],
+    "projects.10.details.technologies": [
+        "Vue.js — interfaces dinámicas y reactivas",
+        "Laravel — backend robusto y APIs seguras",
+        "PostgreSQL — gestión de datos relacionales compleja",
+        "Tailwind CSS — diseño visual consistente y rápido",
+        "Git & GitHub — gestión de tareas y control de versiones"
+    ],
+    "projects.10.details.feedback": "El proyecto destaca por su estabilidad en producción y la fluidez de la experiencia del estudiante, logrando un producto educativo de alta calidad técnica y funcional.",
 
     "testimonials.heading": "Lo que dicen mis clientes",
     "testimonials.intro": "Algunos clientes compartieron su experiencia trabajando conmigo.",
