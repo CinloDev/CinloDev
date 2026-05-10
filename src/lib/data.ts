@@ -81,7 +81,7 @@ export const portfolioProjects: PortfolioProject[] = [
         descriptionKey: 'projects.1.description',
         tags: ['HTML', 'CSS', 'JavaScript'],
         image: getImage('work-1'),
-        liveUrl: 'https://romamasajes.com/',
+        liveUrl: 'https://roma-masajes-reiki.netlify.app/',
         details: {
             nameKey: 'projects.1.details.name',
             summaryKey: 'projects.1.details.summary',
@@ -133,7 +133,7 @@ export const portfolioProjects: PortfolioProject[] = [
         descriptionKey: 'projects.4.description',
         tags: ['Next.js', 'React', 'TypeScript', 'Zustand'],
         image: getImage('work-4'),
-        liveUrl: 'https://stardew-guide.vercel.app/',
+        liveUrl: 'https://stardewguide.vercel.app/',
         details: {
             nameKey: 'projects.4.details.name',
             summaryKey: 'projects.4.details.summary',
@@ -157,9 +157,9 @@ export const portfolioProjects: PortfolioProject[] = [
         id: '5', // Command Center
         titleKey: 'projects.8.title',
         descriptionKey: 'projects.8.description',
-        tags: ['JavaScript', 'Vite', 'Tailwind'],
+        tags: ['JavaScript', 'Vite', 'Tailwind', 'Persistence', 'Automation'],
         image: getImage('work-7'),
-        liveUrl: 'https://commandcenterdev.netlify.app/',
+        liveUrl: 'https://vault.cinlodev.com/',
         githubUrl: 'https://github.com/CinloDev/command',
         details: {
             nameKey: 'projects.8.details.name',
@@ -208,13 +208,12 @@ export const portfolioProjects: PortfolioProject[] = [
         },
     },
     {
-        id: '7', // API REST
+        id: '7', // Aura Gym
         titleKey: 'projects.2.title',
         descriptionKey: 'projects.2.description',
-        tags: ['JavaScript', 'Node.js', 'Express'],
+        tags: ['React', 'TypeScript', 'Tailwind', 'Productivity'],
         image: getImage('work-2'),
-        liveUrl: 'https://cinlodev.github.io/asincronismo-js-practico-platzi/',
-        githubUrl: 'https://github.com/CinloDev/api-rest-js-practico',
+        liveUrl: 'https://auragym-bro.netlify.app/',
         details: {
             nameKey: 'projects.2.details.name',
             summaryKey: 'projects.2.details.summary',
@@ -240,7 +239,7 @@ export const portfolioProjects: PortfolioProject[] = [
         descriptionKey: 'projects.3.description',
         tags: ['HTML', 'Tailwind CSS'],
         image: getImage('work-3'),
-        liveUrl: 'https://cinlodev.github.io/travel-landing-tailwind/',
+        liveUrl: 'https://cinlodev.github.io/travel-tailwind/',
         githubUrl: 'https://github.com/CinloDev/travel-tailwind',
         details: {
             nameKey: 'projects.3.details.name',
@@ -267,7 +266,7 @@ export const portfolioProjects: PortfolioProject[] = [
         descriptionKey: 'projects.6.description',
         tags: ['Astro', 'Tailwind CSS', 'TypeScript'],
         image: getImage('work-6'),
-        liveUrl: 'https://cinlodev.github.io/cinlo-portfolio/',
+        liveUrl: 'https://cintialosada-portfolio.netlify.app/',
         githubUrl: 'https://github.com/CinloDev/cinlo-portfolio',
         details: {
             nameKey: 'projects.6.details.name',
