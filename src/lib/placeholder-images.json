@@ -65,6 +65,18 @@
       "description": "Campus Educational Platform preview.",
       "imageUrl": "/images/desafio-express.png",
       "imageHint": "campus educational platform"
+    },
+    {
+      "id": "work-10",
+      "description": "FiguNet Virtual Sticker Album interface.",
+      "imageUrl": "/images/figunet.webp",
+      "imageHint": "figunet album"
+    },
+    {
+      "id": "work-11",
+      "description": "WebP Image Converter interface.",
+      "imageUrl": "/images/convertidor.webp",
+      "imageHint": "webp image converter"
     }
   ]
 }

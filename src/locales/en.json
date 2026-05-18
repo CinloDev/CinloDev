@@ -477,6 +477,104 @@
     ],
     "projects.10.details.feedback": "The project stands out for its production stability and the fluidity of the student experience, achieving a technically and functionally high-quality educational product.",
 
+    "projects.11.title": "FiguNet — Virtual Sticker Album",
+    "projects.11.description": "Interactive digital sticker album platform featuring P2P trading, gamification, offline PWA support, and extreme performance optimization.",
+    "projects.11.details.name": "FiguNet Virtual Album",
+    "projects.11.details.summary": "Interactive digital collecting ecosystem with P2P mechanics and high-fidelity gamification.",
+    "projects.11.details.context": "Physical sticker albums generate immense nostalgia and connection, but digital collecting often lacks the same excitement and fluidity. FiguNet was born to recreate the thrill of traditional collecting on a modern, fast, and ultra-optimized web platform, combining fluid animations, offline compatibility, and a robust trading system.",
+    "projects.11.details.stack": "React · TypeScript · Tailwind CSS · PWA · Service Workers",
+    "projects.11.details.status": "Deployed / In production",
+    "projects.11.details.type": "Interactive Platform / PWA Application",
+    "projects.11.details.objective": "Develop an interactive digital collecting platform with a mobile-first approach and stellar performance, achieving:",
+    "projects.11.details.objective.items": [
+        "Tactile and visual experience identical to peeling and pasting real stickers",
+        "Fluid and secure peer-to-peer (P2P) trading for duplicate stickers",
+        "Full PWA compatibility for mobile installation and offline support",
+        "Premium visual effects and gamification (confetti and neon glow upon completion)",
+        "Image optimization (LCP) and senior-level mobile performance"
+    ],
+    "projects.11.details.process": "Development focused on instant tactile responsiveness and asset optimization for mid-to-low-end devices:",
+    "projects.11.details.process.steps": [
+        "Designed an ultra-responsive mobile interface using Tailwind CSS and tailored HSL colors",
+        "Implemented Service Workers for network caching and 100% offline support (PWA)",
+        "Developed the matching logic for duplicate exchanges (TokenMatch) in the client",
+        "Automated and restructured the asset management system with normalized ISO names",
+        "Integrated canvas-confetti effects and GPU-optimized CSS animations"
+    ],
+    "projects.11.details.result": "A high-fidelity digital product that perfectly recreates the excitement of completing an album.",
+    "projects.11.details.result.items": [
+        "Zero friction on mobile devices with excellent Lighthouse scores",
+        "Uninterrupted offline functionality powered by the Service Worker",
+        "Highly interactive, error-free exchange system",
+        "Immersive experience with high visual impact that delights users"
+    ],
+    "projects.11.details.role": "Fullstack Developer & UX Architect",
+    "projects.11.details.responsibilities": [
+        "Interactive interface design and high-fidelity animations",
+        "Service Worker implementation and production PWA setup",
+        "Collection storage and data flow structuring",
+        "TypeScript debugging and LCP performance optimization",
+        "Deployment and validation in a real production environment"
+    ],
+    "projects.11.details.technologies": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "PWA & Service Workers",
+        "Canvas Confetti",
+        "Zustand"
+    ],
+    "projects.11.details.feedback": "FiguNet stands out as a flagship portfolio piece, demonstrating the ability to carry a complex application from conception to production readiness, with meticulous attention to performance, UX, and mobile accessibility.",
+
+    "projects.12.title": "WebP Image Converter",
+    "projects.12.description": "Ultra-fast client-side web utility for bulk image conversion (PNG/JPG to WebP) with dynamic compression slider and 100% privacy.",
+    "projects.12.details.name": "CinloDev Tools — WebP Converter",
+    "projects.12.details.summary": "Client-side image optimization utility with real-time compression and bulk download.",
+    "projects.12.details.context": "Web loading speed is critical for SEO and conversion rates. I built this tool to dramatically streamline the workflow of designers and developers, enabling local, bulk conversion of JPG and PNG images to WebP directly in the browser, without any external server processing.",
+    "projects.12.details.stack": "React · TypeScript · Tailwind CSS · Web APIs (Canvas & FileReader)",
+    "projects.12.details.status": "Deployed / In production",
+    "projects.12.details.type": "Web Optimization Tool / Web App",
+    "projects.12.details.objective": "Build a static, highly private conversion application that maximizes efficiency and compression:",
+    "projects.12.details.objective.items": [
+        "100% client-side processing without uploading files to any server",
+        "Simultaneous bulk conversion with ZIP package download",
+        "Interactive compression quality slider with live size feedback",
+        "Exact calculation of storage savings percentage",
+        "Drag & drop file upload with instant reaction"
+    ],
+    "projects.12.details.process": "The development focused on extreme rendering speeds and efficient memory management during large file operations:",
+    "projects.12.details.process.steps": [
+        "Designed a clean, modern UI optimized for both desktop and mobile using Tailwind CSS",
+        "Implemented Canvas and FileReader Web APIs to render and compress images locally",
+        "Developed asynchronous compression routines to prevent UI blocking during large conversions",
+        "Integrated the JSZip library to bundle generated WebP images into a single download",
+        "Added multi-format input support and robust file validation checks"
+    ],
+    "projects.12.details.result": "A secure, fast, and incredibly handy utility delivering immediate feedback and outstanding compression ratios.",
+    "projects.12.details.result.items": [
+        "File size reductions of up to 80% while retaining exceptional visual clarity",
+        "Instant, seamless conversion powered entirely by client-side computing",
+        "Guaranteed data privacy with no files stored on any remote databases",
+        "Frictionless, modern user experience with no downloads or installation required"
+    ],
+    "projects.12.details.role": "Fullstack Developer & UX Architect",
+    "projects.12.details.responsibilities": [
+        "Architecting the client-side compression pipeline and Canvas operations",
+        "Designing the interactive user interface with tailored Tailwind styles",
+        "Implementing the bulk processing queue and download mechanics",
+        "Managing memory lifecycles for dynamic Blob URLs",
+        "Deploying and hosting the finished utility on a dedicated subdomain"
+    ],
+    "projects.12.details.technologies": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Canvas API",
+        "FileReader & Blob",
+        "JSZip"
+    ],
+    "projects.12.details.feedback": "This image converter represents a highly practical real-world utility that streamlines web workflows. It stands as a testament to building high-performance client-side apps that look beautiful and prioritize user privacy.",
+
     "testimonials.heading": "What my clients say",
     "testimonials.intro": "Some clients shared their experience working with me.",
     "testimonials.0.quote": "Cintia made the whole process easy. She was always available to clarify doubts and delivered the work on time, with great attention to detail.",

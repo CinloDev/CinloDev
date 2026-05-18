@@ -6,7 +6,7 @@ import es from '@/locales/es.json';
 
 type Locale = 'en' | 'es';
 
-type Translations = Record<string, string>;
+type Translations = Record<string, string | string[]>;
 
 const resources: Record<Locale, Translations> = {
   en,
@@ -16,7 +16,7 @@ const resources: Record<Locale, Translations> = {
 const LocaleContext = createContext<{
   locale: Locale;
   setLocale: (l: Locale) => void;
-  t: (key: string) => string;
+  t: (key: string) => any;
 } | null>(null);
 
 export function LocaleProvider({ children }: { children: React.ReactNode }) {

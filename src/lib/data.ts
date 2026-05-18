@@ -46,9 +46,72 @@ export const services = [
     },
 ];
 
+export interface ImagePlaceholder {
+    id: string;
+    description: string;
+    imageUrl: string;
+    imageHint: string;
+}
+
+export interface PortfolioProjectDetails {
+    nameKey?: string;
+    summaryKey?: string;
+    stackKey?: string;
+    statusKey?: string;
+    typeKey?: string;
+    contextKey?: string;
+    objectiveKey?: string;
+    objectiveItemsKey?: string;
+    processKey?: string;
+    processStepsKey?: string;
+    resultKey?: string;
+    resultItemsKey?: string;
+    roleKey?: string;
+    responsibilitiesKey?: string;
+    technologiesKey?: string;
+    feedbackKey?: string;
+}
+
+export interface PortfolioProject {
+    id: string;
+    titleKey: string;
+    descriptionKey: string;
+    tags: string[];
+    image?: ImagePlaceholder;
+    liveUrl?: string;
+    githubUrl?: string;
+    details?: PortfolioProjectDetails;
+}
+
 const getImage = (id: string) => PlaceHolderImages.find(img => img.id === id);
 
 export const portfolioProjects: PortfolioProject[] = [
+    {
+        id: '10', // FiguNet
+        titleKey: 'projects.11.title',
+        descriptionKey: 'projects.11.description',
+        tags: ['React', 'TypeScript', 'Tailwind CSS', 'PWA', 'Service Workers', 'Gamification'],
+        image: getImage('work-10'),
+        liveUrl: 'https://figunet.com/album',
+        details: {
+            nameKey: 'projects.11.details.name',
+            summaryKey: 'projects.11.details.summary',
+            stackKey: 'projects.11.details.stack',
+            statusKey: 'projects.11.details.status',
+            typeKey: 'projects.11.details.type',
+            contextKey: 'projects.11.details.context',
+            objectiveKey: 'projects.11.details.objective',
+            objectiveItemsKey: 'projects.11.details.objective.items',
+            processKey: 'projects.11.details.process',
+            processStepsKey: 'projects.11.details.process.steps',
+            resultKey: 'projects.11.details.result',
+            resultItemsKey: 'projects.11.details.result.items',
+            roleKey: 'projects.11.details.role',
+            responsibilitiesKey: 'projects.11.details.responsibilities',
+            technologiesKey: 'projects.11.details.technologies',
+            feedbackKey: 'projects.11.details.feedback',
+        },
+    },
     {
         id: '1', // Ayepsicope
         titleKey: 'projects.7.title',
@@ -234,57 +297,29 @@ export const portfolioProjects: PortfolioProject[] = [
         },
     },
     {
-        id: '8', // Travel Landing
-        titleKey: 'projects.3.title',
-        descriptionKey: 'projects.3.description',
-        tags: ['HTML', 'Tailwind CSS'],
-        image: getImage('work-3'),
-        liveUrl: 'https://cinlodev.github.io/travel-tailwind/',
-        githubUrl: 'https://github.com/CinloDev/travel-tailwind',
+        id: '8', // WebP Converter
+        titleKey: 'projects.12.title',
+        descriptionKey: 'projects.12.description',
+        tags: ['React', 'TypeScript', 'Tailwind CSS', 'Web APIs', 'JSZip'],
+        image: getImage('work-11'),
+        liveUrl: 'https://tools.cinlodev.com/',
         details: {
-            nameKey: 'projects.3.details.name',
-            summaryKey: 'projects.3.details.summary',
-            stackKey: 'projects.3.details.stack',
-            statusKey: 'projects.3.details.status',
-            typeKey: 'projects.3.details.type',
-            contextKey: 'projects.3.details.context',
-            objectiveKey: 'projects.3.details.objective',
-            objectiveItemsKey: 'projects.3.details.objective.items',
-            processKey: 'projects.3.details.process',
-            processStepsKey: 'projects.3.details.process.steps',
-            resultKey: 'projects.3.details.result',
-            resultItemsKey: 'projects.3.details.result.items',
-            roleKey: 'projects.3.details.role',
-            responsibilitiesKey: 'projects.3.details.responsibilities',
-            technologiesKey: 'projects.3.details.technologies',
-            feedbackKey: 'projects.3.details.feedback',
-        },
-    },
-    {
-        id: '9', // Portfolio Astro
-        titleKey: 'projects.6.title',
-        descriptionKey: 'projects.6.description',
-        tags: ['Astro', 'Tailwind CSS', 'TypeScript'],
-        image: getImage('work-6'),
-        liveUrl: 'https://cintialosada-portfolio.netlify.app/',
-        githubUrl: 'https://github.com/CinloDev/cinlo-portfolio',
-        details: {
-            nameKey: 'projects.6.details.name',
-            summaryKey: 'projects.6.details.summary',
-            stackKey: 'projects.6.details.stack',
-            statusKey: 'projects.6.details.status',
-            typeKey: 'projects.6.details.type',
-            contextKey: 'projects.6.details.context',
-            objectiveKey: 'projects.6.details.objective',
-            objectiveItemsKey: 'projects.6.details.objective.items',
-            processKey: 'projects.6.details.process',
-            processStepsKey: 'projects.6.details.process.steps',
-            resultKey: 'projects.6.details.result',
-            resultItemsKey: 'projects.6.details.result.items',
-            roleKey: 'projects.6.details.role',
-            responsibilitiesKey: 'projects.6.details.responsibilities',
-            technologiesKey: 'projects.6.details.technologies',
-            feedbackKey: 'projects.6.details.feedback',
+            nameKey: 'projects.12.details.name',
+            summaryKey: 'projects.12.details.summary',
+            stackKey: 'projects.12.details.stack',
+            statusKey: 'projects.12.details.status',
+            typeKey: 'projects.12.details.type',
+            contextKey: 'projects.12.details.context',
+            objectiveKey: 'projects.12.details.objective',
+            objectiveItemsKey: 'projects.12.details.objective.items',
+            processKey: 'projects.12.details.process',
+            processStepsKey: 'projects.12.details.process.steps',
+            resultKey: 'projects.12.details.result',
+            resultItemsKey: 'projects.12.details.result.items',
+            roleKey: 'projects.12.details.role',
+            responsibilitiesKey: 'projects.12.details.responsibilities',
+            technologiesKey: 'projects.12.details.technologies',
+            feedbackKey: 'projects.12.details.feedback',
         },
     },
 ];
