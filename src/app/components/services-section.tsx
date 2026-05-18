@@ -36,9 +36,9 @@ export default function ServicesSection() {
                         <CardDescription className="mb-4 text-base dark:text-white">
                             {t(service.descriptionKey)}
                         </CardDescription>
-                        {(service.includesKeys || service.includes) && (
+                        {service.includesKeys && (
                             <ul className="grid gap-2 sm:grid-cols-2 md:grid-cols-2">
-                                {(service.includesKeys || service.includes).map((incKey: string) => (
+                                {service.includesKeys.map((incKey: string) => (
                                     <li key={incKey} className="text-sm text-muted-foreground dark:text-white">• {t(incKey)}</li>
                                 ))}
                             </ul>

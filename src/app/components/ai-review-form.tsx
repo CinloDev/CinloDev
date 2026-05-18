@@ -39,12 +39,12 @@ export default function ContactForm() {
             </Button>
             </form>
             {state.succeeded && (
-            <Alert variant="success" className="mt-6">
+            <Alert className="mt-6 border-emerald-500 bg-emerald-500/10 text-emerald-700 dark:text-emerald-400">
                 <AlertTitle>¡Mensaje enviado!</AlertTitle>
                 <AlertDescription>Gracias por contactarme. Te responderé pronto.</AlertDescription>
             </Alert>
             )}
-            {state.errors && state.errors.length > 0 && (
+            {state.errors && (state.errors as any).length > 0 && (
             <Alert variant="destructive" className="mt-6">
                 <AlertTitle>Error</AlertTitle>
                 <AlertDescription>Por favor, revisa los campos e inténtalo de nuevo.</AlertDescription>

@@ -476,6 +476,104 @@
         "Git & GitHub — gestión de tareas y control de versiones"
     ],
     "projects.10.details.feedback": "El proyecto destaca por su estabilidad en producción y la fluidez de la experiencia del estudiante, logrando un producto educativo de alta calidad técnica y funcional.",
+    
+    "projects.11.title": "FiguNet — Álbum Virtual de Figuritas",
+    "projects.11.description": "Plataforma de álbum de figuritas digital interactiva con intercambio P2P, gamificación, modo offline con PWA y optimización extrema de rendimiento.",
+    "projects.11.details.name": "FiguNet Virtual Album",
+    "projects.11.details.summary": "Ecosistema de coleccionismo digital interactivo con dinámicas P2P y gamificación de alta fidelidad.",
+    "projects.11.details.context": "Los álbumes de figuritas físicos generan una enorme nostalgia y conexión, pero el coleccionismo digital carece de la misma emoción y fluidez. FiguNet nace para recrear la emoción del coleccionismo tradicional en una plataforma web moderna, rápida y ultra-optimizada, combinando animaciones fluidas, compatibilidad offline y un sistema robusto de intercambio de figuritas.",
+    "projects.11.details.stack": "React · TypeScript · Tailwind CSS · PWA · Service Workers",
+    "projects.11.details.status": "Desplegado / En producción",
+    "projects.11.details.type": "Plataforma interactiva / Aplicación PWA",
+    "projects.11.details.objective": "Desarrollar una plataforma interactiva de coleccionismo digital con enfoque mobile-first y rendimiento estelar, logrando:",
+    "projects.11.details.objective.items": [
+        "Experiencia táctil y visual idéntica a pegar figuritas reales",
+        "Intercambio P2P (Peer-to-Peer) fluido y seguro de figuritas repetidas",
+        "Compatibilidad total PWA para instalación en móviles y soporte offline",
+        "Efectos visuales premium y gamificación (confeti y brillo neon al completar)",
+        "Optimización de imágenes (LCP) y rendimiento móvil senior"
+    ],
+    "projects.11.details.process": "El desarrollo se centró en la respuesta táctil instantánea y la optimización de activos para dispositivos de gama media-baja:",
+    "projects.11.details.process.steps": [
+        "Diseñé una interfaz móvil ultra-responsiva con Tailwind CSS y HSL tailoreado",
+        "Implementé Service Workers para caché de red y soporte 100% offline (PWA)",
+        "Desarrollé la lógica de emparejamiento de intercambio (TokenMatch) en el cliente",
+        "Automaticé y reestructuré el sistema de assets con nombres normalizados ISO",
+        "Integré efectos de canvas-confetti y animaciones CSS optimizadas para la GPU"
+    ],
+    "projects.11.details.result": "Un producto digital de alta fidelidad que recrea a la perfección la emoción de completar un álbum.",
+    "projects.11.details.result.items": [
+        "Cero fricción en dispositivos móviles con puntuaciones excelentes en Lighthouse",
+        "Funcionamiento offline ininterrumpido gracias al Service Worker",
+        "Sistema de intercambio sumamente interactivo y libre de errores de estado",
+        "Experiencia inmersiva y de alto impacto visual que encanta a los usuarios"
+    ],
+    "projects.11.details.role": "Fullstack Developer & UX Architect",
+    "projects.11.details.responsibilities": [
+        "Diseño de interfaz interactiva y animaciones de alta fidelidad",
+        "Implementación del Service Worker y configuración PWA de producción",
+        "Estructuración de almacenamiento y flujo de datos de colecciones",
+        "Resolución de fallos críticos de TypeScript y optimización de rendimiento LCP",
+        "Despliegue y validación en entorno de producción real"
+    ],
+    "projects.11.details.technologies": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "PWA & Service Workers",
+        "Canvas Confetti",
+        "Zustand"
+    ],
+    "projects.11.details.feedback": "FiguNet se ha convertido en una pieza clave del portafolio, demostrando la capacidad de llevar una aplicación compleja desde su concepción hasta un estado de producción real, cuidando meticulosamente cada detalle de performance, experiencia de usuario y accesibilidad móvil.",
+
+    "projects.12.title": "Conversor de Imágenes WebP",
+    "projects.12.description": "Herramienta web cliente-servidor ultra rápida para la conversión masiva de imágenes (PNG/JPG a WebP) con ajuste dinámico de compresión y privacidad 100%.",
+    "projects.12.details.name": "CinloDev Tools — Conversor WebP",
+    "projects.12.details.summary": "Utilidad de optimización de imágenes cliente con compresión en tiempo real y descarga masiva.",
+    "projects.12.details.context": "La velocidad de carga en la web es crítica para el SEO y la retención. Desarrollé esta herramienta para optimizar drásticamente el flujo de trabajo de diseñadores y desarrolladores, permitiendo la conversión local y masiva de imágenes JPG y PNG a WebP directamente en el navegador sin intermediación de servidores externos.",
+    "projects.12.details.stack": "React · TypeScript · Tailwind CSS · Web APIs (Canvas & FileReader)",
+    "projects.12.details.status": "Desplegado / En producción",
+    "projects.12.details.type": "Herramienta de Optimización Web / Web App",
+    "projects.12.details.objective": "Desarrollar una aplicación de conversión estática y privada que maximice la eficiencia y la compresión:",
+    "projects.12.details.objective.items": [
+        "Procesamiento 100% en el cliente sin transferir imágenes a ningún servidor",
+        "Conversión masiva simultánea con empaquetado final en un archivo ZIP",
+        "Control interactivo de la calidad de compresión con previsualización",
+        "Cálculo exacto del porcentaje de ahorro y comparador de pesos",
+        "Soporte de arrastrar y soltar (Drag and Drop) con respuesta inmediata"
+    ],
+    "projects.12.details.process": "El enfoque de desarrollo priorizó la velocidad extrema de renderizado y el uso eficiente de la memoria en conversiones de grandes archivos:",
+    "projects.12.details.process.steps": [
+        "Diseñé una interfaz minimalista y moderna con Tailwind CSS optimizada para escritorio y móviles",
+        "Implementé las Web APIs Canvas y FileReader para renderizar y comprimir imágenes localmente",
+        "Desarrollé la arquitectura de compresión asíncrona para evitar congelamientos en el hilo principal de JS",
+        "Integré la biblioteca JSZip para agrupar las imágenes WebP generadas en un solo archivo descargable",
+        "Añadí soporte para múltiples tipos de entrada y validación robusta de archivos"
+    ],
+    "projects.12.details.result": "Una solución rápida, segura y sumamente útil con feedback inmediato y altos porcentajes de compresión.",
+    "projects.12.details.result.items": [
+        "Ahorros de tamaño de hasta un 80% manteniendo una nitidez visual excelente",
+        "Procesamiento instantáneo gracias al cómputo puro en el lado del cliente",
+        "Privacidad de datos garantizada al no almacenar archivos en bases de datos",
+        "Experiencia fluida y profesional sin necesidad de instalaciones pesadas"
+    ],
+    "projects.12.details.role": "Fullstack Developer & UX Architect",
+    "projects.12.details.responsibilities": [
+        "Estructuración del pipeline de compresión y manipulación de Canvas en el cliente",
+        "Diseño e interfaz interactiva con micro-animaciones en Tailwind",
+        "Lógica de procesamiento masivo y generación de archivos comprimidos",
+        "Manejo avanzado de memoria para la descarga y limpieza de Blob URLs",
+        "Despliegue final y hosting de la herramienta en subdominio dedicado"
+    ],
+    "projects.12.details.technologies": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Canvas API",
+        "FileReader & Blob",
+        "JSZip"
+    ],
+    "projects.12.details.feedback": "El conversor representa una utilidad real y tangible diseñada para agilizar el desarrollo web. Muestra una excelente capacidad para construir aplicaciones puramente client-side, eficientes en rendimiento y con interfaces altamente amigables.",
 
     "testimonials.heading": "Lo que dicen mis clientes",
     "testimonials.intro": "Algunos clientes compartieron su experiencia trabajando conmigo.",
