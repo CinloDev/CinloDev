@@ -11,9 +11,12 @@
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" style="margin:0 4px;"/>
   <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white" style="margin:0 4px;"/>
 </p>
+<p>
+  Personal portfolio of <strong>Cintia Losada (Cinlo)</strong>, frontend web developer focused on building modern, responsive and user-centered web applications.
+</p>
 
-<p align="center">
-  🌐 <a href="https://portfolio.cinlodev.com" target="_blank" rel="noopener noreferrer"><strong>Visit Live Website</strong></a>
+<p>
+  🌐 <a href="https://portfolio.cinlodev.com" target="_blank" rel="noopener noreferrer">Visit Live Website</a>
 </p>
 
 ---
