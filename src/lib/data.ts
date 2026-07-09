@@ -87,32 +87,6 @@ const getImage = (id: string) => PlaceHolderImages.find(img => img.id === id);
 
 export const portfolioProjects: PortfolioProject[] = [
     {
-        id: '10', // FiguNet
-        titleKey: 'projects.11.title',
-        descriptionKey: 'projects.11.description',
-        tags: ['React', 'TypeScript', 'Tailwind CSS', 'PWA', 'Service Workers', 'Gamification'],
-        image: getImage('work-10'),
-        liveUrl: 'https://figunet.com/album',
-        details: {
-            nameKey: 'projects.11.details.name',
-            summaryKey: 'projects.11.details.summary',
-            stackKey: 'projects.11.details.stack',
-            statusKey: 'projects.11.details.status',
-            typeKey: 'projects.11.details.type',
-            contextKey: 'projects.11.details.context',
-            objectiveKey: 'projects.11.details.objective',
-            objectiveItemsKey: 'projects.11.details.objective.items',
-            processKey: 'projects.11.details.process',
-            processStepsKey: 'projects.11.details.process.steps',
-            resultKey: 'projects.11.details.result',
-            resultItemsKey: 'projects.11.details.result.items',
-            roleKey: 'projects.11.details.role',
-            responsibilitiesKey: 'projects.11.details.responsibilities',
-            technologiesKey: 'projects.11.details.technologies',
-            feedbackKey: 'projects.11.details.feedback',
-        },
-    },
-    {
         id: '1', // CinloLabs
         titleKey: 'projects.7.title',
         descriptionKey: 'projects.7.description',
@@ -322,6 +296,32 @@ export const portfolioProjects: PortfolioProject[] = [
             responsibilitiesKey: 'projects.12.details.responsibilities',
             technologiesKey: 'projects.12.details.technologies',
             feedbackKey: 'projects.12.details.feedback',
+        },
+    },
+    {
+        id: '9', // FiguNet
+        titleKey: 'projects.11.title',
+        descriptionKey: 'projects.11.description',
+        tags: ['React', 'TypeScript', 'Tailwind CSS', 'PWA', 'Service Workers', 'Gamification'],
+        image: getImage('work-10'),
+        liveUrl: 'https://figunet.com/album',
+        details: {
+            nameKey: 'projects.11.details.name',
+            summaryKey: 'projects.11.details.summary',
+            stackKey: 'projects.11.details.stack',
+            statusKey: 'projects.11.details.status',
+            typeKey: 'projects.11.details.type',
+            contextKey: 'projects.11.details.context',
+            objectiveKey: 'projects.11.details.objective',
+            objectiveItemsKey: 'projects.11.details.objective.items',
+            processKey: 'projects.11.details.process',
+            processStepsKey: 'projects.11.details.process.steps',
+            resultKey: 'projects.11.details.result',
+            resultItemsKey: 'projects.11.details.result.items',
+            roleKey: 'projects.11.details.role',
+            responsibilitiesKey: 'projects.11.details.responsibilities',
+            technologiesKey: 'projects.11.details.technologies',
+            feedbackKey: 'projects.11.details.feedback',
         },
     },
 ];
