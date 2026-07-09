@@ -113,12 +113,13 @@ export const portfolioProjects: PortfolioProject[] = [
         },
     },
     {
-        id: '1', // Ayepsicope
+        id: '1', // CinloLabs
         titleKey: 'projects.7.title',
         descriptionKey: 'projects.7.description',
-        tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Vercel'],
+        tags: ['Next.js', 'React', 'TypeScript', 'Supabase', 'PostgreSQL', 'Tailwind CSS'],
         image: getImage('work-5'),
-        liveUrl: 'https://ayepsicope.vercel.app/',
+        liveUrl: 'https://labs.cinlodev.com/',
+        githubUrl: 'https://github.com/CinloDev/cinlolabs-showcase',
         details: {
             nameKey: 'projects.7.details.name',
             summaryKey: 'projects.7.details.summary',
@@ -139,12 +140,13 @@ export const portfolioProjects: PortfolioProject[] = [
         },
     },
     {
-        id: '2', // Roma
+        id: '2', // AlDía
         titleKey: 'projects.1.title',
         descriptionKey: 'projects.1.description',
-        tags: ['HTML', 'CSS', 'JavaScript'],
+        tags: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Supabase', 'PostgreSQL'],
         image: getImage('work-1'),
-        liveUrl: 'https://roma-masajes-reiki.netlify.app/',
+        liveUrl: 'https://aldia.cinlodev.com',
+        githubUrl: 'https://github.com/CinloDev/aldia-showcase',
         details: {
             nameKey: 'projects.1.details.name',
             summaryKey: 'projects.1.details.summary',

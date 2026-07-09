@@ -1,9 +1,6 @@
-# *
 User-agent: *
 Allow: /
 
-# Host
-Host: https://www.cinlodev.com
+Host: https://portfolio.cinlodev.com
 
-# Sitemaps
-Sitemap: https://www.cinlodev.com/sitemap.xml
+Sitemap: https://portfolio.cinlodev.com/sitemap.xml
