@@ -41,52 +41,53 @@
     "projects.notFound": "Proyecto no encontrado",
     "projects.backToWork": "Volver al inicio",
 
-    "projects.1.title": "Landing Page Roma: Masajes y Reiki",
-    "projects.1.description": "Sitio web para Roma Masajes y Reiki, un espacio dedicado al bienestar, la relajación y el equilibrio personal.",
-    "projects.1.details.name": "Roma – Masajes & Reiki",
-    "projects.1.details.summary": "Sitio web profesional para servicios de bienestar",
-    "projects.1.details.client": "Cliente: Emprendimiento independiente de masajes terapéuticos y reiki",
-    "projects.1.details.context": "El cliente necesitaba una presencia online profesional para ofrecer sus servicios. Hasta ese momento, la comunicación con potenciales clientes era informal y no existía un sitio web que transmitiera confianza, claridad ni profesionalismo.",
-    "projects.1.details.stack": "HTML · CSS · JavaScript",
-    "projects.1.details.status": "Desplegado y en uso",
-    "projects.1.details.type": "Sitio web institucional",
-    "projects.1.details.objective": "Diseñar y desarrollar un sitio web claro, sobrio y accesible:",
+    "projects.1.title": "AlDía — Gestión Financiera Personal y Colaborativa",
+    "projects.1.description": "Aplicación SaaS fullstack para la gestión inteligente de finanzas personales, presupuestos, metas de ahorro y división de gastos en grupos compartidos.",
+    "projects.1.details.name": "AlDía — Plataforma SaaS de Gestión Financiera",
+    "projects.1.details.summary": "SaaS fullstack en producción para la organización y control de finanzas personales y colaborativas",
+    "projects.1.details.client": "Proyecto Propio / SaaS en Producción",
+    "projects.1.details.context": "Administrar las finanzas personales y los gastos compartidos entre parejas, familias o amigos suele requerir múltiples hojas de cálculo o aplicaciones desarticuladas. AlDía nace con el objetivo de centralizar el control de presupuestos, metas de ahorro y gastos grupales en una única plataforma web moderna, rápida e intuitiva, construida con arquitectura cloud escalable.",
+    "projects.1.details.stack": "Next.js · React · TypeScript · Supabase · PostgreSQL · Tailwind CSS",
+    "projects.1.details.status": "Desplegado en producción",
+    "projects.1.details.type": "Plataforma SaaS / Aplicación Web Fullstack",
+    "projects.1.details.objective": "Diseñar y desarrollar una solución financiera integral y segura que permita:",
     "projects.1.details.objective.items": [
-        "Presente los servicios de forma ordenada",
-        "Transmita calma, confianza y profesionalismo",
-        "Facilite el contacto directo con clientes",
-        "Funcione correctamente en dispositivos móviles"
+        "Centralizar gastos, presupuestos y tarjetas en un dashboard visual interactivo",
+        "Permitir la gestión colaborativa con grupos compartidos y balances independientes",
+        "Establecer y monitorear metas de ahorro personalizadas con seguimiento en tiempo real",
+        "Garantizar la seguridad y el aislamiento de datos mediante Row Level Security (RLS)"
     ],
-    "projects.1.details.process": "El trabajo se abordó de forma integral, priorizando simplicidad, claridad visual y facilidad de uso.",
+    "projects.1.details.process": "El desarrollo abordó el ciclo completo del producto, desde la arquitectura y el modelo de datos hasta la interfaz de usuario:",
     "projects.1.details.process.steps": [
-        "Definí la estructura y jerarquía del sitio",
-        "Diseñé una experiencia visual minimalista alineada con el rubro bienestar",
-        "Desarrollé el frontend con enfoque responsive y mobile-first",
-        "Optimicé la carga, la legibilidad y la navegación",
-        "Configuré el despliegue del sitio en producción"
+        "Diseño arquitectónico fullstack utilizando Next.js App Router, TypeScript y Supabase",
+        "Implementación del modelo de datos relacional en PostgreSQL con políticas estables de RLS",
+        "Desarrollo de una UI/UX moderna con modo claro/oscuro, gráficos con Recharts y animaciones con Framer Motion",
+        "Creación del sistema de grupos colaborativos con invitaciones por enlace y cálculo automático de balances",
+        "Despliegue e integración continua en Vercel y Supabase Storage"
     ],
-    "projects.1.details.result": "El sitio fue desplegado exitosamente y comenzó a utilizarse como canal principal de presentación del servicio.",
+    "projects.1.details.result": "Una plataforma SaaS robusta, moderna y operativa en producción, diseñada para escalar y simplificar el día a día financiero.",
     "projects.1.details.result.items": [
-        "Imagen profesional clara frente a nuevos clientes",
-        "Canal directo de contacto a través del sitio",
-        "Mayor confianza por parte de los usuarios",
-        "Soporte digital alineado con la identidad del emprendimiento"
+        "Control financiero integral con dashboards gráficos claros y accesibles",
+        "Gestión de gastos colaborativos simplificada para parejas, familias y viajes",
+        "Arquitectura cloud moderna de alto rendimiento y seguridad de datos a nivel base de datos",
+        "Experiencia de usuario excepcional en dispositivos de escritorio y móviles"
     ],
-    "projects.1.details.role": "Desarrolladora Web / Frontend",
+    "projects.1.details.role": "Desarrolladora Fullstack & Creadora del Producto",
     "projects.1.details.responsibilities": [
-        "Diseño de interfaz y experiencia de usuario",
-        "Desarrollo completo del sitio web",
-        "Enfoque mobile-first",
-        "Organización del contenido y jerarquía visual",
-        "Deploy y entrega final al cliente"
+        "Diseño integral de arquitectura del sistema y base de datos relacional en PostgreSQL",
+        "Desarrollo frontend y backend completo con Next.js, React y TypeScript",
+        "Implementación de autenticación, seguridad RLS y gestión de almacenamiento",
+        "Diseño de interfaz de usuario (UI/UX) con Tailwind CSS, shadcn/ui y Radix UI",
+        "Despliegue, optimización de performance en producción y documentación técnica"
     ],
     "projects.1.details.technologies": [
-        "HTML5 & CSS3 — estructura semántica y accesible",
-        "JavaScript — interacciones simples y funcionales",
-        "Responsive Design — correcta visualización en todos los dispositivos",
-        "Netlify — despliegue rápido y confiable para proyectos institucionales"
+        "Next.js 16 & React 19 — Framework fullstack moderno con App Router y Server Actions",
+        "TypeScript — Tipado estático robusto y mantenibilidad en todo el codebase",
+        "Supabase & PostgreSQL — Base de datos relacional con Row Level Security (RLS) y Auth",
+        "Tailwind CSS 4 & shadcn/ui — Sistema de diseño responsive con modo claro y oscuro",
+        "Recharts & Framer Motion — Visualización interactiva de datos y animaciones fluidas"
     ],
-    "projects.1.details.feedback": "El cliente destacó la claridad al presentar los servicios, la estética profesional y armoniosa, y la facilidad para compartir el sitio con nuevos clientes. El proyecto cumplió su objetivo principal: convertirse en una herramienta real de trabajo, no solo en una página informativa.",
+    "projects.1.details.feedback": "Al ser una plataforma SaaS en producción de código cerrado, se desarrolló un repositorio de Showcase técnico que documenta exhaustivamente la visión, arquitectura, seguridad y modelo de datos del producto, demostrando un alto estándar de calidad en ingeniería de software y diseño de producto digital.",
     "projects.labels.stack": "Stack",
     "projects.labels.status": "Estado",
     "projects.labels.type": "Tipo",
@@ -283,51 +284,53 @@
     ],
     "projects.6.details.feedback": "Este proyecto permitió afianzar fundamentos de frontend y sirvió como base para adoptar herramientas y arquitecturas más modernas.",
 
-    "projects.7.title": "Landing Page Ayepsicope — Plataforma Psicopedagógica",
-    "projects.7.description": "Aplicación web desarrollada con Next.js, TypeScript y Tailwind CSS, desplegada en Vercel.",
-    "projects.7.details.name": "Ayepsicope",
-    "projects.7.details.summary": "Implementado con Next.js, TypeScript y Tailwind CSS, desplegado en Vercel. Incluye envío de emails, sistema inicial de turnos y base de panel administrativo en desarrollo. Proyecto en evolución desde una landing institucional hacia una plataforma digital con funcionalidades de gestión y escalabilidad fullstack.",
-    "projects.7.details.context": "Cliente independiente que necesitaba profesionalizar su presencia online y construir una base técnica para escalar hacia una plataforma de servicios y productos digitales.",
-    "projects.7.details.stack": "Next.js · TypeScript · Tailwind CSS · Vercel",
-    "projects.7.details.status": "En desarrollo (desplegado para testing)",
-    "projects.7.details.type": "Sitio institucional + plataforma en desarrollo",
-    "projects.7.details.objective": "Objetivos principales:",
+    "projects.7.title": "CinloLabs — SaaS B2B para Laboratorios de Mecánica Dental",
+    "projects.7.description": "Plataforma SaaS B2B multi-tenant que digitaliza la gestión operativa integral de laboratorios dentales y su comunicación en tiempo real con odontólogos.",
+    "projects.7.details.name": "CinloLabs — SaaS B2B de Gestión Operativa",
+    "projects.7.details.summary": "Plataforma SaaS fullstack en producción con arquitectura multi-tenant para laboratorios dentales y clínicas odontológicas",
+    "projects.7.details.client": "SaaS B2B Propio / En Producción",
+    "projects.7.details.context": "Los laboratorios de mecánica dental tradicionalmente gestionan sus órdenes de trabajo, pacientes y entregas en planillas o cuadernos físicos, careciendo de trazabilidad y de un canal formal con los odontólogos. CinloLabs resuelve esta fragmentación centralizando toda la operación en una plataforma cloud multi-tenant con portales especializados para operadores del laboratorio y odontólogos clientes.",
+    "projects.7.details.stack": "Next.js · React · TypeScript · Supabase · PostgreSQL · Tailwind CSS",
+    "projects.7.details.status": "En producción (clientes reales en testing)",
+    "projects.7.details.type": "Plataforma SaaS B2B / Multi-Tenant Fullstack",
+    "projects.7.details.objective": "Modernizar y automatizar el ciclo operativo de laboratorios dentales mediante:",
     "projects.7.details.objective.items": [
-        "Consolidar una presencia online profesional",
-        "Centralizar el contacto con pacientes",
-        "Incorporar gestión inicial de turnos",
-        "Desarrollar un panel administrativo base",
-        "Preparar la base para una futura tienda de contenido digital"
+        "Digitalizar la recepción, planificación y trazabilidad completa de órdenes protésicas",
+        "Ofrecer un portal dedicado a odontólogos para seguimiento en tiempo real del estado de sus trabajos",
+        "Proveer arquitectura multi-tenant aislada con Row Level Security (RLS) en PostgreSQL",
+        "Generar landing pages personalizables por laboratorio con sistema de theming integrado"
     ],
-    "projects.7.details.process": "Enfoque y estrategia: desarrollo incremental orientado a validar rápido sin perder escalabilidad técnica.",
+    "projects.7.details.process": "Diseño e implementación integral de producto y arquitectura con estándares de nivel empresarial:",
     "projects.7.details.process.steps": [
-        "Iteraciones cortas con feedback del cliente",
-        "Priorización de funcionalidades críticas",
-        "Separación clara entre UI y lógica de negocio",
-        "Base técnica preparada para integrar Supabase y autenticación"
+        "Arquitectura modular Feature-Driven (FDA) dividida en dominios estrictos (platform, tenant, products, core)",
+        "Implementación de CI que fuerza límites arquitectónicos (check-boundaries) e impide acoplamientos prohibidos",
+        "Seguridad robusta multinivel: aislamiento multi-tenant por software y Row Level Security (RLS) en base de datos",
+        "Desarrollo de portales responsivos mobile-first adaptados a la operatoria en laboratorio y consultorio dental",
+        "Sistema de landing pages por tenant con plantillas y personalización visual (Theming)"
     ],
-    "projects.7.details.result": "Estado actual: prototipo en desarrollo desplegado para testing, con funcionalidades institucionales y base para evolucionar a producto fullstack.",
+    "projects.7.details.result": "Un SaaS B2B robusto, escalable y operativo en producción que transforma la gestión diaria del laboratorio dental.",
     "projects.7.details.result.items": [
-        "Base sólida para escalar hacia producto digital",
-        "Canal de contacto centralizado y validado",
-        "Panel administrativo inicial y gestión de turnos en desarrollo"
+        "Control operativo y trazabilidad absoluta desde la recepción de la orden hasta su entrega y facturación",
+        "Comunicación fluida y transparente entre laboratorios y odontólogos a través de portales en tiempo real",
+        "Aislamiento de datos de alta seguridad garantizado por arquitectura multi-tenant y políticas de RLS",
+        "Estructura modular escalable lista para expandir a nuevos segmentos del sector dental"
     ],
-    "projects.7.details.role": "Desarrolladora Web / Frontend",
+    "projects.7.details.role": "Creadora del Producto & Arquitecta Fullstack",
     "projects.7.details.responsibilities": [
-           "Definición de la arquitectura frontend con enfoque escalable",
-           "Desarrollo de interfaz y lógica de formularios y solicitud de turnos",
-           "Implementación mobile-first priorizando accesibilidad y usabilidad",
-           "Organización del código para facilitar futuras integraciones fullstack",
-           "Deploy continuo, testing y validación en entorno Vercel"
+        "Concepción integral del producto SaaS B2B, modelado de negocio y arquitectura del sistema",
+        "Diseño arquitectónico Feature-Driven Architecture (FDA) con separación de dominios verificada en CI",
+        "Desarrollo fullstack end-to-end con Next.js, React, TypeScript y Tailwind CSS",
+        "Diseño de base de datos relacional multi-tenant en PostgreSQL y políticas Row Level Security en Supabase",
+        "Implementación de RBAC, auditoría y optimización extrema para operatoria móvil y escritorio"
     ],
     "projects.7.details.technologies": [
-        "Next.js — App Router y SSR para escalabilidad",
-        "TypeScript — tipado para mantenibilidad",
-        "Tailwind CSS — sistema de estilos eficiente",
-        "Vercel — deploy continuo y previews",
-        "Supabase (planificado) — BDD y auth para evolución fullstack"
+        "Next.js & React — Framework fullstack con App Router, SSR y Server Actions",
+        "TypeScript — Tipado estático estricto y contratos entre dominios arquitectónicos",
+        "Supabase & PostgreSQL — Base de datos relacional multi-tenant con Row Level Security (RLS) y Auth",
+        "Feature-Driven Architecture — Dominio modular estricto enforced por CI pipelines",
+        "Tailwind CSS — UI/UX responsiva y mobile-first para laboratorio y consultorio"
     ],
-    "projects.7.details.feedback": "Evolución exitosa desde una landing hacia una base técnica preparada para convertirse en producto digital. El enfoque incremental permitió validar rápidamente con el cliente, mientras que las decisiones técnicas (Next.js + arquitectura escalable) dejan el proyecto listo para integrar base de datos, autenticación y funcionalidades más complejas sin necesidad de refactorizaciones profundas.",
+    "projects.7.details.feedback": "CinloLabs demuestra un estándar superior en ingeniería de software, arquitectura de producto digital y seguridad multi-tenant. Al tratarse de una plataforma comercial de código cerrado, se construyó un repositorio Showcase exhaustivo con documentación sobre visión, ADRs, modelo de datos y aislamiento arquitectónico.",
     
     "projects.8.title": "Command Center Dev",
     "projects.8.description": "Centro de control avanzado para flujos de trabajo de ingeniería. Automatiza la creación de ramas, gestiona contenedores Docker y centraliza comandos de Node.js en una interfaz premium con persistencia local.",

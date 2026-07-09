@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "work-1",
-      "description": "Roma landing page.",
-      "imageUrl": "/images/landing-roma.webp",
-      "imageHint": "roma landing"
+      "description": "AlDía SaaS platform dashboard.",
+      "imageUrl": "/images/aldia.webp",
+      "imageHint": "aldia dashboard"
     },
     {
       "id": "work-2",
@@ -26,9 +26,9 @@
     },
     {
       "id": "work-5",
-      "description": "Ayepsicope preview image.",
-      "imageUrl": "/images/ayepsicope.webp",
-      "imageHint": "ayepsicope"
+      "description": "CinloLabs B2B dental lab operational SaaS platform dashboard.",
+      "imageUrl": "/images/cinlolabs.webp",
+      "imageHint": "cinlolabs dashboard"
     },
     {
       "id": "work-6",
