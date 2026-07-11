@@ -597,9 +597,9 @@
     "testimonials.4.company": "Creadora, Tejiendo con Ranchesca",
 
    "about.title": "Sobre Mí",
-    "about.p1": "Soy Frontend Developer con enfoque en construir productos digitales funcionales, claros y escalables. Trabajo principalmente con JavaScript, TypeScript, React y Next.js aplicando buenas prácticas de desarrollo, estructura mantenible y atención a la experiencia de usuario.",
-    "about.p2": "Tengo experiencia integrando APIs, componentizando UI y coordinando entregas con Git y flujos de colaboración.",
-    "about.p3": "Vengo del diseño, lo que me permite entender el producto más allá del código: desempeño atención al rendimiento, consistencia visual y estándares de accesibilidad. Actualmente busco integrarme a un equipo donde pueda aportar valor desde el primer día, asumir nuevos desafíos y seguir creciendo profesionalmente en el ecosistema tech.",
+    "about.p1": "Soy Frontend Developer especializada en el desarrollo de aplicaciones web modernas y productos SaaS. Trabajo principalmente con TypeScript, React, Next.js y Vue, creando interfaces escalables, mantenibles y enfocadas en la experiencia de usuario.",
+    "about.p2": "He desarrollado proyectos completos que abarcan desde la arquitectura frontend hasta la integración con Laravel, Supabase y PostgreSQL, implementando autenticación, almacenamiento, procesamiento de archivos, paneles administrativos y funcionalidades impulsadas por IA.",
+    "about.p3": "Mi experiencia previa en diseño me permite tomar decisiones considerando tanto la calidad visual como la usabilidad, la accesibilidad y el rendimiento. Disfruto construir productos bien estructurados, resolver problemas complejos y transformar ideas en aplicaciones listas para producción.",
 
     "skills.title": "Tecnologías y herramientas",
     "skills.intro": "Trabajo con un stack moderno orientado a performance, mantenibilidad y buenas prácticas.",
@@ -625,8 +625,8 @@
 
     "hero.whatsapp": "Contactar por WhatsApp",
     "hero.title": "Cintia Losada",
-    "hero.lead": "Frontend Developer con experiencia en integración backend",
-    "hero.cta": "Construyo interfaces con React y Vue, integradas con APIs y backend en Node.js. Experiencia en entornos reales trabajando con Laravel y PostgreSQL.",
+    "hero.lead": "Frontend Developer especializada en aplicaciones web modernas",
+    "hero.cta": "Diseño y desarrollo interfaces escalables con React, Next.js y Vue. Integro aplicaciones con APIs, Laravel, Supabase y PostgreSQL, construyendo productos SaaS enfocados en rendimiento, experiencia de usuario y arquitectura mantenible.",
     "hero.contact": "Contáctame",
     "hero.viewProjects": "Ver Proyectos",
     "hero.downloadCv": "Descargar CV",

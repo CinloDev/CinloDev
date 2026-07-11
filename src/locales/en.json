@@ -597,9 +597,9 @@
     "testimonials.4.company": "Creator, Tejiendo con Ranchesca",
 
    "about.title": "About Me",
-    "about.p1": "I am a Frontend Developer focused on building functional, clear, and scalable digital products. I work mainly with JavaScript, TypeScript, React, and Next.js, applying best development practices, maintainable structure, and strong attention to user experience.",
-    "about.p2": "I have experience integrating APIs, building reusable UI components, and collaborating through Git-based workflows.",
-    "about.p3": "My background in design allows me to approach product development beyond the code, with attention to performance, visual consistency, and accessibility standards. I am looking for an opportunity in the tech industry, ideally in a remote environment, where I can grow within a team and contribute from day one.",
+    "about.p1": "I am a Frontend Developer specializing in modern web applications and SaaS products. I work primarily with TypeScript, React, Next.js, and Vue, creating scalable, maintainable interfaces focused on user experience.",
+    "about.p2": "I have developed end-to-end projects ranging from frontend architecture to integration with Laravel, Supabase, and PostgreSQL, implementing authentication, storage, file processing, admin dashboards, and AI-powered features.",
+    "about.p3": "My background in design allows me to make decisions considering visual quality as well as usability, accessibility, and performance. I enjoy building well-structured products, solving complex problems, and transforming ideas into production-ready applications.",
 
     "skills.title": "Technologies & tools",
     "skills.intro": "I work with a modern stack focused on performance, maintainability and best practices.",
@@ -625,8 +625,8 @@
 
     "hero.whatsapp": "Contact via WhatsApp",
     "hero.title": "Cintia Losada",
-    "hero.lead": "Frontend Developer with backend integration experience",
-    "hero.cta": "I build interfaces with React and Vue, integrated with APIs and Node.js backend. Experience in real-world environments working with Laravel and PostgreSQL.",
+    "hero.lead": "Frontend Developer specializing in modern web applications",
+    "hero.cta": "I design and develop scalable interfaces with React, Next.js, and Vue. I integrate applications with APIs, Laravel, Supabase, and PostgreSQL, building SaaS products focused on performance, user experience, and maintainable architecture.",
     "hero.contact": "Contact me",
     "hero.viewProjects": "View Projects",
     "hero.downloadCv": "Download CV",
