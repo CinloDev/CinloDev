@@ -529,54 +529,54 @@
     ],
     "projects.11.details.feedback": "FiguNet se ha convertido en una pieza clave del portafolio, demostrando la capacidad de llevar una aplicación compleja desde su concepción hasta un estado de producción real, cuidando meticulosamente cada detalle de performance, experiencia de usuario y accesibilidad móvil.",
 
-    "projects.12.title": "Conversor de Imágenes WebP",
-    "projects.12.description": "Herramienta web cliente-servidor ultra rápida para la conversión masiva de imágenes (PNG/JPG a WebP) con ajuste dinámico de compresión y privacidad 100%.",
-    "projects.12.details.name": "CinloDev Tools — Conversor WebP",
-    "projects.12.details.summary": "Utilidad de optimización de imágenes cliente con compresión en tiempo real y descarga masiva.",
-    "projects.12.details.context": "La velocidad de carga en la web es crítica para el SEO y la retención. Desarrollé esta herramienta para optimizar drásticamente el flujo de trabajo de diseñadores y desarrolladores, permitiendo la conversión local y masiva de imágenes JPG y PNG a WebP directamente en el navegador sin intermediación de servidores externos.",
-    "projects.12.details.stack": "React · TypeScript · Tailwind CSS · Web APIs (Canvas & FileReader)",
+    "projects.12.title": "NekoTools — Suite Web de Productividad y Utilidades Creativas",
+    "projects.12.description": "Plataforma web moderna con herramientas client-side para desarrolladores y creadores digitales. Incluye conversor WebP, redimensionador de imágenes, extractor de paletas y generadores enfocados en privacidad y velocidad.",
+    "projects.12.details.name": "NekoTools",
+    "projects.12.details.summary": "Colección premium de utilidades creativas y de desarrollo procesadas 100% en el navegador sin servidores ni rastreo.",
+    "projects.12.details.context": "Muchas herramientas online de conversión o edición visual exigen subir archivos privados a servidores externos, mostrando publicidad intrusiva y limitando la velocidad. NekoTools resuelve esto ejecutando todo el procesamiento localmente en el navegador del usuario mediante Web Workers y Canvas API, garantizando máxima velocidad, privacidad absoluta y cero rastreo.",
+    "projects.12.details.stack": "React 18 · TypeScript · Vite · Tailwind CSS v4 · Web Workers",
     "projects.12.details.status": "Desplegado / En producción",
-    "projects.12.details.type": "Herramienta de Optimización Web / Web App",
-    "projects.12.details.objective": "Desarrollar una aplicación de conversión estática y privada que maximice la eficiencia y la compresión:",
+    "projects.12.details.type": "Suite de herramientas y utilidades para desarrolladores",
+    "projects.12.details.objective": "Proporcionar una colección rápida, segura y elegante de herramientas creativas y para desarrolladores:",
     "projects.12.details.objective.items": [
-        "Procesamiento 100% en el cliente sin transferir imágenes a ningún servidor",
-        "Conversión masiva simultánea con empaquetado final en un archivo ZIP",
-        "Control interactivo de la calidad de compresión con previsualización",
-        "Cálculo exacto del porcentaje de ahorro y comparador de pesos",
-        "Soporte de arrastrar y soltar (Drag and Drop) con respuesta inmediata"
+        "Conversor y optimizador de imágenes a formato WebP por lotes",
+        "Redimensionador y editor visual de imágenes (Image Resizer)",
+        "Extractor inteligente de paletas de color desde imágenes",
+        "Conversor instantáneo de imágenes a cadenas de datos Base64",
+        "Transformador de archivos SVG a componentes limpios de React",
+        "Procesamiento 100% Client-Side en el navegador sin subida de archivos",
+        "Interfaz moderna sin cuentas, sin publicidad y sin seguimiento"
     ],
-    "projects.12.details.process": "El enfoque de desarrollo priorizó la velocidad extrema de renderizado y el uso eficiente de la memoria en conversiones de grandes archivos:",
+    "projects.12.details.process": "El desarrollo se centró en la arquitectura modular y el rendimiento en el cliente:",
     "projects.12.details.process.steps": [
-        "Diseñé una interfaz minimalista y moderna con Tailwind CSS optimizada para escritorio y móviles",
-        "Implementé las Web APIs Canvas y FileReader para renderizar y comprimir imágenes localmente",
-        "Desarrollé la arquitectura de compresión asíncrona para evitar congelamientos en el hilo principal de JS",
-        "Integré la biblioteca JSZip para agrupar las imágenes WebP generadas en un solo archivo descargable",
-        "Añadí soporte para múltiples tipos de entrada y validación robusta de archivos"
+        "Arquitectura modular por características (Feature-driven architecture)",
+        "Implementación de Web Workers para tareas pesadas de procesamiento visual sin bloquear la UI",
+        "Uso extensivo de la Canvas API para manipulación e inspección de gráficos en tiempo real",
+        "Diseño de un sistema visual cohesivo, responsivo y accesible con Tailwind CSS v4",
+        "Optimización de rendimiento sin dependencias de backend ni latencia de red"
     ],
-    "projects.12.details.result": "Una solución rápida, segura y sumamente útil con feedback inmediato y altos porcentajes de compresión.",
+    "projects.12.details.result": "Una suite de utilidades rápida, confiable y con un diseño impecable para el día a día de creadores digitales.",
     "projects.12.details.result.items": [
-        "Ahorros de tamaño de hasta un 80% manteniendo una nitidez visual excelente",
-        "Procesamiento instantáneo gracias al cómputo puro en el lado del cliente",
-        "Privacidad de datos garantizada al no almacenar archivos en bases de datos",
-        "Experiencia fluida y profesional sin necesidad de instalaciones pesadas"
+        "Privacidad garantizada: los archivos se procesan en memoria y nunca abandonan el dispositivo",
+        "Conversión y procesamiento visual instantáneo sin latencia de servidores",
+        "Experiencia de usuario intuitiva con soporte completo para modo oscuro y animaciones fluidas",
+        "Estructura escalable lista para incorporar nuevas herramientas y utilidades"
     ],
-    "projects.12.details.role": "Fullstack Developer & UX Architect",
+    "projects.12.details.role": "Desarrolladora Frontend & Creadora de Producto",
     "projects.12.details.responsibilities": [
-        "Estructuración del pipeline de compresión y manipulación de Canvas en el cliente",
-        "Diseño e interfaz interactiva con micro-animaciones en Tailwind",
-        "Lógica de procesamiento masivo y generación de archivos comprimidos",
-        "Manejo avanzado de memoria para la descarga y limpieza de Blob URLs",
-        "Despliegue final y hosting de la herramienta en subdominio dedicado"
+        "Diseño integral de la interfaz, arquitectura frontend y experiencia de usuario",
+        "Desarrollo de herramientas de conversión visual, extracción de paletas y manipulaciones Canvas",
+        "Optimización del rendimiento client-side usando Web Workers y TypeScript",
+        "Diseño de una experiencia visual limpia, sin anuncios ni distracciones"
     ],
     "projects.12.details.technologies": [
-        "React",
-        "TypeScript",
-        "Tailwind CSS",
-        "Canvas API",
-        "FileReader & Blob",
-        "JSZip"
+        "React 18 — interfaz de usuario reactiva, modular y performante",
+        "TypeScript — tipado estricto y seguridad en el manejo de buffers y archivos",
+        "Vite — entorno de desarrollo ultrarrápido y empaquetado optimizado",
+        "Tailwind CSS v4 — sistema de diseño moderno y responsive",
+        "Canvas API & Web Workers — procesamiento gráfico de alto rendimiento en el cliente"
     ],
-    "projects.12.details.feedback": "El conversor representa una utilidad real y tangible diseñada para agilizar el desarrollo web. Muestra una excelente capacidad para construir aplicaciones puramente client-side, eficientes en rendimiento y con interfaces altamente amigables.",
+    "projects.12.details.feedback": "NekoTools demuestra cómo construir aplicaciones web verdaderamente útiles, veloces y respetuosas con la privacidad del usuario, aprovechando al máximo las capacidades modernas del navegador.",
 
     "testimonials.heading": "Lo que dicen mis clientes",
     "testimonials.intro": "Algunos clientes compartieron su experiencia trabajando conmigo.",
