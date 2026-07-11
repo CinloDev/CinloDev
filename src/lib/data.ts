@@ -273,12 +273,13 @@ export const portfolioProjects: PortfolioProject[] = [
         },
     },
     {
-        id: '8', // WebP Converter
+        id: '8', // NekoTools
         titleKey: 'projects.12.title',
         descriptionKey: 'projects.12.description',
-        tags: ['React', 'TypeScript', 'Tailwind CSS', 'Web APIs', 'JSZip'],
+        tags: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Web Workers', 'Canvas API'],
         image: getImage('work-11'),
-        liveUrl: 'https://tools.cinlodev.com/',
+        liveUrl: 'https://nekotools.cinlodev.com/',
+        githubUrl: 'https://github.com/CinloDev/nekotools-showcase',
         details: {
             nameKey: 'projects.12.details.name',
             summaryKey: 'projects.12.details.summary',

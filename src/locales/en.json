@@ -529,54 +529,54 @@
     ],
     "projects.11.details.feedback": "FiguNet stands out as a flagship portfolio piece, demonstrating the ability to carry a complex application from conception to production readiness, with meticulous attention to performance, UX, and mobile accessibility.",
 
-    "projects.12.title": "WebP Image Converter",
-    "projects.12.description": "Ultra-fast client-side web utility for bulk image conversion (PNG/JPG to WebP) with dynamic compression slider and 100% privacy.",
-    "projects.12.details.name": "CinloDev Tools — WebP Converter",
-    "projects.12.details.summary": "Client-side image optimization utility with real-time compression and bulk download.",
-    "projects.12.details.context": "Web loading speed is critical for SEO and conversion rates. I built this tool to dramatically streamline the workflow of designers and developers, enabling local, bulk conversion of JPG and PNG images to WebP directly in the browser, without any external server processing.",
-    "projects.12.details.stack": "React · TypeScript · Tailwind CSS · Web APIs (Canvas & FileReader)",
+    "projects.12.title": "NekoTools — Creative & Productivity Developer Web Suite",
+    "projects.12.description": "Modern web platform offering client-side developer and digital creator utilities. Features a WebP converter, visual image resizer, palette extractor, and generators focused on speed and privacy.",
+    "projects.12.details.name": "NekoTools",
+    "projects.12.details.summary": "Premium collection of creative and developer utilities processed 100% locally in the browser with zero server uploads or tracking.",
+    "projects.12.details.context": "Many online image conversion or editing tools require uploading private files to third-party servers, showing intrusive ads and throttling processing speed. NekoTools solves this by running all processing locally within the user's browser using Web Workers and the Canvas API, guaranteeing blazing-fast speed, total privacy, and zero tracking.",
+    "projects.12.details.stack": "React 18 · TypeScript · Vite · Tailwind CSS v4 · Web Workers",
     "projects.12.details.status": "Deployed / In production",
-    "projects.12.details.type": "Web Optimization Tool / Web App",
-    "projects.12.details.objective": "Build a static, highly private conversion application that maximizes efficiency and compression:",
+    "projects.12.details.type": "Developer Utilities & Productivity Suite",
+    "projects.12.details.objective": "Provide a fast, secure, and sleek suite of developer and creative tools:",
     "projects.12.details.objective.items": [
-        "100% client-side processing without uploading files to any server",
-        "Simultaneous bulk conversion with ZIP package download",
-        "Interactive compression quality slider with live size feedback",
-        "Exact calculation of storage savings percentage",
-        "Drag & drop file upload with instant reaction"
+        "Batch image converter and optimizer to WebP format",
+        "Visual image resizer and editor (Image Resizer)",
+        "Smart color palette extractor from images",
+        "Instant image to Base64 data URI string converter",
+        "SVG to clean React component code transformer",
+        "100% client-side local browser processing with no file uploads",
+        "Modern account-free, ad-free, and tracking-free interface"
     ],
-    "projects.12.details.process": "The development focused on extreme rendering speeds and efficient memory management during large file operations:",
+    "projects.12.details.process": "Development focused on modular feature architecture and client-side performance:",
     "projects.12.details.process.steps": [
-        "Designed a clean, modern UI optimized for both desktop and mobile using Tailwind CSS",
-        "Implemented Canvas and FileReader Web APIs to render and compress images locally",
-        "Developed asynchronous compression routines to prevent UI blocking during large conversions",
-        "Integrated the JSZip library to bundle generated WebP images into a single download",
-        "Added multi-format input support and robust file validation checks"
+        "Feature-driven modular architecture",
+        "Implementation of Web Workers for heavy visual processing tasks without blocking the UI",
+        "Extensive use of the Canvas API for real-time graphics inspection and manipulation",
+        "Cohesive, responsive, and accessible UI design system built with Tailwind CSS v4",
+        "Performance optimization with zero backend dependencies or network latency"
     ],
-    "projects.12.details.result": "A secure, fast, and incredibly handy utility delivering immediate feedback and outstanding compression ratios.",
+    "projects.12.details.result": "A fast, reliable, and beautifully designed utility platform for daily digital creation workflows.",
     "projects.12.details.result.items": [
-        "File size reductions of up to 80% while retaining exceptional visual clarity",
-        "Instant, seamless conversion powered entirely by client-side computing",
-        "Guaranteed data privacy with no files stored on any remote databases",
-        "Frictionless, modern user experience with no downloads or installation required"
+        "Guaranteed privacy: files are processed in memory and never leave the device",
+        "Instant visual conversion and processing with zero server latency",
+        "Intuitive user experience with full dark mode support and fluid animations",
+        "Scalable structure ready to integrate new utilities and tools seamlessly"
     ],
-    "projects.12.details.role": "Fullstack Developer & UX Architect",
+    "projects.12.details.role": "Frontend Developer & Product Creator",
     "projects.12.details.responsibilities": [
-        "Architecting the client-side compression pipeline and Canvas operations",
-        "Designing the interactive user interface with tailored Tailwind styles",
-        "Implementing the bulk processing queue and download mechanics",
-        "Managing memory lifecycles for dynamic Blob URLs",
-        "Deploying and hosting the finished utility on a dedicated subdomain"
+        "End-to-end interface design, frontend architecture, and UX engineering",
+        "Development of image conversion tools, color extraction, and Canvas manipulations",
+        "Client-side performance optimization using Web Workers and TypeScript",
+        "Design of a clean, ad-free visual experience"
     ],
     "projects.12.details.technologies": [
-        "React",
-        "TypeScript",
-        "Tailwind CSS",
-        "Canvas API",
-        "FileReader & Blob",
-        "JSZip"
+        "React 18 — reactive, modular, and high-performance user interface",
+        "TypeScript — strict typing and reliable file and buffer manipulation",
+        "Vite — blazing fast dev environment and optimized production builds",
+        "Tailwind CSS v4 — modern, responsive styling and premium design system",
+        "Canvas API & Web Workers — high-performance client-side graphics processing"
     ],
-    "projects.12.details.feedback": "This image converter represents a highly practical real-world utility that streamlines web workflows. It stands as a testament to building high-performance client-side apps that look beautiful and prioritize user privacy.",
+    "projects.12.details.feedback": "NekoTools demonstrates how to build genuinely useful, fast, and privacy-respecting web applications by maximizing modern browser capabilities.",
 
     "testimonials.heading": "What my clients say",
     "testimonials.intro": "Some clients shared their experience working with me.",

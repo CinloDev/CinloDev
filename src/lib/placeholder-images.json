@@ -74,9 +74,9 @@
     },
     {
       "id": "work-11",
-      "description": "WebP Image Converter interface.",
-      "imageUrl": "/images/convertidor.webp",
-      "imageHint": "webp image converter"
+      "description": "NekoTools preview.",
+      "imageUrl": "/images/nekotools.webp",
+      "imageHint": "nekotools"
     }
   ]
 }
