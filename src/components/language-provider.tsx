@@ -27,11 +27,13 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
     if (stored === 'en' || stored === 'es') {
       setLocaleState(stored);
       document.documentElement.lang = stored === 'es' ? 'es' : 'en';
+      document.cookie = `NEXT_LOCALE=${stored}; path=/; max-age=31536000`;
     } else {
       const nav = typeof navigator !== 'undefined' ? navigator.language : 'es';
       const inferred = nav.startsWith('es') ? 'es' : 'en';
       setLocaleState(inferred);
       document.documentElement.lang = inferred;
+      document.cookie = `NEXT_LOCALE=${inferred}; path=/; max-age=31536000`;
     }
   }, []);
 
@@ -39,6 +41,7 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
     setLocaleState(l);
     try {
       localStorage.setItem('locale', l);
+      document.cookie = `NEXT_LOCALE=${l}; path=/; max-age=31536000`;
     } catch {}
     document.documentElement.lang = l === 'es' ? 'es' : 'en';
   };
