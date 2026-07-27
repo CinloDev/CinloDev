@@ -1,6 +1,6 @@
 export const metadata = {
-  alternates: { canonical: 'https://cinlodev.com' },
-  openGraph: { url: 'https://cinlodev.com' },
+  alternates: { canonical: 'https://portfolio.cinlodev.com' },
+  openGraph: { url: 'https://portfolio.cinlodev.com' },
 };
 
 import HeroSection from './components/hero-section';
