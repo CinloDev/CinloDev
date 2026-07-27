@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://www.cinlodev.com',
+  siteUrl: 'https://portfolio.cinlodev.com',
   generateRobotsTxt: true,
   changefreq: 'daily',
   priority: 0.7,

@@ -8,8 +8,8 @@ type Props = {
 export async function generateMetadata({ params }: Props) {
   const { id } = await params as { id: string }
   return {
-    alternates: { canonical: `https://cinlodev.com/projects/${id}` },
-    openGraph: { url: `https://cinlodev.com/projects/${id}` },
+    alternates: { canonical: `https://portfolio.cinlodev.com/projects/${id}` },
+    openGraph: { url: `https://portfolio.cinlodev.com/projects/${id}` },
   }
 }
 
