@@ -4,12 +4,7 @@
 **Building modern SaaS platforms with React, Next.js, TypeScript and scalable architectures.**
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Next.js-000?logo=next.js&logoColor=white" style="margin:0 4px;"/>
-  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" style="margin:0 4px;"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" style="margin:0 4px;"/>
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white" style="margin:0 4px;"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" style="margin:0 4px;"/>
-  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white" style="margin:0 4px;"/>
+  <img src="https://img.shields.io/badge/Next.js-000?logo=next.js&logoColor=white" alt="Next.js" /> <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" alt="React" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white" alt="Supabase" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
 </p>
 <p>
   Personal portfolio of <strong>Cintia Losada (Cinlo)</strong>, frontend web developer focused on building modern, responsive and user-centered web applications.
