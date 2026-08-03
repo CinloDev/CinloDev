@@ -1,0 +1,74 @@
+{
+  "portfolioImages": [
+    {
+      "id": "cinloLabs",
+      "description": "CinloLabs B2B SaaS multi-tenant operational platform dashboard.",
+      "imageUrl": "/images/cinlolabs.webp",
+      "imageHint": "cinlolabs dashboard"
+    },
+    {
+      "id": "alDia",
+      "description": "AlDía SaaS financial management platform dashboard.",
+      "imageUrl": "/images/aldia.webp",
+      "imageHint": "aldia dashboard"
+    },
+    {
+      "id": "mailQuark",
+      "description": "MailQuark developer email testing tool interface.",
+      "imageUrl": "/images/mailquark.png",
+      "imageHint": "mailquark dashboard"
+    },
+    {
+      "id": "nekoTools",
+      "description": "NekoTools client-side productivity tools interface.",
+      "imageUrl": "/images/nekotools.webp",
+      "imageHint": "nekotools tools"
+    },
+    {
+      "id": "commandCenter",
+      "description": "Command Center Dev developer productivity dashboard.",
+      "imageUrl": "/images/command-center.webp",
+      "imageHint": "developer tooling dashboard"
+    },
+    {
+      "id": "figuNet",
+      "description": "FiguNet interactive PWA virtual sticker album.",
+      "imageUrl": "/images/figunet.webp",
+      "imageHint": "figunet album"
+    }
+  ],
+  "globalImages": [
+    {
+      "id": "aboutMe",
+      "description": "Cintia Losada — Frontend Engineer & Product Developer.",
+      "imageUrl": "/assets/about-me.png",
+      "imageHint": "professional portrait"
+    },
+    {
+      "id": "logo",
+      "description": "CinloDev logo.",
+      "imageUrl": "/assets/logo.png",
+      "imageHint": "company logo"
+    }
+  ],
+  "archiveImages": [
+    {
+      "id": "auraGymBro",
+      "description": "Aura Gym Bro fitness tracker preview.",
+      "imageUrl": "/images/aura-gym.png",
+      "imageHint": "aura gym"
+    },
+    {
+      "id": "stardewGuide",
+      "description": "Stardew Guide project.",
+      "imageUrl": "/images/stardew-guide-new.webp",
+      "imageHint": "stardew guide"
+    },
+    {
+      "id": "desafioExpress",
+      "description": "Campus Educational Platform preview.",
+      "imageUrl": "/images/desafio-express.png",
+      "imageHint": "campus educational platform"
+    }
+  ]
+}
