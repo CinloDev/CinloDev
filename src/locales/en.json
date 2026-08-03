@@ -604,5 +604,9 @@
     "notFound.title": "404 — Page not found",
     "notFound.description": "Neko searched everywhere, but this page seems to have disappeared.",
     "notFound.backHome": "Back home",
-    "notFound.projects": "Explore projects"
+    "notFound.projects": "Explore projects",
+    "projects.notFound.title": "Project not found",
+    "projects.notFound.description": "Neko couldn't find this project.",
+    "projects.notFound.backHome": "Back home",
+    "projects.notFound.backProjects": "View projects"
 }
