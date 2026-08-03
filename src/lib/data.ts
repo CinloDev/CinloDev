@@ -1,5 +1,5 @@
 import { Code, Megaphone, Linkedin, Github, InstagramIcon, MessageCircle, Rocket, Users, PenTool, MonitorSmartphone, Twitter } from 'lucide-react';
-import { PlaceHolderImages } from './placeholder-images';
+import { allImages, ImageAsset } from './image-assets';
 
 export const navLinks = [
     { href: '/#hero', labelKey: 'nav.home' },
@@ -46,12 +46,7 @@ export const services = [
     },
 ];
 
-export interface ImagePlaceholder {
-    id: string;
-    description: string;
-    imageUrl: string;
-    imageHint: string;
-}
+export interface ImagePlaceholder extends ImageAsset {}
 
 export interface PortfolioProjectDetails {
     nameKey?: string;
@@ -83,7 +78,7 @@ export interface PortfolioProject {
     details?: PortfolioProjectDetails;
 }
 
-const getImage = (id: string) => PlaceHolderImages.find(img => img.id === id);
+const getImage = (id: string) => allImages.find(img => img.id === id);
 
 export const portfolioProjects: PortfolioProject[] = [
     {
@@ -91,7 +86,7 @@ export const portfolioProjects: PortfolioProject[] = [
         titleKey: 'projects.cinloLabs.title',
         descriptionKey: 'projects.cinloLabs.description',
         tags: ['Next.js', 'React', 'TypeScript', 'Supabase', 'PostgreSQL', 'Tailwind CSS'],
-        image: getImage('work-5'),
+        image: getImage('cinloLabs'),
         liveUrl: 'https://labs.cinlodev.com/',
         githubUrl: 'https://github.com/CinloDev/cinlolabs-showcase',
         details: {
@@ -118,7 +113,7 @@ export const portfolioProjects: PortfolioProject[] = [
         titleKey: 'projects.alDia.title',
         descriptionKey: 'projects.alDia.description',
         tags: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Supabase', 'PostgreSQL'],
-        image: getImage('work-1'),
+        image: getImage('alDia'),
         liveUrl: 'https://aldia.cinlodev.com',
         githubUrl: 'https://github.com/CinloDev/aldia-showcase',
         details: {
@@ -145,7 +140,7 @@ export const portfolioProjects: PortfolioProject[] = [
         titleKey: 'projects.mailQuark.title',
         descriptionKey: 'projects.mailQuark.description',
         tags: ['Next.js', 'TypeScript', 'SMTP', 'Vanilla CSS'],
-        image: getImage('work-8'),
+        image: getImage('mailQuark'),
         liveUrl: 'https://email-test-public.vercel.app/',
         githubUrl: 'https://github.com/CinloDev/email_test_public',
         details: {
@@ -172,7 +167,7 @@ export const portfolioProjects: PortfolioProject[] = [
         titleKey: 'projects.nekoTools.title',
         descriptionKey: 'projects.nekoTools.description',
         tags: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Web Workers', 'Canvas API'],
-        image: getImage('work-11'),
+        image: getImage('nekoTools'),
         liveUrl: 'https://nekotools.cinlodev.com/',
         githubUrl: 'https://github.com/CinloDev/nekotools-showcase',
         details: {
@@ -199,7 +194,7 @@ export const portfolioProjects: PortfolioProject[] = [
         titleKey: 'projects.commandCenter.title',
         descriptionKey: 'projects.commandCenter.description',
         tags: ['JavaScript', 'Vite', 'Tailwind', 'Persistence', 'Automation'],
-        image: getImage('work-7'),
+        image: getImage('commandCenter'),
         liveUrl: 'https://vault.cinlodev.com/',
         githubUrl: 'https://github.com/CinloDev/vault-showcase',
         details: {
@@ -226,7 +221,7 @@ export const portfolioProjects: PortfolioProject[] = [
         titleKey: 'projects.figuNet.title',
         descriptionKey: 'projects.figuNet.description',
         tags: ['React', 'TypeScript', 'Tailwind CSS', 'PWA', 'Service Workers', 'Gamification'],
-        image: getImage('work-10'),
+        image: getImage('figuNet'),
         liveUrl: 'https://figunet.com/album',
         details: {
             nameKey: 'projects.figuNet.details.name',
@@ -284,7 +279,7 @@ export const testimonials = [
 
 export const aboutMe = {
     descriptionKey: 'about.description',
-    image: getImage('about-me'),
+    image: getImage('aboutMe'),
 };
 
 export const skillsSection = {
