@@ -600,5 +600,9 @@
     "terms.point2": "We are not responsible for how you use the published information.",
     "terms.point3": "Design and content are protected by copyright.",
     "terms.contactPrompt": "For more information, contact us directly.",
-    "terms.back": "Back to home"
+    "terms.back": "Back to home",
+    "notFound.title": "404 — Page not found",
+    "notFound.description": "Neko searched everywhere, but this page seems to have disappeared.",
+    "notFound.backHome": "Back home",
+    "notFound.projects": "Explore projects"
 }

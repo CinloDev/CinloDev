@@ -601,5 +601,9 @@
     "terms.point2": "No nos responsabilizamos por el uso que hagas de la información publicada.",
     "terms.point3": "El diseño y contenido están protegidos por derechos de autor.",
     "terms.contactPrompt": "Para más información, contáctanos directamente.",
-    "terms.back": "Volver al inicio"
+    "terms.back": "Volver al inicio",
+    "notFound.title": "404 — Página no encontrada",
+    "notFound.description": "Neko estuvo buscando esta página, pero parece que se perdió en el camino.",
+    "notFound.backHome": "Volver al inicio",
+    "notFound.projects": "Explorar proyectos"
 }

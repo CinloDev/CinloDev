@@ -1,12 +1,12 @@
 {
-    "name": "Cintia Losada | Frontend Developer",
+    "name": "Cintia Losada | Frontend Engineer & Product Developer",
     "short_name": "CinloDev",
-    "description": "Portfolio de Cintia Losada, Frontend Developer especializada en React, Next.js y TypeScript.",
+    "description": "Portfolio de Cintia Losada, Frontend Engineer & Product Developer especializada en Frontend Engineering, desarrollo de productos digitales y aplicaciones escalables usando React, Next.js y TypeScript.",
     "start_url": "/",
     "scope": "/",
     "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#ffffff",
+    "background_color": "#121212",
+    "theme_color": "#121212",
     "icons": [
         {
             "src": "/assets/icon-192.png",

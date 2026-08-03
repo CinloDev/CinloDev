@@ -41,13 +41,13 @@
     {
       "id": "aboutMe",
       "description": "Cintia Losada — Frontend Engineer & Product Developer.",
-      "imageUrl": "/images/about-me.png",
+      "imageUrl": "/assets/about-me.png",
       "imageHint": "professional portrait"
     },
     {
       "id": "logo",
       "description": "CinloDev logo.",
-      "imageUrl": "/images/logo.png",
+      "imageUrl": "/assets/logo.png",
       "imageHint": "company logo"
     }
   ],
