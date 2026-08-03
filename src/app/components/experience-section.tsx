@@ -16,10 +16,9 @@ type Experience = {
 const experiences: Experience[] = [
     {
         roleKey: 'experience.1.role',
-        company: 'Campus Mariana Casella',
         periodKey: 'experience.1.period',
         descriptionKey: 'experience.1.description',
-        stack: ['Vue', 'Laravel', 'PostgreSQL', 'Neon'],
+        stack: ['Next.js', 'React', 'TypeScript', 'Supabase', 'PostgreSQL', 'Tailwind CSS'],
         tasksKeys: [
             'experience.1.tasks.0',
             'experience.1.tasks.1',
@@ -28,15 +27,13 @@ const experiences: Experience[] = [
             'experience.1.tasks.4',
             'experience.1.tasks.5',
             'experience.1.tasks.6',
-            'experience.1.tasks.7',
-            'experience.1.tasks.9',
         ],
     },
     {
         roleKey: 'experience.2.role',
         periodKey: 'experience.2.period',
         descriptionKey: 'experience.2.description',
-        stack: ['Next.js', 'TypeScript', 'Tailwind', 'Node.js'],
+        stack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js'],
         tasksKeys: [
             'experience.2.tasks.0',
             'experience.2.tasks.1',
@@ -50,7 +47,7 @@ const experiences: Experience[] = [
         roleKey: 'experience.3.role',
         periodKey: 'experience.3.period',
         descriptionKey: 'experience.3.description',
-        stack: ['Next.js', 'React', 'HTML', 'CSS', 'JavaScript'],
+        stack: ['Vue', 'Laravel', 'PostgreSQL', 'Neon'],
         tasksKeys: [
             'experience.3.tasks.0',
             'experience.3.tasks.1',
@@ -58,6 +55,21 @@ const experiences: Experience[] = [
             'experience.3.tasks.3',
             'experience.3.tasks.4',
             'experience.3.tasks.5',
+            'experience.3.tasks.6',
+        ],
+    },
+    {
+        roleKey: 'experience.4.role',
+        periodKey: 'experience.4.period',
+        descriptionKey: 'experience.4.description',
+        stack: ['React', 'Next.js', 'TypeScript', 'JavaScript', 'HTML', 'CSS'],
+        tasksKeys: [
+            'experience.4.tasks.0',
+            'experience.4.tasks.1',
+            'experience.4.tasks.2',
+            'experience.4.tasks.3',
+            'experience.4.tasks.4',
+            'experience.4.tasks.5',
         ],
     },
 ];

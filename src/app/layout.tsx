@@ -22,10 +22,10 @@ export async function generateMetadata(): Promise<Metadata> {
     }
 
     const isEn = locale === 'en';
-    const title = "Cintia Losada | Frontend Developer";
+    const title = "Cintia Losada | Frontend Engineer & Product Developer";
     const description = isEn
-        ? "Portfolio of Cintia Losada, Frontend Developer specialized in React, Next.js, and TypeScript."
-        : "Portfolio de Cintia Losada, Frontend Developer especializada en React, Next.js y TypeScript.";
+        ? "Portfolio of Cintia Losada, Frontend Engineer & Product Developer specialized in scalable web applications, SaaS products, and modern digital experiences using React, Next.js, TypeScript, and Vue."
+        : "Portfolio de Cintia Losada, Frontend Engineer & Product Developer especializada en aplicaciones web escalables, productos SaaS y experiencias digitales modernas con React, Next.js, TypeScript y Vue.";
 
     return {
         metadataBase: new URL("https://portfolio.cinlodev.com"),
@@ -35,7 +35,7 @@ export async function generateMetadata(): Promise<Metadata> {
             title,
             description,
             url: "https://portfolio.cinlodev.com",
-            siteName: "Cintia Losada Portfolio",
+            siteName: "Cintia Losada | Frontend Engineer & Product Developer",
             images: [
                 {
                     url: "/assets/og-image.png",

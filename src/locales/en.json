@@ -4,90 +4,82 @@
     "nav.experience": "Experience",
     "nav.work": "Projects",
     "nav.contact": "Contact",
-
     "aria.changeToEnglish": "Change language to English",
-    "aria.changeToSpanish": "Change language to Spanish"
-    ,
+    "aria.changeToSpanish": "Change language to Spanish",
     "services.heading": "Services",
     "services.intro": "I build digital products focused on product, UX and measurable results.",
-
     "services.web.title": "Web Development",
     "services.web.description": "Design and development of modern, fast and scalable web applications tailored to concrete business goals.",
     "services.web.includes.frontend": "Frontend with React / Next.js",
     "services.web.includes.backend": "Backend with Node and REST APIs",
     "services.web.includes.responsive": "Responsive, mobile-first design",
     "services.web.includes.deploy": "Initial deploy and configuration",
-
     "services.ui.title": "Frontend & User Experience",
     "services.ui.description": "I build clear, accessible and optimized interfaces, balancing aesthetics, usability and performance.",
     "services.ui.includes.ui": "UI with Tailwind",
     "services.ui.includes.design": "Design to code (Figma → code)",
     "services.ui.includes.performance": "Performance optimization",
     "services.ui.includes.accessibility": "Accessibility best practices",
-
     "services.maintenance.title": "Optimization & Maintenance",
     "services.maintenance.description": "I improve existing projects to run better, load faster and be easier to maintain.",
     "services.maintenance.includes.refactors": "Refactors",
     "services.maintenance.includes.bugs": "Bug fixes",
     "services.maintenance.includes.features": "New features",
     "services.maintenance.includes.performance": "Performance improvements",
-
-    "projects.heading": "Projects",
-    "projects.intro": "A curated selection of projects showcasing web development and content work.",
+    "projects.heading": "Selected Products",
+    "projects.intro": "A selection of digital products where I apply frontend engineering, software architecture, fullstack development and user-centered design.",
     "projects.viewLive": "View Live",
     "projects.viewMore": "View more",
-    "projects.code": "Code",
-
+    "projects.code": "Technical Showcase",
     "projects.notFound": "Project not found",
     "projects.backToWork": "Back to home",
-
-    "projects.1.title": "AlDía — Personal & Collaborative Finance Platform",
-    "projects.1.description": "Fullstack SaaS web application for smart personal finance management, budgeting, savings goals, and collaborative expense splitting.",
-    "projects.1.details.name": "AlDía — Financial Management SaaS Platform",
-    "projects.1.details.summary": "Fullstack SaaS in production for organizing personal and group finances",
-    "projects.1.details.client": "Personal Project / SaaS in Production",
-    "projects.1.details.context": "Managing personal finances and shared expenses among couples, families, or friends often requires fragmented spreadsheets or disconnected tools. AlDía was created to centralize budget tracking, savings goals, and shared group expenses into a single modern, fast, and intuitive web platform built on a scalable cloud architecture.",
-    "projects.1.details.stack": "Next.js · React · TypeScript · Supabase · PostgreSQL · Tailwind CSS",
-    "projects.1.details.status": "Deployed in production",
-    "projects.1.details.type": "SaaS Platform / Fullstack Web Application",
-    "projects.1.details.objective": "Design and develop a comprehensive, secure financial solution to:",
-    "projects.1.details.objective.items": [
+    "projects.alDia.title": "AlDía — Personal & Collaborative Finance Platform",
+    "projects.alDia.description": "Fullstack SaaS web application for smart personal finance management, budgeting, savings goals, and collaborative expense splitting.",
+    "projects.alDia.details.name": "AlDía — Financial Management SaaS Platform",
+    "projects.alDia.details.summary": "Fullstack SaaS in production for organizing personal and group finances",
+    "projects.alDia.details.client": "Personal Project / SaaS in Production",
+    "projects.alDia.details.context": "Managing personal finances and shared expenses among couples, families, or friends often requires fragmented spreadsheets or disconnected tools. AlDía was created to centralize budget tracking, savings goals, and shared group expenses into a single modern, fast, and intuitive web platform built on a scalable cloud architecture.",
+    "projects.alDia.details.stack": "Next.js · React · TypeScript · Supabase · PostgreSQL · Tailwind CSS",
+    "projects.alDia.details.status": "Deployed in production",
+    "projects.alDia.details.type": "SaaS Platform / Fullstack Web Application",
+    "projects.alDia.details.objective": "Design and develop a comprehensive, secure financial solution to:",
+    "projects.alDia.details.objective.items": [
         "Centralize expenses, budgets, and credit cards in an interactive visual dashboard",
         "Enable collaborative management through shared groups and independent balances",
         "Set and monitor personalized savings goals with real-time visual progress tracking",
         "Ensure strict data privacy and isolation via PostgreSQL Row Level Security (RLS)"
     ],
-    "projects.1.details.process": "The development covered the full end-to-end product lifecycle, from architecture and database design to modern UI/UX:",
-    "projects.1.details.process.steps": [
+    "projects.alDia.details.process": "The development covered the full end-to-end product lifecycle, from architecture and database design to modern UI/UX:",
+    "projects.alDia.details.process.steps": [
         "Architected fullstack solution using Next.js App Router, TypeScript, and Supabase",
         "Designed relational schema in PostgreSQL with granular Row Level Security policies",
         "Built a polished UI/UX featuring light/dark themes, Recharts data visualization, and Framer Motion animations",
         "Developed collaborative group workflows with invite links and automatic expense balancing",
         "Configured continuous deployment on Vercel along with Supabase Storage integration"
     ],
-    "projects.1.details.result": "A production-ready SaaS platform designed to scale and simplify everyday financial management.",
-    "projects.1.details.result.items": [
+    "projects.alDia.details.result": "A production-ready SaaS platform designed to scale and simplify everyday financial management.",
+    "projects.alDia.details.result.items": [
         "Comprehensive financial control with clear, actionable visual dashboards",
         "Seamless shared expense tracking for couples, households, and trips",
         "Modern cloud architecture with robust database-level security and high performance",
         "Exceptional user experience across desktop and mobile devices"
     ],
-    "projects.1.details.role": "Fullstack Developer & Product Creator",
-    "projects.1.details.responsibilities": [
+    "projects.alDia.details.role": "Product Developer & Fullstack Engineer",
+    "projects.alDia.details.responsibilities": [
         "System architecture design and relational database modeling in PostgreSQL",
         "Fullstack development using Next.js, React, and TypeScript",
         "Implementation of authentication, RLS security policies, and file storage",
         "UI/UX design using Tailwind CSS, shadcn/ui, and Radix UI",
         "Production deployment, performance optimization, and technical documentation"
     ],
-    "projects.1.details.technologies": [
+    "projects.alDia.details.technologies": [
         "Next.js 16 & React 19 — Modern fullstack framework with App Router and Server Actions",
         "TypeScript — End-to-end type safety and code maintainability",
         "Supabase & PostgreSQL — Relational database with Row Level Security (RLS) and Auth",
         "Tailwind CSS 4 & shadcn/ui — Responsive design system with seamless dark/light modes",
         "Recharts & Framer Motion — Interactive financial charts and smooth micro-animations"
     ],
-    "projects.1.details.feedback": "As a closed-source production SaaS, an extensive technical Showcase repository was created to thoroughly document the product's vision, architecture, security model, and tech stack, showcasing high engineering standards and modern digital product craftsmanship.",
+    "projects.alDia.details.feedback": "As a closed-source production SaaS, an extensive technical Showcase repository was created to thoroughly document the product's vision, architecture, security model, and tech stack, showcasing high engineering standards and modern digital product craftsmanship.",
     "projects.labels.stack": "Stack",
     "projects.labels.status": "Status",
     "projects.labels.type": "Type",
@@ -99,108 +91,64 @@
     "projects.labels.responsibilities": "Responsibilities",
     "projects.labels.technologiesUsed": "Technologies used",
     "projects.labels.feedback": "Feedback",
-    "projects.2.title": "Aura Gym — Fitness Tracker",
-    "projects.2.description": "Advanced training center for routine management and progress tracking.",
-    "projects.2.details.name": "Aura Gym Bro",
-    "projects.2.details.summary": "Fitness tracking application focused on performance and strength progression.",
-    "projects.2.details.context": "Aura Gym was born from the need to centralize strength training tracking, allowing users to manage their routines and visualize their progress clearly and professionally, eliminating the limitations of conventional notes.",
-    "projects.2.details.stack": "React · TypeScript · Tailwind CSS · Netlify",
-    "projects.2.details.status": "In development (Functional MVP)",
-    "projects.2.details.type": "Web Application / Fitness Tool",
-    "projects.2.details.objective": "Develop a comprehensive fitness platform that allows:",
-    "projects.2.details.objective.items": [
+    "projects.archive.auraGym.title": "Aura Gym — Fitness Tracker",
+    "projects.archive.auraGym.description": "Advanced training center for routine management and progress tracking.",
+    "projects.archive.auraGym.details.name": "Aura Gym Bro",
+    "projects.archive.auraGym.details.summary": "Fitness tracking application focused on performance and strength progression.",
+    "projects.archive.auraGym.details.context": "Aura Gym was born from the need to centralize strength training tracking, allowing users to manage their routines and visualize their progress clearly and professionally, eliminating the limitations of conventional notes.",
+    "projects.archive.auraGym.details.stack": "React · TypeScript · Tailwind CSS · Netlify",
+    "projects.archive.auraGym.details.status": "In development (Functional MVP)",
+    "projects.archive.auraGym.details.type": "Web Application / Fitness Tool",
+    "projects.archive.auraGym.details.objective": "Develop a comprehensive fitness platform that allows:",
+    "projects.archive.auraGym.details.objective.items": [
         "Creation and customization of training routines",
         "Integrated exercise library by muscle groups",
         "Tracking of performance metrics and weekly volume",
         "Automatic 1RM calculation (estimated maximum strength)",
         "Tracking of personal records (PRs)"
     ],
-    "projects.2.details.process": "Development focused on direct user utility and a fluid UX during training:",
-    "projects.2.details.process.steps": [
+    "projects.archive.auraGym.details.process": "Development focused on direct user utility and a fluid UX during training:",
+    "projects.archive.auraGym.details.process.steps": [
         "Designed a premium dark mode interface to avoid distractions",
         "Implemented calculation logic for strength metrics (1RM)",
         "Developed a state management system for complex routines",
         "Integrated data visualization for weekly load volume",
         "Optimized the app for mobile-first use in the gym"
     ],
-    "projects.2.details.result": "A robust and aesthetic tool that transforms training tracking into a visual experience.",
-    "projects.2.details.result.items": [
+    "projects.archive.auraGym.details.result": "A robust and aesthetic tool that transforms training tracking into a visual experience.",
+    "projects.archive.auraGym.details.result.items": [
         "Efficient management of multiple routines and exercises",
         "Clear visualization of strength progress",
         "Premium user experience with a focus on performance",
         "Instant calculation of theoretical maximum marks"
     ],
-    "projects.2.details.role": "Web Developer / UI Designer",
-    "projects.2.details.responsibilities": [
+    "projects.archive.auraGym.details.role": "Web Developer / UI Designer",
+    "projects.archive.auraGym.details.responsibilities": [
         "Interface and user experience design (Premium Dark UI)",
         "Frontend architecture with React and TypeScript",
         "Implementation of mathematical logic for strength metrics",
         "Global state management for routines and exercises",
         "Performance optimization and responsive design"
     ],
-    "projects.2.details.technologies": [
+    "projects.archive.auraGym.details.technologies": [
         "React — reactive interface development",
         "TypeScript — robustness and typing for complex logic",
         "Tailwind CSS — high-fidelity visual and responsive design",
         "Lucide Icons — minimalist iconography",
         "Netlify — continuous deployment and optimization"
     ],
-    "projects.2.details.feedback": "Aura Gym demonstrates how a niche application can raise the standard through careful design and precise features that provide real value to the end user.",
-    "projects.3.title": "Travel Landing Page",
-    "projects.3.description": "Responsive landing page for a travel site built with Tailwind CSS",
-    "projects.3.details.name": "Travel Landing Tailwind",
-    "projects.3.details.summary": "Responsive landing page for a travel site built with Tailwind CSS",
-    "projects.3.details.context": "This project was developed as a practice focused on visual design and responsive layout using Tailwind CSS. The main idea was to strengthen the ability to translate designs into real code.",
-    "projects.3.details.stack": "HTML · Tailwind CSS",
-    "projects.3.details.status": "Deployed and functional",
-    "projects.3.details.type": "Interactive, responsive landing page",
-    "projects.3.details.objective": "Develop a landing page that:",
-    "projects.3.details.objective.items": [
-        "Highlights typical travel service sections",
-        "Displays correctly on devices of various sizes",
-        "Uses Tailwind utilities coherently and scalably"
-    ],
-    "projects.3.details.process": "The project was tackled with attention to visual detail and code consistency:",
-    "projects.3.details.process.steps": [
-        "Configured Tailwind CSS from scratch for the project",
-        "Designed main sections: hero, services, gallery, testimonials, footer",
-        "Applied Tailwind utilities for spacing, typography, colors and layout",
-        "Ensured readability and aesthetics on mobile, tablet and desktop",
-        "Organized classes and components to keep a consistent design"
-    ],
-    "projects.3.details.result": "The landing was deployed successfully and works responsively across devices.",
-    "projects.3.details.result.items": [
-        "Modern and harmonious visual design",
-        "Responsive behavior without breaking breakpoints",
-        "Clear implementation of Tailwind CSS utilities",
-        "Organized and easy-to-read code"
-    ],
-    "projects.3.details.role": "Web Developer / Frontend",
-    "projects.3.details.responsibilities": [
-        "Tailwind CSS setup",
-        "Layout of site sections",
-        "Responsive design across breakpoints",
-        "Semantic HTML organization",
-        "Landing deploy"
-    ],
-    "projects.3.details.technologies": [
-        "HTML5 — semantic site structure",
-        "Tailwind CSS — design and layout utilities",
-        "Responsive Design — adaptation to various screen sizes",
-        "GitHub Pages — quick and accessible deployment"
-    ],
-    "projects.3.details.feedback": "This project demonstrates the ability to implement complex UI designs with a productive and maintainable approach.",
-    "projects.4.title": "Stardew Guide — Content Platform",
-    "projects.4.description": "Web application focused on the gaming community, content organization, dynamic navigation and user experience.",
-    "projects.4.details.name": "Stardew Guide — Content Platform",
-    "projects.4.details.summary": "Web application focused on the gaming community",
-    "projects.4.details.inspiration": "Personal project",
-    "projects.4.details.context": "Personal project focused on building a content platform for the Stardew Valley community, with the goal of centralizing information and improving navigation experience.",
-    "projects.4.details.stack": "Next.js · React · TypeScript · Zustand · Tailwind",
-    "projects.4.details.status": "In development",
-    "projects.4.details.type": "Web application",
-    "projects.4.details.objective": "Main objectives:",
-    "projects.4.details.objective.items": [
+    "projects.archive.auraGym.details.feedback": "Aura Gym demonstrates how a niche application can raise the standard through careful design and precise features that provide real value to the end user.",
+    "projects.archive.stardew.title": "Stardew Guide — Content Platform",
+    "projects.archive.stardew.description": "Web application focused on the gaming community, content organization, dynamic navigation and user experience.",
+    "projects.archive.stardew.details.name": "Stardew Guide — Content Platform",
+    "projects.archive.stardew.details.summary": "Web application focused on the gaming community",
+    "projects.archive.stardew.details.inspiration": "Personal project",
+    "projects.archive.stardew.details.context": "Personal project focused on building a content platform for the Stardew Valley community, with the goal of centralizing information and improving navigation experience.",
+    "projects.archive.stardew.details.stack": "Next.js · React · TypeScript · Zustand · Tailwind",
+    "projects.archive.stardew.details.status": "In development",
+    "projects.archive.stardew.details.type": "Web application",
+    "projects.archive.stardew.details.objective": "Main objectives:",
+    "projects.archive.stardew.details.objective.items": [
         "Organize content clearly and accessibly",
         "Improve user navigation experience",
         "Implement dynamic interaction in content exploration",
@@ -208,140 +156,93 @@
         "Integrated Light and Dark mode",
         "Multi-language support (Spanish and English)"
     ],
-    "projects.4.details.process": "Development focused on content structure and user experience.",
-    "projects.4.details.process.steps": [
+    "projects.archive.stardew.details.process": "Development focused on content structure and user experience.",
+    "projects.archive.stardew.details.process.steps": [
         "Defined content structure and organization",
         "Designed a user-centered interface",
         "Implemented dynamic state-based navigation",
         "Developed a filtering system for content exploration",
         "Managed global state with Zustand"
     ],
-    "projects.4.details.result": "Functional platform with interactive navigation.",
-    "projects.4.details.result.items": [
+    "projects.archive.stardew.details.result": "Functional platform with interactive navigation.",
+    "projects.archive.stardew.details.result.items": [
         "Dynamic and smooth navigation for content exploration",
         "Improved exploration and access to information",
         "Solid base for evolution into a more complex application"
     ],
-    "projects.4.details.role": "Web Developer / Frontend",
-    "projects.4.details.responsibilities": [
+    "projects.archive.stardew.details.role": "Web Developer / Frontend",
+    "projects.archive.stardew.details.responsibilities": [
         "Interface and user experience design",
         "Development of reusable components",
         "Implementation of temporal navigation logic (day/season)",
         "Global state management and persistence",
         "Content organization and app structure"
     ],
-    "projects.4.details.technologies": [
+    "projects.archive.stardew.details.technologies": [
         "Next.js — rendering and application structure",
         "React — component development",
         "TypeScript — typing and scalability",
         "Zustand — global state management",
         "Tailwind CSS — styling and responsive design"
     ],
-    "projects.4.details.feedback": "The project evolves as an interactive platform, prioritizing user experience and efficient content organization.",
-    "projects.5.title": "Brand Design & Content Strategy",
-    "projects.5.description": "Full brand identity and content strategy to increase visibility and engagement.",
-    "projects.6.title": "Personal Web Development Portfolio",
-    "projects.6.description": "Personal portfolio combining web development and design skills using Astro and Tailwind CSS.",
-    "projects.6.details.name": "Personal Portfolio (Previous Version)",
-    "projects.6.details.summary": "First web portfolio as a frontend developer",
-    "projects.6.details.context": "This portfolio was my first personal site as a web developer, created to start showcasing frontend skills and to have a basic online presence.",
-    "projects.6.details.stack": "Astro · Tailwind CSS · TypeScript",
-    "projects.6.details.status": "Deployed (archived)",
-    "projects.6.details.type": "Personal presentation website",
-    "projects.6.details.objective": "Build a website that:",
-    "projects.6.details.objective.items": [
-        "Presents personal and professional information",
-        "Shows early projects",
-        "Provides practice for layout and styles",
-        "Serves as a starting point for a professional profile"
-    ],
-    "projects.6.details.process": "Development focused on applying core frontend fundamentals:",
-    "projects.6.details.process.steps": [
-        "Structuring content with semantic HTML",
-        "Styling with CSS",
-        "Adding basic JavaScript interactions",
-        "Simple project organization",
-        "Deploying the site to make it publicly accessible"
-    ],
-    "projects.6.details.result": "The site was deployed successfully and served as the first functional portfolio.",
-    "projects.6.details.result.items": [
-        "Practical understanding of website structure",
-        "Initial approach to design and professional presentation",
-        "Solid base for later projects",
-        "Starting point for evolving to a modern stack"
-    ],
-    "projects.6.details.role": "Web Developer / Frontend",
-    "projects.6.details.responsibilities": [
-        "Site design and layout",
-        "Basic frontend development",
-        "Content organization",
-        "Project deployment"
-    ],
-    "projects.6.details.technologies": [
-        "Astro — modern static-site framework",
-        "Tailwind CSS — utility-first styling",
-        "TypeScript — typed JavaScript for reliability"
-    ],
-    "projects.6.details.feedback": "This project helped solidify frontend fundamentals and served as the basis to adopt more modern tools and architectures.",
-
-    "projects.7.title": "CinloLabs — B2B Dental Lab Operational SaaS",
-    "projects.7.description": "Multi-tenant B2B SaaS platform that digitizes end-to-end dental laboratory operations and streamlines real-time collaboration with dentists.",
-    "projects.7.details.name": "CinloLabs — Operational Management B2B SaaS",
-    "projects.7.details.summary": "Production-grade multi-tenant SaaS for dental laboratories and dental practices",
-    "projects.7.details.client": "Proprietary B2B SaaS / In Production",
-    "projects.7.details.context": "Dental laboratories traditionally rely on fragmented spreadsheets, physical notebooks, and informal messaging to manage lab orders, patient records, and deliveries. CinloLabs eliminates operational fragmentation by centralizing production tracking, client portals, and billing into a unified multi-tenant cloud platform.",
-    "projects.7.details.stack": "Next.js · React · TypeScript · Supabase · PostgreSQL · Tailwind CSS",
-    "projects.7.details.status": "In production (active client testing phase)",
-    "projects.7.details.type": "B2B SaaS Platform / Fullstack Multi-Tenant App",
-    "projects.7.details.objective": "Modernize and automate dental lab workflows by:",
-    "projects.7.details.objective.items": [
+    "projects.archive.stardew.details.feedback": "The project evolves as an interactive platform, prioritizing user experience and efficient content organization.",
+    "projects.cinloLabs.title": "CinloLabs — B2B Dental Lab Operational SaaS",
+    "projects.cinloLabs.description": "Multi-tenant B2B SaaS platform that digitizes end-to-end dental laboratory operations and streamlines real-time collaboration with dentists.",
+    "projects.cinloLabs.details.name": "CinloLabs — Operational Management B2B SaaS",
+    "projects.cinloLabs.details.summary": "Production-grade multi-tenant SaaS for dental laboratories and dental practices",
+    "projects.cinloLabs.details.client": "Proprietary B2B SaaS / In Production",
+    "projects.cinloLabs.details.context": "Dental laboratories traditionally rely on fragmented spreadsheets, physical notebooks, and informal messaging to manage lab orders, patient records, and deliveries. CinloLabs eliminates operational fragmentation by centralizing production tracking, client portals, and billing into a unified multi-tenant cloud platform.",
+    "projects.cinloLabs.details.stack": "Next.js · React · TypeScript · Supabase · PostgreSQL · Tailwind CSS",
+    "projects.cinloLabs.details.status": "In production (active client testing phase)",
+    "projects.cinloLabs.details.type": "B2B SaaS Platform / Fullstack Multi-Tenant App",
+    "projects.cinloLabs.details.objective": "Modernize and automate dental lab workflows by:",
+    "projects.cinloLabs.details.objective.items": [
         "Digitizing order intake, planning, and full lifecycle tracking of prosthetic work",
         "Providing a dedicated client portal for dentists to track work status in real time",
         "Enforcing strict multi-tenant data isolation via PostgreSQL Row Level Security (RLS)",
         "Offering customizable public landing pages per lab with built-in visual theming"
     ],
-    "projects.7.details.process": "Architected and engineered from scratch with enterprise-grade modular design:",
-    "projects.7.details.process.steps": [
+    "projects.cinloLabs.details.process": "Architected and engineered from scratch with enterprise-grade modular design:",
+    "projects.cinloLabs.details.process.steps": [
         "Implemented modular Feature-Driven Architecture (FDA) strictly decoupled into platform, tenant, products, and core domains",
         "Configured automated CI checks (check-boundaries) to prevent forbidden cross-domain dependencies",
         "Designed multi-level data protection combining software tenant isolation and database-level Row Level Security",
         "Built mobile-first responsive interfaces optimized for both laboratory benches and dental offices",
         "Created a dynamic tenant landing page engine with customizable templates and theming"
     ],
-    "projects.7.details.result": "A highly scalable, production-ready B2B SaaS platform that transforms daily dental laboratory operations.",
-    "projects.7.details.result.items": [
+    "projects.cinloLabs.details.result": "A highly scalable, production-ready B2B SaaS platform that transforms daily dental laboratory operations.",
+    "projects.cinloLabs.details.result.items": [
         "Full operational transparency and traceability from initial work order to final delivery",
         "Seamless collaboration between dental labs and client dentists via real-time portals",
         "Enterprise-grade multi-tenant data security enforced by database RLS policies",
         "Scalable architectural foundation ready for vertical expansion in the dental ecosystem"
     ],
-    "projects.7.details.role": "Product Creator & Fullstack Architect",
-    "projects.7.details.responsibilities": [
+    "projects.cinloLabs.details.role": "Product Creator & Frontend Engineer",
+    "projects.cinloLabs.details.responsibilities": [
         "End-to-end SaaS B2B product conception, business workflows, and software architecture",
         "Architected Feature-Driven Architecture (FDA) with CI-verified domain boundaries",
         "Fullstack engineering across Next.js, React, TypeScript, and Tailwind CSS",
         "Relational database modeling in PostgreSQL and Row Level Security policies in Supabase",
         "Implementation of RBAC, audit logging, and responsive mobile-first interfaces"
     ],
-    "projects.7.details.technologies": [
+    "projects.cinloLabs.details.technologies": [
         "Next.js & React — Modern fullstack framework featuring App Router, SSR, and Server Actions",
         "TypeScript — End-to-end static typing and domain interface contracts",
         "Supabase & PostgreSQL — Multi-tenant relational database with Row Level Security (RLS) and Auth",
         "Feature-Driven Architecture — Strictly modular domain boundaries enforced by CI pipelines",
         "Tailwind CSS — Responsive, mobile-first design system for lab and clinical environments"
     ],
-    "projects.7.details.feedback": "CinloLabs exemplifies high engineering standards, domain-driven software architecture, and multi-tenant SaaS security. As a proprietary production system, an extensive technical Showcase repository was published detailing product vision, ADRs, database schema, and isolation strategy.",
-
-    "projects.8.title": "Command Center Dev",
-    "projects.8.description": "Advanced control center for engineering workflows. Automates branch creation, manages Docker containers, and centralizes Node.js commands in a premium interface with local persistence.",
-    "projects.8.details.name": "Command Center Dev",
-    "projects.8.details.summary": "Unified productivity ecosystem that transforms complex terminal tasks into one-click workflows.",
-    "projects.8.details.stack": "Vanilla JavaScript · Vite · Tailwind CSS",
-    "projects.8.details.status": "Deployed / In production",
-    "projects.8.details.type": "Engineering and Productivity Tool",
-    "projects.8.details.context": "Modern development workflows are fragmented across multiple tools: GitHub for version control, terminal for scripts, and Docker for containers. Command Center unifies these tools into a single structured execution layer, eliminating context-switching friction and boosting development speed.",
-    "projects.8.details.objective": "Optimize software engineering through:",
-    "projects.8.details.objective.items": [
+    "projects.cinloLabs.details.feedback": "CinloLabs exemplifies high engineering standards, domain-driven software architecture, and multi-tenant SaaS security. As a proprietary production system, an extensive technical Showcase repository was published detailing product vision, ADRs, database schema, and isolation strategy.",
+    "projects.commandCenter.title": "Command Center Dev",
+    "projects.commandCenter.description": "Advanced control center for engineering workflows. Automates branch creation, manages Docker containers, and centralizes Node.js commands in a premium interface with local persistence.",
+    "projects.commandCenter.details.name": "Command Center Dev",
+    "projects.commandCenter.details.summary": "Unified productivity ecosystem that transforms complex terminal tasks into one-click workflows.",
+    "projects.commandCenter.details.stack": "Vanilla JavaScript · Vite · Tailwind CSS",
+    "projects.commandCenter.details.status": "Deployed / In production",
+    "projects.commandCenter.details.type": "Engineering and Productivity Tool",
+    "projects.commandCenter.details.context": "Modern development workflows are fragmented across multiple tools: GitHub for version control, terminal for scripts, and Docker for containers. Command Center unifies these tools into a single structured execution layer, eliminating context-switching friction and boosting development speed.",
+    "projects.commandCenter.details.objective": "Optimize software engineering through:",
+    "projects.commandCenter.details.objective.items": [
         "Smart Git automation with auto-translation for branch names",
         "Multi-package manager support (NPM, Yarn, PNPM) and Node.js toolbox",
         "Centralized Docker Compose control and Laravel Artisan integration",
@@ -350,48 +251,47 @@
         "Premium dark mode with high-fidelity micro-interactions",
         "Multi-language support (Spanish and English)"
     ],
-    "projects.8.details.process": "Design focused on speed and reducing cognitive load:",
-    "projects.8.details.process.steps": [
+    "projects.commandCenter.details.process": "Design focused on speed and reducing cognitive load:",
+    "projects.commandCenter.details.process.steps": [
         "Defined domain-based sessions (GitHub, Node, Docker)",
         "Implemented instant search and execution system",
         "Designed 'keyboard-first' interface for maximum productivity",
         "Created a quick access dock for high-frequency commands",
         "Optimized state persistence and command organization"
     ],
-    "projects.8.details.result": "A premium, fluid interface that centralizes critical task execution.",
-    "projects.8.details.result.items": [
+    "projects.commandCenter.details.result": "A premium, fluid interface that centralizes critical task execution.",
+    "projects.commandCenter.details.result.items": [
         "Drastic reduction in context switching",
         "Increased execution speed for repetitive workflows",
         "Organized and persistent command environment",
         "Premium user experience with micro-animations and instant feedback"
     ],
-    "projects.8.details.role": "Web Developer / Product Designer",
-    "projects.8.details.responsibilities": [
+    "projects.commandCenter.details.role": "Product Developer & Developer Tooling Engineer",
+    "projects.commandCenter.details.responsibilities": [
         "Interface architecture and UX design",
         "Implementation of session and command logic",
         "Development of interactive components with Vanilla JavaScript",
         "Premium aesthetic design with productivity focus",
         "Interaction optimization through keyboard shortcuts"
     ],
-    "projects.8.details.technologies": [
+    "projects.commandCenter.details.technologies": [
         "Vanilla JavaScript — core logic and DOM manipulation",
         "Vite — ultra-fast build tool",
         "Tailwind CSS — visual design and responsiveness",
         "Lucide Icons — consistent iconography per domain",
         "Vercel — deployment and hosting"
     ],
-    "projects.8.details.feedback": "The project stands out for its focus on real-world productivity, eliminating the friction of jumping between multiple tools and providing a sleek, powerful control center for the modern developer.",
-
-    "projects.9.title": "MailQuark — Premium Email Testing Tool",
-    "projects.9.description": "Intercept SMTP emails in real-time, inspect HTML/Text/Headers, and validate dynamic variables to prevent production errors.",
-    "projects.9.details.name": "MailQuark",
-    "projects.9.details.summary": "An email testing platform designed for developers seeking speed, precision, and superior aesthetics.",
-    "projects.9.details.stack": "Next.js 16 · TypeScript · SMTP · Vanilla CSS (Glassmorphism)",
-    "projects.9.details.status": "Deployed / Portfolio Ready",
-    "projects.9.details.type": "Dev Tool / Engineering Utility",
-    "projects.9.details.context": "Born out of 'Dogfooding', MailQuark addresses the need for a lightweight, local, and unrestricted email testing tool. The goal was to create a self-hosted solution that eliminated quantity limits and extra costs associated with third-party services during the development cycle of multiple applications.",
-    "projects.9.details.objective": "Create a custom-built email testing tool that removes quantity limits and eliminates extra costs during application development, raising the standard through:",
-    "projects.9.details.objective.items": [
+    "projects.commandCenter.details.feedback": "The project stands out for its focus on real-world productivity, eliminating the friction of jumping between multiple tools and providing a sleek, powerful control center for the modern developer.",
+    "projects.mailQuark.title": "MailQuark — Premium Email Testing Tool",
+    "projects.mailQuark.description": "Intercept SMTP emails in real-time, inspect HTML/Text/Headers, and validate dynamic variables to prevent production errors.",
+    "projects.mailQuark.details.name": "MailQuark",
+    "projects.mailQuark.details.summary": "An email testing platform designed for developers seeking speed, precision, and superior aesthetics.",
+    "projects.mailQuark.details.stack": "Next.js 16 · TypeScript · SMTP · Vanilla CSS (Glassmorphism)",
+    "projects.mailQuark.details.status": "Deployed / Portfolio Ready",
+    "projects.mailQuark.details.type": "Dev Tool / Engineering Utility",
+    "projects.mailQuark.details.context": "Born out of 'Dogfooding', MailQuark addresses the need for a lightweight, local, and unrestricted email testing tool. The goal was to create a self-hosted solution that eliminated quantity limits and extra costs associated with third-party services during the development cycle of multiple applications.",
+    "projects.mailQuark.details.objective": "Create a custom-built email testing tool that removes quantity limits and eliminates extra costs during application development, raising the standard through:",
+    "projects.mailQuark.details.objective.items": [
         "Full independence from third-party services and quotas",
         "Instant SMTP interception in local environments",
         "QA validator to detect unreplaced variables",
@@ -400,24 +300,24 @@
         "Attachment downloads and data JSON export",
         "Premium aesthetics based on Glassmorphism and Dark Mode"
     ],
-    "projects.9.details.process": "Development prioritized performance and code readability for public exposure:",
-    "projects.9.details.process.steps": [
+    "projects.mailQuark.details.process": "Development prioritized performance and code readability for public exposure:",
+    "projects.mailQuark.details.process.steps": [
         "Decoupled static architecture for the portfolio version",
         "Implementation of a custom CSS variable system (no Tailwind)",
         "Mocking of SMTP server logic for static hosting on Vercel",
         "Design of realistic templates (invoices, welcomes) for the demo",
         "UX optimization for fast and fluid interactions"
     ],
-    "projects.9.details.result": "A robust tool that feels alive and functional, ready to demonstrate senior-level quality.",
-    "projects.9.details.result.items": [
+    "projects.mailQuark.details.result": "A robust tool that feels alive and functional, ready to demonstrate senior-level quality.",
+    "projects.mailQuark.details.result.items": [
         "Functional dashboard with real-time filtering and search",
         "Development of an efficient persistence system capable of processing and storing large attachments using optimized data streams",
         "Realistic attachment download experience",
         "Integrated QA system with immediate visual alerts",
         "Clean, modular code highly valued in technical audits"
     ],
-    "projects.9.details.role": "Fullstack Developer & Architect",
-    "projects.9.details.responsibilities": [
+    "projects.mailQuark.details.role": "Fullstack Developer & Architect",
+    "projects.mailQuark.details.responsibilities": [
         "SMTP server architecture and SQLite database logic (private version)",
         "Design and development of the Vanilla CSS style system",
         "Implementation of filtering and search logic",
@@ -425,101 +325,99 @@
         "Optimization of Dashboard performance and responsiveness",
         "Design of the 'Engineering-grade' user experience"
     ],
-    "projects.9.details.technologies": [
+    "projects.mailQuark.details.technologies": [
         "Next.js — modern application framework",
         "TypeScript — robust typing for scalability",
         "Vanilla CSS — custom design without heavy dependencies",
         "Lucide Icons — minimalist and functional iconography",
         "Vercel — optimized deployment platform"
     ],
-    "projects.9.details.feedback": "The project has been praised for its attention to both visual and technical detail, proving that an internal utility can possess final-product quality.",
-
-    "projects.10.title": "Mariana Casella Campus — Challenge System",
-    "projects.10.description": "Interactive programming learning platform featuring a real-time challenge system, progress tracking, and dynamic feedback.",
-    "projects.10.details.name": "Mariana Casella Academy Campus",
-    "projects.10.details.summary": "Fullstack educational platform focused on teaching programming to real users.",
-    "projects.10.details.stack": "Vue.js · Laravel · PostgreSQL · Tailwind CSS",
-    "projects.10.details.status": "In production / Real users",
-    "projects.10.details.type": "Fullstack Web Application / E-learning",
-    "projects.10.details.context": "Development of a comprehensive platform for managing programming courses and challenges. The project required a highly interactive interface for students and a robust backend capable of handling the progress of hundreds of users in real-time within a production environment.",
-    "projects.10.details.objective": "Modernize and scale the learning experience through:",
-    "projects.10.details.objective.items": [
+    "projects.mailQuark.details.feedback": "The project has been praised for its attention to both visual and technical detail, proving that an internal utility can possess final-product quality.",
+    "projects.archive.campus.title": "Mariana Casella Campus — Challenge System",
+    "projects.archive.campus.description": "Interactive programming learning platform featuring a real-time challenge system, progress tracking, and dynamic feedback.",
+    "projects.archive.campus.details.name": "Mariana Casella Academy Campus",
+    "projects.archive.campus.details.summary": "Fullstack educational platform focused on teaching programming to real users.",
+    "projects.archive.campus.details.stack": "Vue.js · Laravel · PostgreSQL · Tailwind CSS",
+    "projects.archive.campus.details.status": "In production / Real users",
+    "projects.archive.campus.details.type": "Fullstack Web Application / E-learning",
+    "projects.archive.campus.details.context": "Development of a comprehensive platform for managing programming courses and challenges. The project required a highly interactive interface for students and a robust backend capable of handling the progress of hundreds of users in real-time within a production environment.",
+    "projects.archive.campus.details.objective": "Modernize and scale the learning experience through:",
+    "projects.archive.campus.details.objective.items": [
         "Interactive challenge system with result validation",
         "Detailed student progress dashboard",
         "Seamless integration between Vue.js frontend and Laravel backend",
         "Efficient management of complex data in PostgreSQL",
         "Responsive design tailored to study environments"
     ],
-    "projects.10.details.process": "Work focused on the creation and evolution of critical features for the final product:",
-    "projects.10.details.process.steps": [
+    "projects.archive.campus.details.process": "Work focused on the creation and evolution of critical features for the final product:",
+    "projects.archive.campus.details.process.steps": [
         "Development of interactive components with Vue.js",
         "Consumption and design of RESTful APIs in Laravel",
         "Optimization of queries and data structure in PostgreSQL using Neon",
         "Implementation of complex user flows (onboarding and activation)",
         "Refactoring of core modules to improve maintainability"
     ],
-    "projects.10.details.result": "A stable and scalable platform currently successfully serving the academy community.",
-    "projects.10.details.result.items": [
+    "projects.archive.campus.details.result": "A stable and scalable platform currently successfully serving the academy community.",
+    "projects.archive.campus.details.result.items": [
         "Significant improvement in student engagement",
         "Reduction of technical incidents in progress tracking",
         "Modular architecture allowing continuous product growth"
     ],
-    "projects.10.details.role": "Fullstack Developer",
-    "projects.10.details.responsibilities": [
+    "projects.archive.campus.details.role": "Fullstack Developer",
+    "projects.archive.campus.details.responsibilities": [
         "Development of new frontend features with Vue.js",
         "Maintenance and evolution of the Laravel API",
         "Database management and optimization in PostgreSQL",
         "Debugging and incident resolution in a production environment"
     ],
-    "projects.10.details.technologies": [
+    "projects.archive.campus.details.technologies": [
         "Vue.js — dynamic and reactive interfaces",
         "Laravel — robust backend and secure APIs",
         "PostgreSQL — complex relational data management",
         "Tailwind CSS — fast and consistent visual design",
         "Git & GitHub — task management and version control"
     ],
-    "projects.10.details.feedback": "The project stands out for its production stability and the fluidity of the student experience, achieving a technically and functionally high-quality educational product.",
-
-    "projects.11.title": "FiguNet — Virtual Sticker Album",
-    "projects.11.description": "Interactive digital sticker album platform featuring P2P trading, gamification, offline PWA support, and extreme performance optimization.",
-    "projects.11.details.name": "FiguNet Virtual Album",
-    "projects.11.details.summary": "Interactive digital collecting ecosystem with P2P mechanics and high-fidelity gamification.",
-    "projects.11.details.context": "Physical sticker albums generate immense nostalgia and connection, but digital collecting often lacks the same excitement and fluidity. FiguNet was born to recreate the thrill of traditional collecting on a modern, fast, and ultra-optimized web platform, combining fluid animations, offline compatibility, and a robust trading system.",
-    "projects.11.details.stack": "React · TypeScript · Tailwind CSS · PWA · Service Workers",
-    "projects.11.details.status": "Deployed / In production",
-    "projects.11.details.type": "Interactive Platform / PWA Application",
-    "projects.11.details.objective": "Develop an interactive digital collecting platform with a mobile-first approach and stellar performance, achieving:",
-    "projects.11.details.objective.items": [
+    "projects.archive.campus.details.feedback": "The project stands out for its production stability and the fluidity of the student experience, achieving a technically and functionally high-quality educational product.",
+    "projects.figuNet.title": "FiguNet — Virtual Sticker Album",
+    "projects.figuNet.description": "Interactive digital sticker album platform featuring P2P trading, gamification, offline PWA support, and extreme performance optimization.",
+    "projects.figuNet.details.name": "FiguNet Virtual Album",
+    "projects.figuNet.details.summary": "Interactive digital collecting ecosystem with P2P mechanics and high-fidelity gamification.",
+    "projects.figuNet.details.context": "Physical sticker albums generate immense nostalgia and connection, but digital collecting often lacks the same excitement and fluidity. FiguNet was born to recreate the thrill of traditional collecting on a modern, fast, and ultra-optimized web platform, combining fluid animations, offline compatibility, and a robust trading system.",
+    "projects.figuNet.details.stack": "React · TypeScript · Tailwind CSS · PWA · Service Workers",
+    "projects.figuNet.details.status": "Deployed / In production",
+    "projects.figuNet.details.type": "Interactive Platform / PWA Application",
+    "projects.figuNet.details.objective": "Develop an interactive digital collecting platform with a mobile-first approach and stellar performance, achieving:",
+    "projects.figuNet.details.objective.items": [
         "Tactile and visual experience identical to peeling and pasting real stickers",
         "Fluid and secure peer-to-peer (P2P) trading for duplicate stickers",
         "Full PWA compatibility for mobile installation and offline support",
         "Premium visual effects and gamification (confetti and neon glow upon completion)",
         "Image optimization (LCP) and senior-level mobile performance"
     ],
-    "projects.11.details.process": "Development focused on instant tactile responsiveness and asset optimization for mid-to-low-end devices:",
-    "projects.11.details.process.steps": [
+    "projects.figuNet.details.process": "Development focused on instant tactile responsiveness and asset optimization for mid-to-low-end devices:",
+    "projects.figuNet.details.process.steps": [
         "Designed an ultra-responsive mobile interface using Tailwind CSS and tailored HSL colors",
         "Implemented Service Workers for network caching and 100% offline support (PWA)",
         "Developed the matching logic for duplicate exchanges (TokenMatch) in the client",
         "Automated and restructured the asset management system with normalized ISO names",
         "Integrated canvas-confetti effects and GPU-optimized CSS animations"
     ],
-    "projects.11.details.result": "A high-fidelity digital product that perfectly recreates the excitement of completing an album.",
-    "projects.11.details.result.items": [
+    "projects.figuNet.details.result": "A high-fidelity digital product that perfectly recreates the excitement of completing an album.",
+    "projects.figuNet.details.result.items": [
         "Zero friction on mobile devices with excellent Lighthouse scores",
         "Uninterrupted offline functionality powered by the Service Worker",
         "Highly interactive, error-free exchange system",
         "Immersive experience with high visual impact that delights users"
     ],
-    "projects.11.details.role": "Fullstack Developer & UX Architect",
-    "projects.11.details.responsibilities": [
+    "projects.figuNet.details.role": "Frontend Engineer — PWA & Performance",
+    "projects.figuNet.details.responsibilities": [
         "Interactive interface design and high-fidelity animations",
         "Service Worker implementation and production PWA setup",
         "Collection storage and data flow structuring",
         "TypeScript debugging and LCP performance optimization",
         "Deployment and validation in a real production environment"
     ],
-    "projects.11.details.technologies": [
+    "projects.figuNet.details.technologies": [
         "React",
         "TypeScript",
         "Tailwind CSS",
@@ -527,18 +425,17 @@
         "Canvas Confetti",
         "Zustand"
     ],
-    "projects.11.details.feedback": "FiguNet stands out as a flagship portfolio piece, demonstrating the ability to carry a complex application from conception to production readiness, with meticulous attention to performance, UX, and mobile accessibility.",
-
-    "projects.12.title": "NekoTools — Creative & Productivity Developer Web Suite",
-    "projects.12.description": "Modern web platform offering client-side developer and digital creator utilities. Features a WebP converter, visual image resizer, palette extractor, and generators focused on speed and privacy.",
-    "projects.12.details.name": "NekoTools",
-    "projects.12.details.summary": "Premium collection of creative and developer utilities processed 100% locally in the browser with zero server uploads or tracking.",
-    "projects.12.details.context": "Many online image conversion or editing tools require uploading private files to third-party servers, showing intrusive ads and throttling processing speed. NekoTools solves this by running all processing locally within the user's browser using Web Workers and the Canvas API, guaranteeing blazing-fast speed, total privacy, and zero tracking.",
-    "projects.12.details.stack": "React 18 · TypeScript · Vite · Tailwind CSS v4 · Web Workers",
-    "projects.12.details.status": "Deployed / In production",
-    "projects.12.details.type": "Developer Utilities & Productivity Suite",
-    "projects.12.details.objective": "Provide a fast, secure, and sleek suite of developer and creative tools:",
-    "projects.12.details.objective.items": [
+    "projects.figuNet.details.feedback": "FiguNet stands out as a flagship portfolio piece, demonstrating the ability to carry a complex application from conception to production readiness, with meticulous attention to performance, UX, and mobile accessibility.",
+    "projects.nekoTools.title": "NekoTools — Creative & Productivity Developer Web Suite",
+    "projects.nekoTools.description": "Modern web platform offering client-side developer and digital creator utilities. Features a WebP converter, visual image resizer, palette extractor, and generators focused on speed and privacy.",
+    "projects.nekoTools.details.name": "NekoTools",
+    "projects.nekoTools.details.summary": "Premium collection of creative and developer utilities processed 100% locally in the browser with zero server uploads or tracking.",
+    "projects.nekoTools.details.context": "Many online image conversion or editing tools require uploading private files to third-party servers, showing intrusive ads and throttling processing speed. NekoTools solves this by running all processing locally within the user's browser using Web Workers and the Canvas API, guaranteeing blazing-fast speed, total privacy, and zero tracking.",
+    "projects.nekoTools.details.stack": "React 18 · TypeScript · Vite · Tailwind CSS v4 · Web Workers",
+    "projects.nekoTools.details.status": "Deployed / In production",
+    "projects.nekoTools.details.type": "Developer Utilities & Productivity Suite",
+    "projects.nekoTools.details.objective": "Provide a fast, secure, and sleek suite of developer and creative tools:",
+    "projects.nekoTools.details.objective.items": [
         "Batch image converter and optimizer to WebP format",
         "Visual image resizer and editor (Image Resizer)",
         "Smart color palette extractor from images",
@@ -547,37 +444,36 @@
         "100% client-side local browser processing with no file uploads",
         "Modern account-free, ad-free, and tracking-free interface"
     ],
-    "projects.12.details.process": "Development focused on modular feature architecture and client-side performance:",
-    "projects.12.details.process.steps": [
+    "projects.nekoTools.details.process": "Development focused on modular feature architecture and client-side performance:",
+    "projects.nekoTools.details.process.steps": [
         "Feature-driven modular architecture",
         "Implementation of Web Workers for heavy visual processing tasks without blocking the UI",
         "Extensive use of the Canvas API for real-time graphics inspection and manipulation",
         "Cohesive, responsive, and accessible UI design system built with Tailwind CSS v4",
         "Performance optimization with zero backend dependencies or network latency"
     ],
-    "projects.12.details.result": "A fast, reliable, and beautifully designed utility platform for daily digital creation workflows.",
-    "projects.12.details.result.items": [
+    "projects.nekoTools.details.result": "A fast, reliable, and beautifully designed utility platform for daily digital creation workflows.",
+    "projects.nekoTools.details.result.items": [
         "Guaranteed privacy: files are processed in memory and never leave the device",
         "Instant visual conversion and processing with zero server latency",
         "Intuitive user experience with full dark mode support and fluid animations",
         "Scalable structure ready to integrate new utilities and tools seamlessly"
     ],
-    "projects.12.details.role": "Frontend Developer & Product Creator",
-    "projects.12.details.responsibilities": [
+    "projects.nekoTools.details.role": "Frontend Engineer & Product Developer",
+    "projects.nekoTools.details.responsibilities": [
         "End-to-end interface design, frontend architecture, and UX engineering",
         "Development of image conversion tools, color extraction, and Canvas manipulations",
         "Client-side performance optimization using Web Workers and TypeScript",
         "Design of a clean, ad-free visual experience"
     ],
-    "projects.12.details.technologies": [
+    "projects.nekoTools.details.technologies": [
         "React 18 — reactive, modular, and high-performance user interface",
         "TypeScript — strict typing and reliable file and buffer manipulation",
         "Vite — blazing fast dev environment and optimized production builds",
         "Tailwind CSS v4 — modern, responsive styling and premium design system",
         "Canvas API & Web Workers — high-performance client-side graphics processing"
     ],
-    "projects.12.details.feedback": "NekoTools demonstrates how to build genuinely useful, fast, and privacy-respecting web applications by maximizing modern browser capabilities.",
-
+    "projects.nekoTools.details.feedback": "NekoTools demonstrates how to build genuinely useful, fast, and privacy-respecting web applications by maximizing modern browser capabilities.",
     "testimonials.heading": "What my clients say",
     "testimonials.intro": "Some clients shared their experience working with me.",
     "testimonials.0.quote": "Cintia made the whole process easy. She was always available to clarify doubts and delivered the work on time, with great attention to detail.",
@@ -595,12 +491,10 @@
     "testimonials.4.quote": "Working with Cintia was very close and collaborative. She captured the essence of my project and translated it into a clear, coherent website that connects with people.",
     "testimonials.4.author": "Ranchesca Gutiérrez",
     "testimonials.4.company": "Creator, Tejiendo con Ranchesca",
-
-   "about.title": "About Me",
-    "about.p1": "I am a Frontend Developer specializing in modern web applications and SaaS products. I work primarily with TypeScript, React, Next.js, and Vue, creating scalable, maintainable interfaces focused on user experience.",
-    "about.p2": "I have developed end-to-end projects ranging from frontend architecture to integration with Laravel, Supabase, and PostgreSQL, implementing authentication, storage, file processing, admin dashboards, and AI-powered features.",
-    "about.p3": "My background in design allows me to make decisions considering visual quality as well as usability, accessibility, and performance. I enjoy building well-structured products, solving complex problems, and transforming ideas into production-ready applications.",
-
+    "about.title": "About Me",
+    "about.p1": "I am a Frontend Engineer & Product Developer specialized in building scalable web applications and digital products focused on real user needs. I work primarily with TypeScript, React, Next.js, and Vue, creating robust, maintainable interfaces with a strong focus on user experience.",
+    "about.p2": "I have designed and built complete end-to-end products, from frontend architecture and solution modeling to API integrations, Laravel, Supabase, and PostgreSQL. My experience includes developing SaaS applications, authentication systems, multi-tenant architectures, administrative dashboards, file storage solutions, and AI-powered features.",
+    "about.p3": "My background in design allows me to combine engineering, product thinking, and user experience to create solutions where visual quality, accessibility, performance, and maintainability work together. I enjoy solving complex problems, making technical decisions, and transforming ideas into production-ready digital products.",
     "skills.title": "Technologies & tools",
     "skills.intro": "I work with a modern stack focused on performance, maintainability and best practices.",
     "skills.columns.frontend.title": "Frontend",
@@ -622,71 +516,74 @@
     "skills.levels.proficient": "Proficient",
     "skills.levels.working": "Working knowledge",
     "skills.levels.familiar": "Familiar",
-
     "hero.whatsapp": "Contact via WhatsApp",
     "hero.title": "Cintia Losada",
-    "hero.lead": "Frontend Developer specializing in modern web applications",
-    "hero.cta": "I design and develop scalable interfaces with React, Next.js, and Vue. I integrate applications with APIs, Laravel, Supabase, and PostgreSQL, building SaaS products focused on performance, user experience, and maintainable architecture.",
+    "hero.role": "Frontend Engineer & Product Developer",
+    "hero.lead": "I create scalable web applications and digital products with a focus on architecture, user experience, and performance.",
+    "hero.cta": "I build scalable digital products using React, Next.js, and TypeScript, combining frontend engineering, software architecture, and user experience. I develop end-to-end SaaS applications integrating APIs, databases, and cloud services like Supabase and PostgreSQL, focusing on performance, maintainability, and solutions driven by real users.",
     "hero.contact": "Contact me",
     "hero.viewProjects": "View Projects",
     "hero.downloadCv": "Download CV",
     "experience.heading": "Experience",
-    "experience.1.role": "Web Developer — Educational Platform",
-    "experience.1.period": "Feb 2026 – Present",
-    "experience.1.description": "Programming teaching platform with real users.",
-    "experience.1.tasks.0": "Maintenance and evolution of a production product.",
-    "experience.1.tasks.1": "Development of new features with Vue.js.",
-    "experience.1.tasks.2": "Integration with Laravel (PHP) backend via REST APIs.",
-    "experience.1.tasks.3": "Data management in PostgreSQL using Neon.",
-    "experience.1.tasks.4": "Implementation of critical flows: onboarding, account activation, and progress.",
-    "experience.1.tasks.5": "User experience improvements through dynamic states and visual feedback.",
-    "experience.1.tasks.6": "Debugging and incident resolution in a production environment.",
-    "experience.1.tasks.7": "Collaborative work with Git and GitHub workflow (Issues, Projects) for task management and tracking.",
-    "experience.1.tasks.9": "Use of Docker to run the local backend environment and ensure development consistency.",
-    "experience.2.role": "Web Developer — Language App",
+    "experience.1.role": "Founder & Product Engineer — CinloLabs",
+    "experience.1.period": "2025 – Present",
+    "experience.1.description": "Multi-Tenant B2B SaaS for Dental Laboratories. Production SaaS platform aimed at digitizing operational management for dental labs and clinics.",
+    "experience.1.tasks.0": "Design, architecture, and end-to-end development of a B2B SaaS product from problem definition to production.",
+    "experience.1.tasks.1": "Feature-Driven Architecture design with strict domain separation and architectural boundaries.",
+    "experience.1.tasks.2": "End-to-end product development using Next.js, React, TypeScript, and Server Actions.",
+    "experience.1.tasks.3": "Multi-tenant architecture modeling with PostgreSQL and Row Level Security (RLS).",
+    "experience.1.tasks.4": "Implementation of authentication, Role-Based Access Control (RBAC), and tenant data isolation.",
+    "experience.1.tasks.5": "Experience design for multiple users: laboratories, dentists, and internal operators.",
+    "experience.1.tasks.6": "Definition of technical decisions, UX, and product evolution.",
+    "experience.2.role": "Frontend Engineer — Language Educational App",
     "experience.2.period": "Jan 2026 – Present",
-    "experience.2.description": "Language learning app focused on interactive experience.",
-    "experience.2.tasks.0": "Development of interactive interfaces.",
-    "experience.2.tasks.1": "Creation of reusable components.",
-    "experience.2.tasks.2": "API integration.",
-    "experience.2.tasks.3": "State management and validations.",
-    "experience.2.tasks.4": "User experience improvements.",
-    "experience.2.tasks.5": "Work under agile methodology using ClickUp for task management and Scrum workflow organization.",
-    "experience.3.role": "Web Developer — Freelance Projects",
-    "experience.3.period": "Jun 2024 – Present",
-    "experience.3.description": "Development of web solutions for independent clients, focused on digital presence, customer acquisition, and sales of services and digital products.",
-    "experience.3.tasks.0": "Development of conversion-oriented landing pages for professional services.",
-    "experience.3.tasks.1": "Implementation of appointment booking systems for client management.",
-    "experience.3.tasks.2": "Migration of existing platforms to modern solutions (from Systeme.io to Next.js).",
-    "experience.3.tasks.3": "Integration of features for digital product and affiliate sales.",
-    "experience.3.tasks.4": "Design adaptation to each client's visual identity.",
-    "experience.3.tasks.5": "User experience optimization to improve navigation and conversion.",
-
+    "experience.2.description": "Web application geared towards educational institutions, focused on interactive experience, user management, and academic tracking.",
+    "experience.2.tasks.0": "Development of user flows, navigation, and interactive experiences for educational platforms.",
+    "experience.2.tasks.1": "Construction of interactive experiences focused on users and educational flows.",
+    "experience.2.tasks.2": "API integration and application state management.",
+    "experience.2.tasks.3": "Implementation of validations and frontend interaction logic.",
+    "experience.2.tasks.4": "Optimization of user experience and visual consistency.",
+    "experience.2.tasks.5": "Agile workflow using ClickUp and Scrum.",
+    "experience.3.role": "Frontend Engineer — Educational Platform (Campus Mariana Casella)",
+    "experience.3.period": "Feb 2026 – Present",
+    "experience.3.description": "Educational platform for teaching programming with real users.",
+    "experience.3.tasks.0": "Development and evolution of features in an active product.",
+    "experience.3.tasks.1": "Creation of dynamic interfaces with Vue.js.",
+    "experience.3.tasks.2": "Integration with Laravel backend via REST APIs.",
+    "experience.3.tasks.3": "Implementation of critical user flows: onboarding, account activation, and progress tracking.",
+    "experience.3.tasks.4": "Debugging and incident resolution in production.",
+    "experience.3.tasks.5": "Collaborative work with Git, GitHub Issues, and Projects.",
+    "experience.3.tasks.6": "Use of Docker for consistent local environments.",
+    "experience.4.role": "Frontend Engineer & Product Developer — Freelance Projects",
+    "experience.4.period": "Jun 2024 – Present",
+    "experience.4.description": "Development of digital products and web solutions for independent clients, from requirements definition to implementation.",
+    "experience.4.tasks.0": "Development of conversion-oriented web applications and sites.",
+    "experience.4.tasks.1": "Creation of landing pages, booking systems, and digital tools.",
+    "experience.4.tasks.2": "Migration of legacy platforms to modern Next.js-based solutions.",
+    "experience.4.tasks.3": "Integration of features for digital products and online businesses.",
+    "experience.4.tasks.4": "Implementation of interfaces aligned with visual identity and business goals.",
+    "experience.4.tasks.5": "Optimization of performance, accessibility, and user experience.",
     "footer.privacy": "Privacy Policy",
     "footer.terms": "Terms & Conditions",
-    "footer.rights": "All rights reserved."
-    ,
+    "footer.rights": "All rights reserved.",
     "contact.heading": "Contact",
-    "contact.intro": "Have a web project, idea to build, or need technical support? Fill the form and I'll reply shortly to coordinate next steps.",
-    "contact.available": "Available for remote work and freelance projects.",
+    "contact.intro": "Are you building a digital product, improving an existing application, or looking to add frontend engineering expertise to your team?. I am open to new opportunities as a Frontend Engineer & Product Developer, bringing experience in application architecture, fullstack development, and building scalable digital products.",
+    "contact.available": "Open to remote opportunities & product development collaborations.",
     "contact.success.title": "Message Sent!",
     "contact.success.description": "Thanks for reaching out. I'll reply shortly.",
     "contact.error.title": "Oops! Something went wrong.",
     "contact.error.description": "There was a problem sending your message. Please try again.",
-
     "form.label.name": "Name",
-    "form.placeholder.name": "Your Name",
+    "form.placeholder.name": "Your name",
     "form.label.email": "Email",
-    "form.placeholder.email": "you.email@example.com",
+    "form.placeholder.email": "your.email@example.com",
     "form.label.message": "Message",
-    "form.placeholder.message": "Tell me about your project...",
+    "form.placeholder.message": "Tell me about the opportunity, product, or technical challenge.",
     "form.submit.sending": "Sending...",
     "form.submit.label": "Send Message",
-
     "form.errors.name": "Name must be at least 2 characters.",
     "form.errors.email": "Please enter a valid email address.",
-    "form.errors.message": "Message must be at least 10 characters."
-    ,
+    "form.errors.message": "Message must be at least 10 characters.",
     "privacy.title": "Privacy Policy",
     "privacy.intro": "Your privacy is important to us. Here we explain how we collect, use and protect your personal data when you visit our website.",
     "privacy.point1": "We do not share your information with third parties.",
@@ -697,12 +594,15 @@
     "privacy.point4Suffix": "for more information.",
     "privacy.contactPrompt": "If you have questions about our policy, contact us through the form.",
     "privacy.back": "Back to home",
-
     "terms.title": "Terms & Conditions",
     "terms.intro": "By using this website you accept the following terms and conditions:",
     "terms.point1": "Content is for informational purposes only and may change without notice.",
     "terms.point2": "We are not responsible for how you use the published information.",
     "terms.point3": "Design and content are protected by copyright.",
     "terms.contactPrompt": "For more information, contact us directly.",
-    "terms.back": "Back to home"
+    "terms.back": "Back to home",
+    "notFound.title": "404 — Page not found",
+    "notFound.description": "Neko searched everywhere, but this page seems to have disappeared.",
+    "notFound.backHome": "Back home",
+    "notFound.projects": "Explore projects"
 }

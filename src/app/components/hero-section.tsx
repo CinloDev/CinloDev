@@ -33,8 +33,11 @@ export default function HeroSection() {
                         {/* LEFT COLUMN — Texto */}
                         <div className="space-y-6 text-center lg:text-left">
                             
-                            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-headline tracking-tight text-foreground leading-tight">
-                            {t('hero.title')}
+                            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-headline tracking-tight text-foreground leading-tight flex flex-col gap-1">
+                                <span>{t('hero.title')}</span>
+                                <span className="text-2xl md:text-3xl lg:text-4xl font-medium text-foreground/80">
+                                    {t('hero.role')}
+                                </span>
                             </h1>
 
                             <p className="text-lg md:text-xl text-muted-foreground dark:text-white max-w-2xl lg:mx-0 mx-auto">
