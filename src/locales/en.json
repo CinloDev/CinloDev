@@ -4,43 +4,35 @@
     "nav.experience": "Experience",
     "nav.work": "Projects",
     "nav.contact": "Contact",
-
     "aria.changeToEnglish": "Change language to English",
-    "aria.changeToSpanish": "Change language to Spanish"
-    ,
+    "aria.changeToSpanish": "Change language to Spanish",
     "services.heading": "Services",
     "services.intro": "I build digital products focused on product, UX and measurable results.",
-
     "services.web.title": "Web Development",
     "services.web.description": "Design and development of modern, fast and scalable web applications tailored to concrete business goals.",
     "services.web.includes.frontend": "Frontend with React / Next.js",
     "services.web.includes.backend": "Backend with Node and REST APIs",
     "services.web.includes.responsive": "Responsive, mobile-first design",
     "services.web.includes.deploy": "Initial deploy and configuration",
-
     "services.ui.title": "Frontend & User Experience",
     "services.ui.description": "I build clear, accessible and optimized interfaces, balancing aesthetics, usability and performance.",
     "services.ui.includes.ui": "UI with Tailwind",
     "services.ui.includes.design": "Design to code (Figma → code)",
     "services.ui.includes.performance": "Performance optimization",
     "services.ui.includes.accessibility": "Accessibility best practices",
-
     "services.maintenance.title": "Optimization & Maintenance",
     "services.maintenance.description": "I improve existing projects to run better, load faster and be easier to maintain.",
     "services.maintenance.includes.refactors": "Refactors",
     "services.maintenance.includes.bugs": "Bug fixes",
     "services.maintenance.includes.features": "New features",
     "services.maintenance.includes.performance": "Performance improvements",
-
     "projects.heading": "Projects",
     "projects.intro": "A curated selection of projects showcasing web development and content work.",
     "projects.viewLive": "View Live",
     "projects.viewMore": "View more",
     "projects.code": "Code",
-
     "projects.notFound": "Project not found",
     "projects.backToWork": "Back to home",
-
     "projects.1.title": "AlDía — Personal & Collaborative Finance Platform",
     "projects.1.description": "Fullstack SaaS web application for smart personal finance management, budgeting, savings goals, and collaborative expense splitting.",
     "projects.1.details.name": "AlDía — Financial Management SaaS Platform",
@@ -283,7 +275,6 @@
         "TypeScript — typed JavaScript for reliability"
     ],
     "projects.6.details.feedback": "This project helped solidify frontend fundamentals and served as the basis to adopt more modern tools and architectures.",
-
     "projects.7.title": "CinloLabs — B2B Dental Lab Operational SaaS",
     "projects.7.description": "Multi-tenant B2B SaaS platform that digitizes end-to-end dental laboratory operations and streamlines real-time collaboration with dentists.",
     "projects.7.details.name": "CinloLabs — Operational Management B2B SaaS",
@@ -331,7 +322,6 @@
         "Tailwind CSS — Responsive, mobile-first design system for lab and clinical environments"
     ],
     "projects.7.details.feedback": "CinloLabs exemplifies high engineering standards, domain-driven software architecture, and multi-tenant SaaS security. As a proprietary production system, an extensive technical Showcase repository was published detailing product vision, ADRs, database schema, and isolation strategy.",
-
     "projects.8.title": "Command Center Dev",
     "projects.8.description": "Advanced control center for engineering workflows. Automates branch creation, manages Docker containers, and centralizes Node.js commands in a premium interface with local persistence.",
     "projects.8.details.name": "Command Center Dev",
@@ -381,7 +371,6 @@
         "Vercel — deployment and hosting"
     ],
     "projects.8.details.feedback": "The project stands out for its focus on real-world productivity, eliminating the friction of jumping between multiple tools and providing a sleek, powerful control center for the modern developer.",
-
     "projects.9.title": "MailQuark — Premium Email Testing Tool",
     "projects.9.description": "Intercept SMTP emails in real-time, inspect HTML/Text/Headers, and validate dynamic variables to prevent production errors.",
     "projects.9.details.name": "MailQuark",
@@ -433,7 +422,6 @@
         "Vercel — optimized deployment platform"
     ],
     "projects.9.details.feedback": "The project has been praised for its attention to both visual and technical detail, proving that an internal utility can possess final-product quality.",
-
     "projects.10.title": "Mariana Casella Campus — Challenge System",
     "projects.10.description": "Interactive programming learning platform featuring a real-time challenge system, progress tracking, and dynamic feedback.",
     "projects.10.details.name": "Mariana Casella Academy Campus",
@@ -479,7 +467,6 @@
         "Git & GitHub — task management and version control"
     ],
     "projects.10.details.feedback": "The project stands out for its production stability and the fluidity of the student experience, achieving a technically and functionally high-quality educational product.",
-
     "projects.11.title": "FiguNet — Virtual Sticker Album",
     "projects.11.description": "Interactive digital sticker album platform featuring P2P trading, gamification, offline PWA support, and extreme performance optimization.",
     "projects.11.details.name": "FiguNet Virtual Album",
@@ -528,7 +515,6 @@
         "Zustand"
     ],
     "projects.11.details.feedback": "FiguNet stands out as a flagship portfolio piece, demonstrating the ability to carry a complex application from conception to production readiness, with meticulous attention to performance, UX, and mobile accessibility.",
-
     "projects.12.title": "NekoTools — Creative & Productivity Developer Web Suite",
     "projects.12.description": "Modern web platform offering client-side developer and digital creator utilities. Features a WebP converter, visual image resizer, palette extractor, and generators focused on speed and privacy.",
     "projects.12.details.name": "NekoTools",
@@ -577,7 +563,6 @@
         "Canvas API & Web Workers — high-performance client-side graphics processing"
     ],
     "projects.12.details.feedback": "NekoTools demonstrates how to build genuinely useful, fast, and privacy-respecting web applications by maximizing modern browser capabilities.",
-
     "testimonials.heading": "What my clients say",
     "testimonials.intro": "Some clients shared their experience working with me.",
     "testimonials.0.quote": "Cintia made the whole process easy. She was always available to clarify doubts and delivered the work on time, with great attention to detail.",
@@ -595,12 +580,10 @@
     "testimonials.4.quote": "Working with Cintia was very close and collaborative. She captured the essence of my project and translated it into a clear, coherent website that connects with people.",
     "testimonials.4.author": "Ranchesca Gutiérrez",
     "testimonials.4.company": "Creator, Tejiendo con Ranchesca",
-
-   "about.title": "About Me",
+    "about.title": "About Me",
     "about.p1": "I am a Frontend Developer specializing in modern web applications and SaaS products. I work primarily with TypeScript, React, Next.js, and Vue, creating scalable, maintainable interfaces focused on user experience.",
     "about.p2": "I have developed end-to-end projects ranging from frontend architecture to integration with Laravel, Supabase, and PostgreSQL, implementing authentication, storage, file processing, admin dashboards, and AI-powered features.",
     "about.p3": "My background in design allows me to make decisions considering visual quality as well as usability, accessibility, and performance. I enjoy building well-structured products, solving complex problems, and transforming ideas into production-ready applications.",
-
     "skills.title": "Technologies & tools",
     "skills.intro": "I work with a modern stack focused on performance, maintainability and best practices.",
     "skills.columns.frontend.title": "Frontend",
@@ -622,11 +605,11 @@
     "skills.levels.proficient": "Proficient",
     "skills.levels.working": "Working knowledge",
     "skills.levels.familiar": "Familiar",
-
     "hero.whatsapp": "Contact via WhatsApp",
     "hero.title": "Cintia Losada",
-    "hero.lead": "Frontend Developer specializing in modern web applications",
-    "hero.cta": "I design and develop scalable interfaces with React, Next.js, and Vue. I integrate applications with APIs, Laravel, Supabase, and PostgreSQL, building SaaS products focused on performance, user experience, and maintainable architecture.",
+    "hero.role": "Frontend Engineer & Product Developer",
+    "hero.lead": "I create scalable web applications and digital products with a focus on architecture, user experience, and performance.",
+    "hero.cta": "I build scalable digital products using React, Next.js, and TypeScript, combining frontend engineering, software architecture, and user experience. I develop end-to-end SaaS applications integrating APIs, databases, and cloud services like Supabase and PostgreSQL, focusing on performance, maintainability, and solutions driven by real users.",
     "hero.contact": "Contact me",
     "hero.viewProjects": "View Projects",
     "hero.downloadCv": "Download CV",
@@ -661,11 +644,9 @@
     "experience.3.tasks.3": "Integration of features for digital product and affiliate sales.",
     "experience.3.tasks.4": "Design adaptation to each client's visual identity.",
     "experience.3.tasks.5": "User experience optimization to improve navigation and conversion.",
-
     "footer.privacy": "Privacy Policy",
     "footer.terms": "Terms & Conditions",
-    "footer.rights": "All rights reserved."
-    ,
+    "footer.rights": "All rights reserved.",
     "contact.heading": "Contact",
     "contact.intro": "Have a web project, idea to build, or need technical support? Fill the form and I'll reply shortly to coordinate next steps.",
     "contact.available": "Available for remote work and freelance projects.",
@@ -673,7 +654,6 @@
     "contact.success.description": "Thanks for reaching out. I'll reply shortly.",
     "contact.error.title": "Oops! Something went wrong.",
     "contact.error.description": "There was a problem sending your message. Please try again.",
-
     "form.label.name": "Name",
     "form.placeholder.name": "Your Name",
     "form.label.email": "Email",
@@ -682,11 +662,9 @@
     "form.placeholder.message": "Tell me about your project...",
     "form.submit.sending": "Sending...",
     "form.submit.label": "Send Message",
-
     "form.errors.name": "Name must be at least 2 characters.",
     "form.errors.email": "Please enter a valid email address.",
-    "form.errors.message": "Message must be at least 10 characters."
-    ,
+    "form.errors.message": "Message must be at least 10 characters.",
     "privacy.title": "Privacy Policy",
     "privacy.intro": "Your privacy is important to us. Here we explain how we collect, use and protect your personal data when you visit our website.",
     "privacy.point1": "We do not share your information with third parties.",
@@ -697,7 +675,6 @@
     "privacy.point4Suffix": "for more information.",
     "privacy.contactPrompt": "If you have questions about our policy, contact us through the form.",
     "privacy.back": "Back to home",
-
     "terms.title": "Terms & Conditions",
     "terms.intro": "By using this website you accept the following terms and conditions:",
     "terms.point1": "Content is for informational purposes only and may change without notice.",

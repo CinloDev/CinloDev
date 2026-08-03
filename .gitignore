@@ -43,3 +43,14 @@ next-env.d.ts
 # firebase
 firebase-debug.log
 firestore-debug.log
+
+# ==========================
+# Neko Workspace
+# ==========================
+.neko/
+neko.local.yaml
+.neko.local/
+neko.workspace.yaml
+
+# mcp config
+mcp_config.json

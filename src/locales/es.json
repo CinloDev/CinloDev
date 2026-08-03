@@ -4,43 +4,35 @@
     "nav.experience": "Experiencia",
     "nav.work": "Proyectos",
     "nav.contact": "Contacto",
-
     "aria.changeToEnglish": "Cambiar idioma a Inglés",
-    "aria.changeToSpanish": "Cambiar idioma a Español"
-    ,
+    "aria.changeToSpanish": "Cambiar idioma a Español",
     "services.heading": "Servicios",
     "services.intro": "Desarrollo soluciones digitales enfocadas en producto, experiencia de usuario y resultados reales.",
-
     "services.web.title": "Desarrollo Web",
     "services.web.description": "Diseño y desarrollo de aplicaciones y sitios web modernos, rápidos y escalables, adaptados a objetivos concretos de negocio.",
     "services.web.includes.frontend": "Frontend con React / Next.js",
     "services.web.includes.backend": "Backend con Node y APIs REST",
     "services.web.includes.responsive": "Diseño responsive y mobile-first",
     "services.web.includes.deploy": "Deploy y configuración inicial",
-
     "services.ui.title": "Frontend & Experiencia de Usuario",
     "services.ui.description": "Desarrollo interfaces claras, accesibles y optimizadas, cuidando tanto la estética como la usabilidad y la performance.",
     "services.ui.includes.ui": "UI con Tailwind",
     "services.ui.includes.design": "Adaptación de diseños (Figma → código)",
     "services.ui.includes.performance": "Optimización de performance",
     "services.ui.includes.accessibility": "Buenas prácticas de accesibilidad",
-
     "services.maintenance.title": "Optimización y Mantenimiento",
     "services.maintenance.description": "Mejoro proyectos existentes para que funcionen mejor, carguen más rápido y sean más fáciles de mantener.",
     "services.maintenance.includes.refactors": "Refactors",
     "services.maintenance.includes.bugs": "Corrección de bugs",
     "services.maintenance.includes.features": "Nuevas funcionalidades",
     "services.maintenance.includes.performance": "Mejoras de rendimiento",
-
     "projects.heading": "Proyectos",
     "projects.intro": "Aquí hay una selección de proyectos que muestran mis habilidades en desarrollo web y creación de contenido.",
     "projects.viewLive": "Ver Proyecto en Vivo",
     "projects.viewMore": "Ver más",
     "projects.code": "Código",
-
     "projects.notFound": "Proyecto no encontrado",
     "projects.backToWork": "Volver al inicio",
-
     "projects.1.title": "AlDía — Gestión Financiera Personal y Colaborativa",
     "projects.1.description": "Aplicación SaaS fullstack para la gestión inteligente de finanzas personales, presupuestos, metas de ahorro y división de gastos en grupos compartidos.",
     "projects.1.details.name": "AlDía — Plataforma SaaS de Gestión Financiera",
@@ -283,7 +275,6 @@
         "TypeScript — tipado y seguridad en el frontend"
     ],
     "projects.6.details.feedback": "Este proyecto permitió afianzar fundamentos de frontend y sirvió como base para adoptar herramientas y arquitecturas más modernas.",
-
     "projects.7.title": "CinloLabs — SaaS B2B para Laboratorios de Mecánica Dental",
     "projects.7.description": "Plataforma SaaS B2B multi-tenant que digitaliza la gestión operativa integral de laboratorios dentales y su comunicación en tiempo real con odontólogos.",
     "projects.7.details.name": "CinloLabs — SaaS B2B de Gestión Operativa",
@@ -331,7 +322,6 @@
         "Tailwind CSS — UI/UX responsiva y mobile-first para laboratorio y consultorio"
     ],
     "projects.7.details.feedback": "CinloLabs demuestra un estándar superior en ingeniería de software, arquitectura de producto digital y seguridad multi-tenant. Al tratarse de una plataforma comercial de código cerrado, se construyó un repositorio Showcase exhaustivo con documentación sobre visión, ADRs, modelo de datos y aislamiento arquitectónico.",
-    
     "projects.8.title": "Command Center Dev",
     "projects.8.description": "Centro de control avanzado para flujos de trabajo de ingeniería. Automatiza la creación de ramas, gestiona contenedores Docker y centraliza comandos de Node.js en una interfaz premium con persistencia local.",
     "projects.8.details.name": "Command Center Dev",
@@ -381,7 +371,6 @@
         "Vercel — despliegue y optimización"
     ],
     "projects.8.details.feedback": "El proyecto destaca por su enfoque en la productividad real, eliminando la fricción de saltar entre múltiples herramientas y proporcionando un centro de control elegante y potente para el desarrollador moderno.",
-    
     "projects.9.title": "MailQuark — Herramienta Premium de Email Testing",
     "projects.9.description": "Intercepta correos SMTP en tiempo real, inspecciona HTML/Texto/Headers y valida variables dinámicas para evitar errores en producción.",
     "projects.9.details.name": "MailQuark",
@@ -433,7 +422,6 @@
         "Vercel — plataforma de despliegue optimizada"
     ],
     "projects.9.details.feedback": "El proyecto ha sido elogiado por su atención al detalle visual y técnico, demostrando que una herramienta de uso interno puede tener una calidad de producto final.",
-
     "projects.10.title": "Campus Academia Mariana Casella — Sistema de Desafíos",
     "projects.10.description": "Plataforma interactiva de aprendizaje de programación con sistema de desafíos en tiempo real, gestión de progreso y feedback dinámico.",
     "projects.10.details.name": "Campus Academia Mariana Casella",
@@ -479,7 +467,6 @@
         "Git & GitHub — gestión de tareas y control de versiones"
     ],
     "projects.10.details.feedback": "El proyecto destaca por su estabilidad en producción y la fluidez de la experiencia del estudiante, logrando un producto educativo de alta calidad técnica y funcional.",
-    
     "projects.11.title": "FiguNet — Álbum Virtual de Figuritas",
     "projects.11.description": "Plataforma de álbum de figuritas digital interactiva con intercambio P2P, gamificación, modo offline con PWA y optimización extrema de rendimiento.",
     "projects.11.details.name": "FiguNet Virtual Album",
@@ -528,7 +515,6 @@
         "Zustand"
     ],
     "projects.11.details.feedback": "FiguNet se ha convertido en una pieza clave del portafolio, demostrando la capacidad de llevar una aplicación compleja desde su concepción hasta un estado de producción real, cuidando meticulosamente cada detalle de performance, experiencia de usuario y accesibilidad móvil.",
-
     "projects.12.title": "NekoTools — Suite Web de Productividad y Utilidades Creativas",
     "projects.12.description": "Plataforma web moderna con herramientas client-side para desarrolladores y creadores digitales. Incluye conversor WebP, redimensionador de imágenes, extractor de paletas y generadores enfocados en privacidad y velocidad.",
     "projects.12.details.name": "NekoTools",
@@ -577,7 +563,6 @@
         "Canvas API & Web Workers — procesamiento gráfico de alto rendimiento en el cliente"
     ],
     "projects.12.details.feedback": "NekoTools demuestra cómo construir aplicaciones web verdaderamente útiles, veloces y respetuosas con la privacidad del usuario, aprovechando al máximo las capacidades modernas del navegador.",
-
     "testimonials.heading": "Lo que dicen mis clientes",
     "testimonials.intro": "Algunos clientes compartieron su experiencia trabajando conmigo.",
     "testimonials.0.quote": "Cintia hizo que todo el proceso fuera fácil. Siempre estaba disponible para aclarar dudas y entregó el trabajo a tiempo, con mucha atención al detalle.",
@@ -595,12 +580,10 @@
     "testimonials.4.quote": "Trabajar con Cintia fue muy cercano. Captó la esencia de mi proyecto y la reflejó en un sitio web claro y coherente, que conecta con la gente.",
     "testimonials.4.author": "Ranchesca Gutiérrez",
     "testimonials.4.company": "Creadora, Tejiendo con Ranchesca",
-
-   "about.title": "Sobre Mí",
+    "about.title": "Sobre Mí",
     "about.p1": "Soy Frontend Developer especializada en el desarrollo de aplicaciones web modernas y productos SaaS. Trabajo principalmente con TypeScript, React, Next.js y Vue, creando interfaces escalables, mantenibles y enfocadas en la experiencia de usuario.",
     "about.p2": "He desarrollado proyectos completos que abarcan desde la arquitectura frontend hasta la integración con Laravel, Supabase y PostgreSQL, implementando autenticación, almacenamiento, procesamiento de archivos, paneles administrativos y funcionalidades impulsadas por IA.",
     "about.p3": "Mi experiencia previa en diseño me permite tomar decisiones considerando tanto la calidad visual como la usabilidad, la accesibilidad y el rendimiento. Disfruto construir productos bien estructurados, resolver problemas complejos y transformar ideas en aplicaciones listas para producción.",
-
     "skills.title": "Tecnologías y herramientas",
     "skills.intro": "Trabajo con un stack moderno orientado a performance, mantenibilidad y buenas prácticas.",
     "skills.columns.frontend.title": "Frontend",
@@ -622,11 +605,11 @@
     "skills.levels.proficient": "Proficient",
     "skills.levels.working": "Working knowledge",
     "skills.levels.familiar": "Familiar",
-
     "hero.whatsapp": "Contactar por WhatsApp",
     "hero.title": "Cintia Losada",
-    "hero.lead": "Frontend Developer especializada en aplicaciones web modernas",
-    "hero.cta": "Diseño y desarrollo interfaces escalables con React, Next.js y Vue. Integro aplicaciones con APIs, Laravel, Supabase y PostgreSQL, construyendo productos SaaS enfocados en rendimiento, experiencia de usuario y arquitectura mantenible.",
+    "hero.role": "Frontend Engineer & Product Developer",
+    "hero.lead": "Desarrollo aplicaciones web escalables y productos digitales con foco en arquitectura, experiencia de usuario y rendimiento.",
+    "hero.cta": "Creo productos digitales escalables utilizando React, Next.js y TypeScript, combinando ingeniería frontend, arquitectura de software y experiencia de usuario. Desarrollo aplicaciones SaaS end-to-end integrando APIs, bases de datos y servicios cloud como Supabase y PostgreSQL, con foco en rendimiento, mantenibilidad y soluciones orientadas a usuarios reales.",
     "hero.contact": "Contáctame",
     "hero.viewProjects": "Ver Proyectos",
     "hero.downloadCv": "Descargar CV",
@@ -661,11 +644,9 @@
     "experience.3.tasks.3": "Integración de funcionalidades para venta de productos digitales y afiliados.",
     "experience.3.tasks.4": "Adaptación de diseño a identidad visual de cada cliente.",
     "experience.3.tasks.5": "Optimización de experiencia de usuario para mejorar navegación y conversión.",
-
     "footer.privacy": "Política de privacidad",
     "footer.terms": "Términos y condiciones",
-    "footer.rights": "Todos los derechos reservados."
-    ,
+    "footer.rights": "Todos los derechos reservados.",
     "contact.heading": "Contacto",
     "contact.intro": "¿Tenés un proyecto web, una idea para desarrollar o necesitás apoyo técnico? Completá el formulario y te respondo a la brevedad para coordinar los próximos pasos.",
     "contact.available": "Disponible para trabajo remoto y proyectos freelance.",
@@ -673,7 +654,6 @@
     "contact.success.description": "Gracias por contactarme. Te responderé en breve.",
     "contact.error.title": "¡Oh, no! Algo salió mal.",
     "contact.error.description": "Hubo un problema al enviar tu mensaje. Por favor, inténtalo de nuevo.",
-
     "form.label.name": "Nombre",
     "form.placeholder.name": "Tu Nombre",
     "form.label.email": "Email",
@@ -682,11 +662,9 @@
     "form.placeholder.message": "Cuéntame sobre tu proyecto...",
     "form.submit.sending": "Enviando...",
     "form.submit.label": "Enviar Mensaje",
-
     "form.errors.name": "El nombre debe tener al menos 2 caracteres.",
     "form.errors.email": "Por favor, introduce una dirección de correo electrónico válida.",
-    "form.errors.message": "El mensaje debe tener al menos 10 caracteres."
-    ,
+    "form.errors.message": "El mensaje debe tener al menos 10 caracteres.",
     "privacy.title": "Política de privacidad",
     "privacy.intro": "Tu privacidad es importante para nosotros. Aquí explicamos cómo recopilamos, usamos y protegemos tus datos personales cuando visitas nuestro sitio web.",
     "privacy.point1": "No compartimos tu información con terceros.",
@@ -697,7 +675,6 @@
     "privacy.point4Suffix": "para más información.",
     "privacy.contactPrompt": "Si tienes dudas sobre nuestra política, contáctanos a través del formulario.",
     "privacy.back": "Volver al inicio",
-
     "terms.title": "Términos y condiciones",
     "terms.intro": "Al usar este sitio web, aceptas los siguientes términos y condiciones:",
     "terms.point1": "El contenido es solo informativo y puede cambiar sin previo aviso.",
