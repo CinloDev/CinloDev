@@ -46,7 +46,7 @@ export const services = [
     },
 ];
 
-export interface ImagePlaceholder extends ImageAsset {}
+export interface ImagePlaceholder extends ImageAsset { }
 
 export interface PortfolioProjectDetails {
     nameKey?: string;
@@ -332,11 +332,6 @@ export const socialLinks = [
         name: 'GitHub',
         url: 'https://github.com/CinloDev',
         icon: Github,
-    },
-    {
-        name: 'Twitter',
-        url: 'https://x.com/CinloDev',
-        icon: Twitter,
     },
     {
         name: 'Instagram',
