@@ -87,7 +87,7 @@ export default function ExperienceSection() {
                     {t('experience.heading')}
                 </h2>
 
-                <div className="grid gap-6 lg:gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-6 lg:gap-8 md:grid-cols-2">
                     {experiences.map((exp, index) => (
                         <Card
                             key={index}
