@@ -57,3 +57,11 @@ A frontend engineer & product developer passionate about building scalable B2B S
   Keyboard-first profile manager for Spec-Driven Development (SDD) and subagents in Pi Coding Agent. Interactive floating TUI modal for instant context switching without restarting sessions.  
   *Stack*: TypeScript • Pi SDK • TUI  
   🔗 [GitHub Repo](https://github.com/CinloDev/pi-sdd-profiles)
+
+---
+
+### 🐍 Contribution Activity
+
+<p align="center">
+  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/CinloDev/CinloDev/output/snake.svg" width="100%" />
+</p>
