@@ -63,5 +63,5 @@ A frontend engineer & product developer passionate about building scalable B2B S
 ### 🐍 Contribution Activity
 
 <p align="center">
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/CinloDev/CinloDev/output/snake.svg" width="100%" />
+  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/CinloDev/CinloDev/output/snake.svg?v=cute" width="100%" />
 </p>
