@@ -3,7 +3,7 @@
 A frontend engineer & product developer passionate about building scalable B2B SaaS platforms and developer tools. I like designing clean software architectures, crafting modular design systems, and pushing the boundaries of autonomous AI coding agents. Strong advocate for clean code, type safety, and developer experience.
 
 - 🔭 **I’m currently working on**: Production B2B SaaS platforms with Next.js 16 & Supabase, and autonomous coding agent tooling.
-- 🐾 **Pet project**: Crafting tooling, extensions, and harnesses for Pi Coding Agent ([`pi-sdd-profiles`](https://github.com/CinloDev/pi-sdd-profiles), [`pi-cinlodev-cute`](https://github.com/CinloDev/pi-cinlodev-cute), [`pi-task-manager`](https://github.com/CinloDev/pi-task-manager)).
+- 🐾 **Pet project**: Crafting tooling, extensions, and harnesses for Pi Coding Agent ([`pi-sdd-profiles`](https://github.com/CinloDev/pi-sdd-profiles), [`pi-task-manager`](https://github.com/CinloDev/pi-task-manager)).
 - 💡 **Engineering philosophy**: Architecture and mental model before code. Strict TypeScript, zero unnecessary technical debt, and pixel-perfect UX.
 - 💬 **Ask me about**: Next.js App Router, React 19, Supabase RLS, Feature-Driven Architecture, and AI agent orchestration.
 - ⚡ **Fun fact**: I believe clean architecture and a cute, dark terminal aesthetic aren't mutually exclusive — they enhance focus.
